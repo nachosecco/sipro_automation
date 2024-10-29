@@ -1,0 +1,8 @@
+{
+	"baseUrl": "https://dev.platform.column6.tv/",
+	"env": {
+		"dashboardApi": "https://managedev.siprocalads.com",
+		"auth": "https://managedev.siprocalads.com/v2/auth",
+		"inventoryRouter": "https://routerdev.siprocalads.com/"
+	}
+}

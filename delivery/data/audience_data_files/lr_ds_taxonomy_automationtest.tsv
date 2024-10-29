@@ -1,0 +1,6 @@
+Segment_ID	Key	Value	Provider Name	Segment Name	Segment Description	Use Restrictions	Permitted Advertisers	Custom	Price ($CPM)
+1000000001	1	1	Automation	Automation > Interest > Fashion and beauty > Beauty	Users that read related content to beauty tips, skin care, hairstyles, makeup, cosmetics, perfumes and fragrances, and methods to use beauty products with professional reviews.			FALSE	0.8
+1000000002	1	1	Automation	Automation > Brand Discovery > Drinks	Users delighted with tasty drinks to enjoy during dinner time or going out at night. They love quality and brands above all. Loyal reads from top drink brands.			FALSE	0.45
+1000000003	1	1	Automation	Automation > Demographics > Gender > Female	Consumers who are female.			FALSE	0.25
+1000000004	1	1	Automation	Automation > Age > Adult Age Ranges Present in Household > Females > 25-34	Households with a female aged 25-34			FALSE	0.61
+1000000005	1	1	Automation	Automation > Purchase History > Female & Male Apparel > Spend > Very Heavy Spenders	People who buy female and/or male apparel			FALSE	0.99

@@ -1,0 +1,35 @@
+ip_address,country,region,region_iso_code,city,postcode,dma,lat,lon,carrier,connection_type
+12.12.0.1,US,Alaska,AK,Juneau,99801,747,58.3628,-134.5294,Alascom,Corporate
+12.152.159.64,US,New York,NY,Brooklyn,11219,501,40.6368,-74.0005,DTC Cable,Cable/DSL
+12.16.177.1,US,Kansas,KS,Lawrence,66047,616,38.9408,-95.2760,AT&T Internet,Cable/DSL
+12.18.189.193,US,California,CA,Mojave,93501,803,35.0457,-118.1776,AT&T Internet,Corporate
+138.185.1.1,MX,Jalisco,JAL,Guadalajara,44900,,20.6366,-103.4355,"Telefonia por Cable, S.A. de C.V.",
+138.97.41.1,BR,Bahia,BA,Macaubas,46500,,-12.9637,-38.4903,G20 Telecomunicacoes Ltda,Cable/DSL
+148.163.122.57,US,Arizona,AZ,Phoenix,85034,753,33.4413,-112.0421,Input Output Flood LLC,Corporate
+152.169.113.129,AR,Buenos Aires,B,City Bell,1896,,-34.8719,-58.0641,Personal,Cable/DSL
+168.226.5.5,AR,,,,,,-34.6022,-58.3845,Telefonica de Argentina,Cable/DSL
+181.199.156.30,AR,Salta,A,Salta,4400,,-24.8056,-65.3417,Teledifusora S.A.,Cable/DSL
+186.38.99.134,AR,Santa Cruz,Z,Comandante Luis Piedra Buena,9303,,-49.9864,-68.9031,Universal Video Cable Srl,Cable/DSL
+187.18.7.195,BR,Bahia,BA,Salvador,40000,,-12.8671,-38.4807,Computadores E Sistemas Ltda,Corporate
+190.106.112.112,DO,Nacional,01,Santo Domingo,10203,,18.4649,-69.8865,ESTRELLA TELECOM,Cable/DSL
+190.120.112.10,AR,Cordoba,X,Villa del Rosario,5963,,-31.5368,-63.3855,Cooperativa Villa del Rosario (Coovilros),Cable/DSL
+191.252.218.135,BR,Bahia,BA,Salvador,40000,,-12.8671,-38.4807,Locaweb Servicos de Internet SA,Corporate
+2.17.202.1,AR,Buenos Aires F.D.,C,Buenos Aires,1871,,-34.6142,-58.3811,Akamai Technologies,Cable/DSL
+2.56.8.1,US,Virginia,VA,Herndon,20171,511,38.9258,-77.3939,SonicFast Networks,Corporate
+201.151.93.98,MX,México,MEX,Mexico,54965,,19.6909,-99.1183,"Alestra, S. de R.L. de C.V.",Cable/DSL
+204.147.16.5,US,California,CA,Oxnard,93033,803,34.1649,-119.1720,Oxnard School District,Cable/DSL
+23.91.184.1,CA,Ontario,ON,Toronto,M6H,,43.6653,-79.4343,Fibernetics Corporation,Cable/DSL
+24.232.17.1,AR,Cordoba,X,Córdoba,5000,,-31.4290,-64.1756,Personal,Cable/DSL
+24.39.43.193,US,Maine,ME,Standish,04084,500,43.8128,-70.4852,Spectrum Business,Corporate
+27.124.52.1,IN,Telangana,TG,Hyderabad,500081,,17.4110,78.4487,Noida Software Technology Park Ltd.,Corporate
+3.223.190.88,US,New York,NY,Brooklyn,11206,501,40.7009,-73.9461,Amazon.com,Corporate
+4.13.119.252,US,,,,,,37.7510,-97.8220,Lumen,Corporate
+4.14.231.1,US,Virginia,VA,Charlottesville,22901,584,38.0936,-78.5623,Lumen,Corporate
+4.34.79.1,US,New York,NY,New York,10065,501,40.7652,-73.9588,Lumen,Corporate
+45.227.11.1,AR,Chaco,H,Machagai,3534,,-26.7923,-60.0165,Garcia Edgardo Matias Intercable Garcia,Cable/DSL
+45.227.50.225,AR,Chubut,U,Puerto Madryn,9120,,-42.7620,-65.0539,Martin Emanuel Ariel,Cable/DSL
+52.13.119.116,US,Oregon,OR,Boardman,97818,810,45.8234,-119.7257,Amazon.com,Corporate
+85.214.132.117,DE,Land Berlin,BE,Berlin,10249,,52.5201,13.4425,Strato AG,Corporate
+71.211.163.185,US,Colorado,CO,Denver,80204,751,39.7351,-105.0269,CenturyLink,Cable/DSL
+96.39.69.42,US,Connecticut,CT,Danbury,06470,501,41.3948,-73.3214,Spectrum Business,Corporate
+174.52.34.66,US,Utah,UT,Ogden,84401,82322,41.221,-111.962,COMCAST.NET,Corporate

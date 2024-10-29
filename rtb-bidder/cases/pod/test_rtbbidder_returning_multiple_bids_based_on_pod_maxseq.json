@@ -1,0 +1,1506 @@
+{
+  "supply": {
+    "placement": {
+      "id": 83360,
+      "createdAt": "2024-03-19@18:45:05.000+0000",
+      "updatedAt": "2024-03-19@18:49:19.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9016,
+          "createdAt": "2022-12-07@19:04:47.000+0000",
+          "updatedAt": "2024-03-19@18:52:39.000+0000",
+          "email": "c6-ui-automation@column6.tv",
+          "firstName": "UserUI",
+          "lastName": "Automation",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "UserUI Automation"
+        },
+        "auditDateTime": 1710874159000
+      },
+      "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+      "status": "active",
+      "locked": false,
+      "siteId": 27457,
+      "revenueType": "flat_rate",
+      "floor": 5.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 10.0,
+      "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+      "publisherId": 15991,
+      "siteName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+      "formatName": "Video",
+      "guid": "KOSVO3F6LH7OREFS1NJAPFSDCS",
+      "secureTag": "https://mobiledev.siprocalads.com/vast?uid=KOSVO3F6LH7OREFS1NJAPFSDCS&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&ssai=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 184186,
+          "createdAt": "2024-03-19@18:47:05.000+0000",
+          "updatedAt": "2024-03-19@18:49:12.000+0000",
+          "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 12.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 49318,
+          "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "insertionOrderId": 18428,
+          "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "advId": 16751,
+          "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "inheritedValues": {},
+          "guid": "K7U5G1FFAP3OHF2O0NNLD1S8KO",
+          "alignmentType": "static",
+          "campaignStartDate": "03/19/2024 02:43 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "03/19/2024 02:43 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 12.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 184187,
+          "createdAt": "2024-03-19@18:48:43.000+0000",
+          "updatedAt": "2024-03-19@18:48:59.000+0000",
+          "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq_2",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 15.0,
+          "mediaSource": "asset",
+          "clickThroughUrl": "",
+          "adTag": "",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 49318,
+          "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "insertionOrderId": 18428,
+          "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "advId": 16751,
+          "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "inheritedValues": {},
+          "guid": "3JPOPS1JIH5F5CSCU0PP9MNIP4",
+          "alignmentType": "static",
+          "campaignStartDate": "03/19/2024 02:43 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "03/19/2024 02:43 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 15.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 184188,
+          "createdAt": "2024-03-19@18:49:39.000+0000",
+          "updatedAt": "2024-03-19@18:49:39.000+0000",
+          "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq_3",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 15.0,
+          "mediaSource": "asset",
+          "clickThroughUrl": "",
+          "adTag": "",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 49318,
+          "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "insertionOrderId": 18428,
+          "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "advId": 16751,
+          "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "inheritedValues": {},
+          "guid": "FB9THQFSFL2974UOT7U7RD4J90",
+          "alignmentType": "static",
+          "campaignStartDate": "03/19/2024 02:43 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "03/19/2024 02:43 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 15.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 184189,
+          "createdAt": "2024-03-19@18:49:58.000+0000",
+          "updatedAt": "2024-03-19@18:49:58.000+0000",
+          "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq_4",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 15.0,
+          "mediaSource": "asset",
+          "clickThroughUrl": "",
+          "adTag": "",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 49318,
+          "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "insertionOrderId": 18428,
+          "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "advId": 16751,
+          "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "inheritedValues": {},
+          "guid": "RJ0ROD29EH08H0DS6H4N8S48EG",
+          "alignmentType": "static",
+          "campaignStartDate": "03/19/2024 02:43 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "03/19/2024 02:43 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 15.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": true,
+      "allowIVTFiltering": true,
+      "allowServerSideRequests": false,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "bidderServiceEnabled": true,
+      "requestTypeRTB": true,
+      "cloneAlignments": true,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 27457,
+      "createdAt": "2024-03-19@18:44:36.000+0000",
+      "updatedAt": "2024-03-19@18:44:36.000+0000",
+      "publisherId": 15991,
+      "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9016,
+          "createdAt": "2022-12-07@19:04:47.000+0000",
+          "updatedAt": "2024-03-19@18:52:39.000+0000",
+          "email": "c6-ui-automation@column6.tv",
+          "firstName": "UserUI",
+          "lastName": "Automation",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "UserUI Automation"
+        },
+        "auditDateTime": 1710873876000
+      },
+      "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+      "guid": "AU84H0K6596NR428GA32LBBTNK",
+      "placements": [
+        {
+          "id": 83360,
+          "createdAt": "2024-03-19@18:45:05.000+0000",
+          "updatedAt": "2024-03-19@18:49:19.000+0000",
+          "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "status": "active",
+          "locked": false,
+          "siteId": 27457,
+          "revenueType": "flat_rate",
+          "floor": 5.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 10.0,
+          "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "publisherId": 15991,
+          "siteName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "guid": "KOSVO3F6LH7OREFS1NJAPFSDCS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": true,
+          "requestTypeRTB": true,
+          "cloneAlignments": true,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 15991,
+      "createdAt": "2024-03-19@18:44:31.000+0000",
+      "updatedAt": "2024-03-19@18:44:31.000+0000",
+      "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+      "contactName": "testbidseq",
+      "contactEmail": "d@d.com",
+      "contactPhone": "123",
+      "contactAddress": "siprocal",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "siprocal.com",
+      "adsTxtAccountId": "F8KDGLR2693G9A6OATH34HO4DS",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "F8KDGLR2693G9A6OATH34HO4DS",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 27457,
+          "createdAt": "2024-03-19@18:44:36.000+0000",
+          "updatedAt": "2024-03-19@18:44:36.000+0000",
+          "publisherId": 15991,
+          "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+          "guid": "AU84H0K6596NR428GA32LBBTNK",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9016,
+          "createdAt": "2022-12-07@19:04:47.000+0000",
+          "updatedAt": "2024-03-19@18:52:39.000+0000",
+          "email": "c6-ui-automation@column6.tv",
+          "firstName": "UserUI",
+          "lastName": "Automation",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "UserUI Automation"
+        },
+        "auditDateTime": 1710873871000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 16751,
+        "createdAt": "2024-03-19@18:45:51.000+0000",
+        "updatedAt": "2024-03-19@18:45:51.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9016,
+            "createdAt": "2022-12-07@19:04:47.000+0000",
+            "updatedAt": "2024-03-19@18:52:39.000+0000",
+            "email": "c6-ui-automation@column6.tv",
+            "firstName": "UserUI",
+            "lastName": "Automation",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "UserUI Automation"
+          },
+          "auditDateTime": 1710873951000
+        },
+        "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "guid": "D1GB8KGID164F85KA896GV27J8",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "testmaxseq",
+        "contactEmail": "d@d.com",
+        "contactPhone": "1234",
+        "contactAddress": "test",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "demandFeePercentage": 0.0,
+        "insertionOrders": [
+          {
+            "id": 18428,
+            "createdAt": "2024-03-19@18:45:58.000+0000",
+            "updatedAt": "2024-03-19@18:45:58.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "status": "active",
+            "terms": 30,
+            "advId": 16751,
+            "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 49318,
+                "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq"
+              }
+            ],
+            "guid": "ONS0AL2HT1069E05AH8UHG34IG",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 18428,
+        "createdAt": "2024-03-19@18:45:58.000+0000",
+        "updatedAt": "2024-03-19@18:45:58.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9016,
+            "createdAt": "2022-12-07@19:04:47.000+0000",
+            "updatedAt": "2024-03-19@18:52:39.000+0000",
+            "email": "c6-ui-automation@column6.tv",
+            "firstName": "UserUI",
+            "lastName": "Automation",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "UserUI Automation"
+          },
+          "auditDateTime": 1710873958000
+        },
+        "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "status": "active",
+        "terms": 30,
+        "advId": 16751,
+        "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 49318,
+            "createdAt": "2024-03-19@18:46:08.000+0000",
+            "updatedAt": "2024-03-19@18:46:08.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "status": "running",
+            "insertionOrderId": 18428,
+            "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "advId": 16751,
+            "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "cpm": 0.0,
+            "startDate": "03/19/2024 02:43 PM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "05JU8G77RH0NT9V483JTOKBUOS",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 49318,
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq"
+          }
+        ],
+        "guid": "ONS0AL2HT1069E05AH8UHG34IG",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 49318,
+        "createdAt": "2024-03-19@18:46:08.000+0000",
+        "updatedAt": "2024-03-19@18:46:08.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9016,
+            "createdAt": "2022-12-07@19:04:47.000+0000",
+            "updatedAt": "2024-03-19@18:52:39.000+0000",
+            "email": "c6-ui-automation@column6.tv",
+            "firstName": "UserUI",
+            "lastName": "Automation",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "UserUI Automation"
+          },
+          "auditDateTime": 1710873968000
+        },
+        "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "status": "running",
+        "insertionOrderId": 18428,
+        "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "advId": 16751,
+        "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "cpm": 0.0,
+        "startDate": "03/19/2024 02:43 PM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 184189,
+            "createdAt": "2024-03-19@18:49:58.000+0000",
+            "updatedAt": "2024-03-19@18:49:58.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq_4",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 15.0,
+            "mediaSource": "asset",
+            "clickThroughUrl": "",
+            "adTag": "",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 49318,
+            "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "insertionOrderId": 18428,
+            "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "advId": 16751,
+            "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "inheritedValues": {},
+            "guid": "RJ0ROD29EH08H0DS6H4N8S48EG",
+            "alignmentType": "static",
+            "campaignStartDate": "03/19/2024 02:43 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "03/19/2024 02:43 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 15.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 184187,
+            "createdAt": "2024-03-19@18:48:43.000+0000",
+            "updatedAt": "2024-03-19@18:48:59.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq_2",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 15.0,
+            "mediaSource": "asset",
+            "clickThroughUrl": "",
+            "adTag": "",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 49318,
+            "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "insertionOrderId": 18428,
+            "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "advId": 16751,
+            "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "inheritedValues": {},
+            "guid": "3JPOPS1JIH5F5CSCU0PP9MNIP4",
+            "alignmentType": "static",
+            "campaignStartDate": "03/19/2024 02:43 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "03/19/2024 02:43 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 15.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 184188,
+            "createdAt": "2024-03-19@18:49:39.000+0000",
+            "updatedAt": "2024-03-19@18:49:39.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq_3",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 15.0,
+            "mediaSource": "asset",
+            "clickThroughUrl": "",
+            "adTag": "",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 49318,
+            "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "insertionOrderId": 18428,
+            "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "advId": 16751,
+            "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "inheritedValues": {},
+            "guid": "FB9THQFSFL2974UOT7U7RD4J90",
+            "alignmentType": "static",
+            "campaignStartDate": "03/19/2024 02:43 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "03/19/2024 02:43 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 15.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 184186,
+            "createdAt": "2024-03-19@18:47:05.000+0000",
+            "updatedAt": "2024-03-19@18:49:12.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 12.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 49318,
+            "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "insertionOrderId": 18428,
+            "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "advId": 16751,
+            "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "inheritedValues": {},
+            "guid": "K7U5G1FFAP3OHF2O0NNLD1S8KO",
+            "alignmentType": "static",
+            "campaignStartDate": "03/19/2024 02:43 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "03/19/2024 02:43 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 12.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "05JU8G77RH0NT9V483JTOKBUOS",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 184186,
+        "createdAt": "2024-03-19@18:47:05.000+0000",
+        "updatedAt": "2024-03-19@18:49:12.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9016,
+            "createdAt": "2022-12-07@19:04:47.000+0000",
+            "updatedAt": "2024-03-19@18:52:39.000+0000",
+            "email": "c6-ui-automation@column6.tv",
+            "firstName": "UserUI",
+            "lastName": "Automation",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "UserUI Automation"
+          },
+          "auditDateTime": 1710874152000
+        },
+        "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq [1]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 12.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 49318,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 83360,
+            "createdAt": "2024-03-19@18:45:05.000+0000",
+            "updatedAt": "2024-03-19@18:49:19.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "status": "active",
+            "locked": false,
+            "siteId": 27457,
+            "revenueType": "flat_rate",
+            "floor": 5.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 10.0,
+            "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "publisherId": 15991,
+            "siteName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "guid": "KOSVO3F6LH7OREFS1NJAPFSDCS",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": true,
+            "requestTypeRTB": true,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "insertionOrderId": 18428,
+        "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "advId": 16751,
+        "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "inheritedValues": {},
+        "guid": "K7U5G1FFAP3OHF2O0NNLD1S8KO",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "03/19/2024 02:43 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "03/19/2024 02:43 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 12.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 184187,
+        "createdAt": "2024-03-19@18:48:43.000+0000",
+        "updatedAt": "2024-03-19@18:48:59.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9016,
+            "createdAt": "2022-12-07@19:04:47.000+0000",
+            "updatedAt": "2024-03-19@18:52:39.000+0000",
+            "email": "c6-ui-automation@column6.tv",
+            "firstName": "UserUI",
+            "lastName": "Automation",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "UserUI Automation"
+          },
+          "auditDateTime": 1710874139000
+        },
+        "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq [2]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 15.0,
+        "mediaSource": "asset",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [
+          {
+            "id": 5941,
+            "objectKey": "0046GG3LCH5RH23881QM9ITOC0",
+            "fileName": "evc",
+            "uploadName": "evc",
+            "mimeType": "video/mp4",
+            "bitRate": "810",
+            "previewURL": "https://mediadev.siprocalads.com/media/0046GG3LCH5RH23881QM9ITOC0.mp4",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "mediaUrls": [],
+        "adTag": "",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 49318,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 83360,
+            "createdAt": "2024-03-19@18:45:05.000+0000",
+            "updatedAt": "2024-03-19@18:49:19.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "status": "active",
+            "locked": false,
+            "siteId": 27457,
+            "revenueType": "flat_rate",
+            "floor": 5.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 10.0,
+            "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "publisherId": 15991,
+            "siteName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "guid": "KOSVO3F6LH7OREFS1NJAPFSDCS",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": true,
+            "requestTypeRTB": true,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "insertionOrderId": 18428,
+        "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "advId": 16751,
+        "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "inheritedValues": {},
+        "guid": "3JPOPS1JIH5F5CSCU0PP9MNIP4",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "03/19/2024 02:43 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "03/19/2024 02:43 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 15.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 184188,
+        "createdAt": "2024-03-19@18:49:39.000+0000",
+        "updatedAt": "2024-03-19@18:49:39.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9016,
+            "createdAt": "2022-12-07@19:04:47.000+0000",
+            "updatedAt": "2024-03-19@18:52:39.000+0000",
+            "email": "c6-ui-automation@column6.tv",
+            "firstName": "UserUI",
+            "lastName": "Automation",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "UserUI Automation"
+          },
+          "auditDateTime": 1710874179000
+        },
+        "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq [3]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 15.0,
+        "mediaSource": "asset",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [
+          {
+            "id": 5942,
+            "objectKey": "UMRESTTOV91R3DNEEUSFLGTHCC",
+            "fileName": "evc",
+            "uploadName": "evc",
+            "mimeType": "video/mp4",
+            "bitRate": "810",
+            "previewURL": "https://mediadev.siprocalads.com/media/UMRESTTOV91R3DNEEUSFLGTHCC.mp4",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "mediaUrls": [],
+        "adTag": "",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 49318,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 83360,
+            "createdAt": "2024-03-19@18:45:05.000+0000",
+            "updatedAt": "2024-03-19@18:49:19.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "status": "active",
+            "locked": false,
+            "siteId": 27457,
+            "revenueType": "flat_rate",
+            "floor": 5.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 10.0,
+            "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "publisherId": 15991,
+            "siteName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "guid": "KOSVO3F6LH7OREFS1NJAPFSDCS",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": true,
+            "requestTypeRTB": true,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "insertionOrderId": 18428,
+        "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "advId": 16751,
+        "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "inheritedValues": {},
+        "guid": "FB9THQFSFL2974UOT7U7RD4J90",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "03/19/2024 02:43 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "03/19/2024 02:43 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 15.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 184189,
+        "createdAt": "2024-03-19@18:49:58.000+0000",
+        "updatedAt": "2024-03-19@18:49:58.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9016,
+            "createdAt": "2022-12-07@19:04:47.000+0000",
+            "updatedAt": "2024-03-19@18:52:39.000+0000",
+            "email": "c6-ui-automation@column6.tv",
+            "firstName": "UserUI",
+            "lastName": "Automation",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "UserUI Automation"
+          },
+          "auditDateTime": 1710874198000
+        },
+        "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq [4]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 15.0,
+        "mediaSource": "asset",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [
+          {
+            "id": 5943,
+            "objectKey": "A2P4OHJG910J9CIC8PO4G49K7O",
+            "fileName": "evc",
+            "uploadName": "evc",
+            "mimeType": "video/mp4",
+            "bitRate": "810",
+            "previewURL": "https://mediadev.siprocalads.com/media/A2P4OHJG910J9CIC8PO4G49K7O.mp4",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "mediaUrls": [],
+        "adTag": "",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 49318,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 83360,
+            "createdAt": "2024-03-19@18:45:05.000+0000",
+            "updatedAt": "2024-03-19@18:49:19.000+0000",
+            "name": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "status": "active",
+            "locked": false,
+            "siteId": 27457,
+            "revenueType": "flat_rate",
+            "floor": 5.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 10.0,
+            "publisherName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "publisherId": 15991,
+            "siteName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+            "guid": "KOSVO3F6LH7OREFS1NJAPFSDCS",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": true,
+            "requestTypeRTB": true,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "insertionOrderId": 18428,
+        "insertionOrderName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "advId": 16751,
+        "advName": "test_rtbbidder_returning_multiple_bids_based_on_pod_maxseq",
+        "inheritedValues": {},
+        "guid": "RJ0ROD29EH08H0DS6H4N8S48EG",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "03/19/2024 02:43 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "03/19/2024 02:43 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 15.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": [],
+    "trackers": []
+  },
+  "trackers": []
+}

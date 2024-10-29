@@ -1,0 +1,11 @@
+{
+	"columnName": "[data-testid=name]",
+	"columnSite": "[data-testid=site]",
+	"columnPublisher": "[data-testid=publisher]",
+	"columnType": "[data-testid=type]",
+	"columnStatus": "[data-testid=status]",
+	"columnFloor": "[data-testid=floor]",
+	"columnOpportunities": "[data-testid=opportunities]",
+	"columnImpressions": "[data-testid=impressions]",
+	"columnRevenue": "[data-testid=revenue]"
+}

@@ -1,0 +1,785 @@
+{
+  "supply": {
+    "placement": {
+      "id": 76879,
+      "createdAt": "2023-07-21@03:18:16.000+0000",
+      "updatedAt": "2023-07-21@03:18:19.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9278,
+          "createdAt": "2023-06-23@15:48:47.000+0000",
+          "updatedAt": "2023-08-15@15:51:33.000+0000",
+          "email": "siprocal-delivery-automation@siprocal.com",
+          "firstName": "Delivery ",
+          "lastName": "Automation",
+          "phoneNumber": "123456789",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Delivery  Automation"
+        },
+        "auditDateTime": 1689909499000
+      },
+      "name": "test_insertion_order_player_custom_size_targeting",
+      "status": "active",
+      "locked": false,
+      "siteId": 24687,
+      "revenueType": "rev_share",
+      "floor": 0.01,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_insertion_order_player_custom_size_targeting",
+      "publisherId": 12577,
+      "siteName": "test_insertion_order_player_custom_size_targeting",
+      "formatName": "Video",
+      "guid": "DQ0IKGGJV96BL09A889VKB5QG0",
+      "secureTag": "https://mobileqa1.siprocalads.com/vast?uid=DQ0IKGGJV96BL09A889VKB5QG0&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "moatCustomerId": "",
+      "media": [
+        {
+          "id": 169291,
+          "createdAt": "2023-06-26@17:47:07.000+0000",
+          "updatedAt": "2023-07-21@03:18:18.000+0000",
+          "name": "test_insertion_order_player_custom_size_targeting",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 0.01,
+          "mediaSource": "asset",
+          "clickThroughUrl": "",
+          "adTag": "",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 37480,
+          "campaignName": "test_insertion_order_player_custom_size_targeting",
+          "insertionOrderId": 12201,
+          "insertionOrderName": "test_insertion_order_player_custom_size_targeting",
+          "advId": 9573,
+          "advName": "test_insertion_order_player_custom_size_targeting",
+          "inheritedValues": {},
+          "guid": "1FALTDK0HT1IH5AUMQ08U8P80G",
+          "alignmentType": "static",
+          "campaignStartDate": "11/13/2022 11:46 AM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "11/13/2022 11:46 AM",
+          "includesVpaid": false,
+          "finalCpm": 0.01,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 24687,
+      "createdAt": "2023-06-26@17:47:04.000+0000",
+      "updatedAt": "2023-07-21@03:18:16.000+0000",
+      "publisherId": 12577,
+      "name": "test_insertion_order_player_custom_size_targeting",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9278,
+          "createdAt": "2023-06-23@15:48:47.000+0000",
+          "updatedAt": "2023-08-15@15:51:33.000+0000",
+          "email": "siprocal-delivery-automation@siprocal.com",
+          "firstName": "Delivery ",
+          "lastName": "Automation",
+          "phoneNumber": "123456789",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Delivery  Automation"
+        },
+        "auditDateTime": 1689909496000
+      },
+      "publisherName": "test_insertion_order_player_custom_size_targeting",
+      "guid": "V0A1JJQUH162350PPTF8HJ11P8",
+      "placements": [
+        {
+          "id": 75297,
+          "createdAt": "2023-06-26@17:47:04.000+0000",
+          "updatedAt": "2023-07-21@02:40:47.000+0000",
+          "name": "test_insertion_order_player_custom_size_targeting",
+          "status": "deleted",
+          "locked": false,
+          "siteId": 24687,
+          "revenueType": "rev_share",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_insertion_order_player_custom_size_targeting",
+          "publisherId": 12577,
+          "siteName": "test_insertion_order_player_custom_size_targeting",
+          "guid": "KREOFAV4CP7A37C7LFI6CFL1PC",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76879,
+          "createdAt": "2023-07-21@03:18:16.000+0000",
+          "updatedAt": "2023-07-21@03:18:19.000+0000",
+          "name": "test_insertion_order_player_custom_size_targeting",
+          "status": "active",
+          "locked": false,
+          "siteId": 24687,
+          "revenueType": "rev_share",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_insertion_order_player_custom_size_targeting",
+          "publisherId": 12577,
+          "siteName": "test_insertion_order_player_custom_size_targeting",
+          "guid": "DQ0IKGGJV96BL09A889VKB5QG0",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 12577,
+      "createdAt": "2023-06-26@17:47:03.000+0000",
+      "updatedAt": "2023-07-21@03:18:15.000+0000",
+      "name": "test_insertion_order_player_custom_size_targeting",
+      "contactName": "test",
+      "contactEmail": "test@test.com",
+      "contactPhone": "9891119334",
+      "contactAddress": "123",
+      "billingInfoApplicable": true,
+      "billingContactName": "",
+      "billingContactPhone": "",
+      "billingContactEmail": "",
+      "billingContactAddress": "",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "column6.tv",
+      "adsTxtAccountId": "K2O2UL2PLD37NC1FAHCQNPJRFC",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "K2O2UL2PLD37NC1FAHCQNPJRFC",
+      "companyName": "Delivery_Regression_Tests",
+      "sites": [
+        {
+          "id": 24687,
+          "createdAt": "2023-06-26@17:47:04.000+0000",
+          "updatedAt": "2023-07-21@03:18:16.000+0000",
+          "publisherId": 12577,
+          "name": "test_insertion_order_player_custom_size_targeting",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "defaultFloor": 0.0,
+          "url": "",
+          "publisherName": "test_insertion_order_player_custom_size_targeting",
+          "guid": "V0A1JJQUH162350PPTF8HJ11P8",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9278,
+          "createdAt": "2023-06-23@15:48:47.000+0000",
+          "updatedAt": "2023-08-15@15:51:33.000+0000",
+          "email": "siprocal-delivery-automation@siprocal.com",
+          "firstName": "Delivery ",
+          "lastName": "Automation",
+          "phoneNumber": "123456789",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Delivery  Automation"
+        },
+        "auditDateTime": 1689909495000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 9573,
+        "createdAt": "2023-06-26@17:47:05.000+0000",
+        "updatedAt": "2023-07-21@03:18:16.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9278,
+            "createdAt": "2023-06-23@15:48:47.000+0000",
+            "updatedAt": "2023-08-15@15:51:33.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "123456789",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689909496000
+        },
+        "name": "test_insertion_order_player_custom_size_targeting",
+        "guid": "A0868STFMH6CJ434EENR9769FC",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "test",
+        "contactEmail": "test@test.com",
+        "contactPhone": "auto",
+        "contactAddress": "123",
+        "billingInfoApplicable": false,
+        "billingContactName": "",
+        "billingContactPhone": "",
+        "billingContactEmail": "",
+        "billingContactAddress": "",
+        "pricingOptions": "CPM",
+        "insertionOrders": [
+          {
+            "id": 12201,
+            "createdAt": "2023-06-26@17:47:06.000+0000",
+            "updatedAt": "2023-07-21@03:18:17.000+0000",
+            "name": "test_insertion_order_player_custom_size_targeting",
+            "status": "active",
+            "terms": 45,
+            "advId": 9573,
+            "advName": "test_insertion_order_player_custom_size_targeting",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 37480,
+                "name": "test_insertion_order_player_custom_size_targeting"
+              }
+            ],
+            "guid": "QU2K5GTQGT2611A2OET8FP30IO",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 12201,
+        "createdAt": "2023-06-26@17:47:06.000+0000",
+        "updatedAt": "2023-07-21@03:18:17.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9278,
+            "createdAt": "2023-06-23@15:48:47.000+0000",
+            "updatedAt": "2023-08-15@15:51:33.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "123456789",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689909497000
+        },
+        "name": "test_insertion_order_player_custom_size_targeting",
+        "status": "active",
+        "terms": 45,
+        "advId": 9573,
+        "advName": "test_insertion_order_player_custom_size_targeting",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "useCustomSize": true,
+        "customSizeWidthMin": 400,
+        "customSizeHeightMin": 200,
+        "customSizeWidthMax": 500,
+        "customSizeHeightMax": 250,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 37480,
+            "createdAt": "2023-06-26@17:47:06.000+0000",
+            "updatedAt": "2023-07-21@03:18:17.000+0000",
+            "name": "test_insertion_order_player_custom_size_targeting",
+            "status": "running",
+            "insertionOrderId": 12201,
+            "insertionOrderName": "test_insertion_order_player_custom_size_targeting",
+            "advId": 9573,
+            "advName": "test_insertion_order_player_custom_size_targeting",
+            "cpm": 0.01,
+            "startDate": "11/13/2022 11:46 AM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "AUM8NAPMP924NB4BLCRCKL2B30",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 37480,
+            "name": "test_insertion_order_player_custom_size_targeting"
+          }
+        ],
+        "guid": "QU2K5GTQGT2611A2OET8FP30IO",
+        "advertiserStatus": "",
+        "customSizeEnabled": true,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 37480,
+        "createdAt": "2023-06-26@17:47:06.000+0000",
+        "updatedAt": "2023-07-21@03:18:17.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9278,
+            "createdAt": "2023-06-23@15:48:47.000+0000",
+            "updatedAt": "2023-08-15@15:51:33.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "123456789",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689909497000
+        },
+        "name": "test_insertion_order_player_custom_size_targeting",
+        "status": "running",
+        "insertionOrderId": 12201,
+        "insertionOrderName": "test_insertion_order_player_custom_size_targeting",
+        "advId": 9573,
+        "advName": "test_insertion_order_player_custom_size_targeting",
+        "cpm": 0.01,
+        "startDate": "11/13/2022 11:46 AM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 169291,
+            "createdAt": "2023-06-26@17:47:07.000+0000",
+            "updatedAt": "2023-07-21@03:18:18.000+0000",
+            "name": "test_insertion_order_player_custom_size_targeting",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 0.01,
+            "mediaSource": "asset",
+            "clickThroughUrl": "",
+            "adTag": "",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 37480,
+            "campaignName": "test_insertion_order_player_custom_size_targeting",
+            "insertionOrderId": 12201,
+            "insertionOrderName": "test_insertion_order_player_custom_size_targeting",
+            "advId": 9573,
+            "advName": "test_insertion_order_player_custom_size_targeting",
+            "inheritedValues": {},
+            "guid": "1FALTDK0HT1IH5AUMQ08U8P80G",
+            "alignmentType": "static",
+            "campaignStartDate": "11/13/2022 11:46 AM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "11/13/2022 11:46 AM",
+            "includesVpaid": false,
+            "finalCpm": 0.01,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {
+          "sizeTargeting": [
+            "Minimum Width: 400 Height: 200 - Maximum Width: 500 Height: 250"
+          ]
+        },
+        "guid": "AUM8NAPMP924NB4BLCRCKL2B30",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 169291,
+        "createdAt": "2023-06-26@17:47:07.000+0000",
+        "updatedAt": "2023-07-21@03:18:18.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9278,
+            "createdAt": "2023-06-23@15:48:47.000+0000",
+            "updatedAt": "2023-08-15@15:51:33.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "123456789",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689909498000
+        },
+        "name": "test_insertion_order_player_custom_size_targeting",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 0.01,
+        "mediaSource": "asset",
+        "clickThroughUrl": "",
+        "creativeType": "mediaUrl",
+        "mediaFiles": [],
+        "mediaUrls": [
+          {
+            "id": 997,
+            "url": "https://mediaqa1.siprocalads.com/media/custom400200",
+            "name": "CustomSizeMedia",
+            "mimeType": "video/mp4",
+            "bitRate": 810,
+            "width": 400,
+            "height": 200
+          }
+        ],
+        "adTag": "",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 37480,
+        "customQueryParams": [],
+        "placements": [
+          {
+            "id": 76879,
+            "createdAt": "2023-07-21@03:18:16.000+0000",
+            "updatedAt": "2023-07-21@03:18:19.000+0000",
+            "name": "test_insertion_order_player_custom_size_targeting",
+            "status": "active",
+            "locked": false,
+            "siteId": 24687,
+            "revenueType": "rev_share",
+            "floor": 0.01,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_insertion_order_player_custom_size_targeting",
+            "publisherId": 12577,
+            "siteName": "test_insertion_order_player_custom_size_targeting",
+            "guid": "DQ0IKGGJV96BL09A889VKB5QG0",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_insertion_order_player_custom_size_targeting",
+        "insertionOrderId": 12201,
+        "insertionOrderName": "test_insertion_order_player_custom_size_targeting",
+        "advId": 9573,
+        "advName": "test_insertion_order_player_custom_size_targeting",
+        "inheritedValues": {
+          "sizeTargeting": [
+            "Minimum Width: 400 Height: 200 - Maximum Width: 500 Height: 250"
+          ]
+        },
+        "guid": "1FALTDK0HT1IH5AUMQ08U8P80G",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "11/13/2022 11:46 AM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "11/13/2022 11:46 AM",
+        "includesVpaid": false,
+        "audiences": [],
+        "finalCpm": 0.01,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": []
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# https://typicode.github.io/husky/#/?id=custom-directory
+cd dashboard
+
+#this would execute lint-staged, this file is required because of the custom-validation script with husky
+npx lint-staged

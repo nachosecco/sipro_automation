@@ -1,0 +1,1378 @@
+{
+  "supply": {
+    "placement": {
+      "id": 77110,
+      "createdAt": "2023-08-02@19:21:36.000+0000",
+      "updatedAt": "2023-08-02@19:48:35.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8911,
+          "createdAt": "2022-10-19@13:15:19.000+0000",
+          "updatedAt": "2023-08-03@15:36:46.000+0000",
+          "email": "priamo.germosen@intive.com",
+          "firstName": "Priamo",
+          "lastName": "Germosen",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priamo Germosen"
+        },
+        "auditDateTime": 1691005715000
+      },
+      "name": "test_dynamic_pricing_ok",
+      "status": "active",
+      "locked": false,
+      "siteId": 24782,
+      "revenueType": "flat_rate",
+      "floor": 10.0,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 20.0,
+      "publisherName": "priamo",
+      "publisherId": 12714,
+      "siteName": "priamo-tests",
+      "formatName": "Video",
+      "guid": "6VOM8F1F711FNCB47GNJHSNRPK",
+      "secureTag": "https://mobiledev.altitude-arena.com/vast?uid=6VOM8F1F711FNCB47GNJHSNRPK&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 171692,
+          "createdAt": "2023-08-02@19:25:15.000+0000",
+          "updatedAt": "2023-08-02@19:25:27.000+0000",
+          "name": "priamo-test-bidder-margin-managed",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 20.0,
+          "mediaSource": "asset",
+          "clickThroughUrl": "",
+          "adTag": "",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 40362,
+          "campaignName": "priamo-test-bidder-margin",
+          "insertionOrderId": 15338,
+          "insertionOrderName": "priamo-test",
+          "advId": 12953,
+          "advName": "priamo-test",
+          "inheritedValues": {},
+          "guid": "E9DFCK9K8L5116NMA4Q4AUGGDO",
+          "alignmentType": "static",
+          "campaignStartDate": "08/02/2023 03:22 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/02/2023 03:22 PM",
+          "includesVpaid": false,
+          "marginPercent": 0,
+          "finalCpm": 20.0,
+          "publisherMarginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 171714,
+          "createdAt": "2023-08-03@15:37:53.000+0000",
+          "updatedAt": "2023-08-03@15:38:06.000+0000",
+          "name": "priamo-test-bidder-margin_tag",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 20.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?geo_co=[geo_co]&geo_dma=[geo_dma]&geo_sub=[geo_sub]&geo_subname=[geo_subname]&geo_code=[geo_code]&geo_conn_type=[geo_conn_type]&geo_ip=[geo_ip]&geo_lat=[geo_lat]&geo_long=[geo_long]&geo_isp_name=[geo_isp_name]&cid=[cid]&device_id=[device_id]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 40362,
+          "campaignName": "priamo-test-bidder-margin",
+          "insertionOrderId": 15338,
+          "insertionOrderName": "priamo-test",
+          "advId": 12953,
+          "advName": "priamo-test",
+          "inheritedValues": {},
+          "guid": "1K4PJ980NP3MT2CPKK0BS9REMO",
+          "alignmentType": "static",
+          "campaignStartDate": "08/02/2023 03:22 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/02/2023 03:22 PM",
+          "includesVpaid": false,
+          "marginPercent": 0,
+          "finalCpm": 20.0,
+          "publisherMarginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [
+        {
+          "id": 171693,
+          "createdAt": "2023-08-02@21:11:51.000+0000",
+          "updatedAt": "2023-08-02@21:11:59.000+0000",
+          "name": "priamo-test-bidder-margin",
+          "status": "active",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "RRRI69O9CT1KVDP34S4MEKQFC0",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        }
+      ],
+      "vastVersion": "4.0",
+      "auctionType": "FIRST_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "marginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 24782,
+      "createdAt": "2023-06-01@20:10:12.000+0000",
+      "updatedAt": "2023-06-01@20:10:12.000+0000",
+      "publisherId": 12714,
+      "name": "test_dynamic_pricing_ok",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8911,
+          "createdAt": "2022-10-19@13:15:19.000+0000",
+          "updatedAt": "2023-08-03@15:36:46.000+0000",
+          "email": "priamo.germosen@intive.com",
+          "firstName": "Priamo",
+          "lastName": "Germosen",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priamo Germosen"
+        },
+        "auditDateTime": 1685650212000
+      },
+      "publisherName": "priamo",
+      "guid": "02EB7FSCCP56P75JNU66C2JC98",
+      "placements": [
+        {
+          "id": 75756,
+          "createdAt": "2023-06-01@20:10:37.000+0000",
+          "updatedAt": "2023-06-09@20:29:55.000+0000",
+          "name": "priamo-tracker-test",
+          "status": "active",
+          "locked": false,
+          "siteId": 24782,
+          "revenueType": "flat_rate",
+          "floor": 10.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo",
+          "publisherId": 12714,
+          "siteName": "priamo-tests",
+          "guid": "LN58EH0RDL7BL2K78GDMQBLQM8",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76912,
+          "createdAt": "2023-07-06@16:36:49.000+0000",
+          "updatedAt": "2023-07-06@16:36:49.000+0000",
+          "name": "pacing-test-goal-fails-with-deal-priamo",
+          "status": "active",
+          "locked": false,
+          "siteId": 24782,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo",
+          "publisherId": 12714,
+          "siteName": "priamo-tests",
+          "guid": "CRH93OMMU53TV8KHSBBF2TUV7O",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 77110,
+          "createdAt": "2023-08-02@19:21:36.000+0000",
+          "updatedAt": "2023-08-02@19:48:35.000+0000",
+          "name": "priamo-test-bidder-margin",
+          "status": "active",
+          "locked": false,
+          "siteId": 24782,
+          "revenueType": "flat_rate",
+          "floor": 10.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 20.0,
+          "publisherName": "priamo",
+          "publisherId": 12714,
+          "siteName": "priamo-tests",
+          "guid": "6VOM8F1F711FNCB47GNJHSNRPK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 12714,
+      "createdAt": "2023-06-01@20:09:43.000+0000",
+      "updatedAt": "2023-07-06@16:35:50.000+0000",
+      "name": "test_dynamic_pricing_ok",
+      "contactName": "priamo",
+      "contactEmail": "test@priamo.com",
+      "contactPhone": "8098888888",
+      "contactAddress": "priamo.com",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 30000,
+      "status": "active",
+      "webSiteDomain": "priamo.com",
+      "adsTxtAccountId": "5A8HRFAIS11A348TNL9E14L118",
+      "adSystemDomain": "siprocalads.com, altitude-arena.com",
+      "guid": "5A8HRFAIS11A348TNL9E14L118",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 24782,
+          "createdAt": "2023-06-01@20:10:12.000+0000",
+          "updatedAt": "2023-06-01@20:10:12.000+0000",
+          "publisherId": 12714,
+          "name": "priamo-tests",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "priamo",
+          "guid": "02EB7FSCCP56P75JNU66C2JC98",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8911,
+          "createdAt": "2022-10-19@13:15:19.000+0000",
+          "updatedAt": "2023-08-03@15:36:46.000+0000",
+          "email": "priamo.germosen@intive.com",
+          "firstName": "Priamo",
+          "lastName": "Germosen",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priamo Germosen"
+        },
+        "auditDateTime": 1688661350000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 12953,
+        "createdAt": "2023-08-02@19:23:04.000+0000",
+        "updatedAt": "2023-08-02@19:23:04.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8911,
+            "createdAt": "2022-10-19@13:15:19.000+0000",
+            "updatedAt": "2023-08-03@15:36:46.000+0000",
+            "email": "priamo.germosen@intive.com",
+            "firstName": "Priamo",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo Germosen"
+          },
+          "auditDateTime": 1691004184000
+        },
+        "name": "test_dynamic_pricing_ok",
+        "guid": "O6RSJ1595H0C5DU9GIKIPK6214",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "priamo-test",
+        "contactEmail": "ptest@test.com",
+        "contactPhone": "1234",
+        "contactAddress": "priamo-test",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "insertionOrders": [
+          {
+            "id": 15338,
+            "createdAt": "2023-08-02@19:23:24.000+0000",
+            "updatedAt": "2023-08-02@19:23:24.000+0000",
+            "name": "priamo-test",
+            "status": "active",
+            "terms": 30,
+            "advId": 12953,
+            "advName": "priamo-test",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 40362,
+                "name": "priamo-test-bidder-margin"
+              }
+            ],
+            "guid": "32NJVOGJS94KLBPVS89U5IAAR4",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 15338,
+        "createdAt": "2023-08-02@19:23:24.000+0000",
+        "updatedAt": "2023-08-02@19:23:24.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8911,
+            "createdAt": "2022-10-19@13:15:19.000+0000",
+            "updatedAt": "2023-08-03@15:36:46.000+0000",
+            "email": "priamo.germosen@intive.com",
+            "firstName": "Priamo",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo Germosen"
+          },
+          "auditDateTime": 1691004204000
+        },
+        "name": "test_dynamic_pricing_ok",
+        "status": "active",
+        "terms": 30,
+        "advId": 12953,
+        "advName": "priamo-test",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 40362,
+            "createdAt": "2023-08-02@19:24:03.000+0000",
+            "updatedAt": "2023-08-02@19:24:03.000+0000",
+            "name": "priamo-test-bidder-margin",
+            "status": "running",
+            "insertionOrderId": 15338,
+            "insertionOrderName": "priamo-test",
+            "advId": 12953,
+            "advName": "priamo-test",
+            "cpm": 20.0,
+            "startDate": "08/02/2023 03:22 PM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "EEG9K5691D3HH84Q2J4GMPOOCK",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 40362,
+            "name": "priamo-test-bidder-margin"
+          }
+        ],
+        "guid": "32NJVOGJS94KLBPVS89U5IAAR4",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 40362,
+        "createdAt": "2023-08-02@19:24:03.000+0000",
+        "updatedAt": "2023-08-02@19:24:03.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8911,
+            "createdAt": "2022-10-19@13:15:19.000+0000",
+            "updatedAt": "2023-08-03@15:36:46.000+0000",
+            "email": "priamo.germosen@intive.com",
+            "firstName": "Priamo",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo Germosen"
+          },
+          "auditDateTime": 1691004243000
+        },
+        "name": "test_dynamic_pricing_ok",
+        "status": "running",
+        "insertionOrderId": 15338,
+        "insertionOrderName": "priamo-test",
+        "advId": 12953,
+        "advName": "priamo-test",
+        "cpm": 20.0,
+        "startDate": "08/02/2023 03:22 PM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 171692,
+            "createdAt": "2023-08-02@19:25:15.000+0000",
+            "updatedAt": "2023-08-02@19:25:27.000+0000",
+            "name": "priamo-test-bidder-margin-managed",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 20.0,
+            "mediaSource": "asset",
+            "clickThroughUrl": "",
+            "adTag": "",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 40362,
+            "campaignName": "priamo-test-bidder-margin",
+            "insertionOrderId": 15338,
+            "insertionOrderName": "priamo-test",
+            "advId": 12953,
+            "advName": "priamo-test",
+            "inheritedValues": {},
+            "guid": "E9DFCK9K8L5116NMA4Q4AUGGDO",
+            "alignmentType": "static",
+            "campaignStartDate": "08/02/2023 03:22 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/02/2023 03:22 PM",
+            "includesVpaid": false,
+            "marginPercent": 0,
+            "finalCpm": 20.0,
+            "publisherMarginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 171714,
+            "createdAt": "2023-08-03@15:37:53.000+0000",
+            "updatedAt": "2023-08-03@15:38:06.000+0000",
+            "name": "priamo-test-bidder-margin_tag",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 20.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?geo_co=[geo_co]&geo_dma=[geo_dma]&geo_sub=[geo_sub]&geo_subname=[geo_subname]&geo_code=[geo_code]&geo_conn_type=[geo_conn_type]&geo_ip=[geo_ip]&geo_lat=[geo_lat]&geo_long=[geo_long]&geo_isp_name=[geo_isp_name]&cid=[cid]&device_id=[device_id]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 40362,
+            "campaignName": "priamo-test-bidder-margin",
+            "insertionOrderId": 15338,
+            "insertionOrderName": "priamo-test",
+            "advId": 12953,
+            "advName": "priamo-test",
+            "inheritedValues": {},
+            "guid": "1K4PJ980NP3MT2CPKK0BS9REMO",
+            "alignmentType": "static",
+            "campaignStartDate": "08/02/2023 03:22 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/02/2023 03:22 PM",
+            "includesVpaid": false,
+            "marginPercent": 0,
+            "finalCpm": 20.0,
+            "publisherMarginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "EEG9K5691D3HH84Q2J4GMPOOCK",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 171692,
+        "createdAt": "2023-08-02@19:25:15.000+0000",
+        "updatedAt": "2023-08-02@19:25:27.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8911,
+            "createdAt": "2022-10-19@13:15:19.000+0000",
+            "updatedAt": "2023-08-03@15:36:46.000+0000",
+            "email": "priamo.germosen@intive.com",
+            "firstName": "Priamo",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo Germosen"
+          },
+          "auditDateTime": 1691004327000
+        },
+        "name": "test_dynamic_pricing_ok [1]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 20.0,
+        "mediaSource": "asset",
+        "clickThroughUrl": "",
+        "creativeType": "mediaUrl",
+        "mediaFiles": [],
+        "mediaUrls": [
+          {
+            "id": 503,
+            "url": "https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4",
+            "name": "priamo-test-bidder-margin",
+            "mimeType": "video/mp4",
+            "bitRate": 1024,
+            "width": 720,
+            "height": 640
+          }
+        ],
+        "adTag": "",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 40362,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 77110,
+            "createdAt": "2023-08-02@19:21:36.000+0000",
+            "updatedAt": "2023-08-02@19:48:35.000+0000",
+            "name": "priamo-test-bidder-margin",
+            "status": "active",
+            "locked": false,
+            "siteId": 24782,
+            "revenueType": "flat_rate",
+            "floor": 10.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 20.0,
+            "publisherName": "priamo",
+            "publisherId": 12714,
+            "siteName": "priamo-tests",
+            "guid": "6VOM8F1F711FNCB47GNJHSNRPK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "priamo-test-bidder-margin",
+        "insertionOrderId": 15338,
+        "insertionOrderName": "priamo-test",
+        "advId": 12953,
+        "advName": "priamo-test",
+        "inheritedValues": {},
+        "guid": "E9DFCK9K8L5116NMA4Q4AUGGDO",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/02/2023 03:22 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/02/2023 03:22 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "marginPercent": 0,
+        "finalCpm": 20.0,
+        "publisherMarginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 171714,
+        "createdAt": "2023-08-03@15:37:53.000+0000",
+        "updatedAt": "2023-08-03@15:38:06.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8911,
+            "createdAt": "2022-10-19@13:15:19.000+0000",
+            "updatedAt": "2023-08-03@15:36:46.000+0000",
+            "email": "priamo.germosen@intive.com",
+            "firstName": "Priamo",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo Germosen"
+          },
+          "auditDateTime": 1691077086000
+        },
+        "name": "test_dynamic_pricing_ok [2]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 20.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?geo_co=[geo_co]&geo_dma=[geo_dma]&geo_sub=[geo_sub]&geo_subname=[geo_subname]&geo_code=[geo_code]&geo_conn_type=[geo_conn_type]&geo_ip=[geo_ip]&geo_lat=[geo_lat]&geo_long=[geo_long]&geo_isp_name=[geo_isp_name]&cid=[cid]&device_id=[device_id]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [
+          557
+        ],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 40362,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 77110,
+            "createdAt": "2023-08-02@19:21:36.000+0000",
+            "updatedAt": "2023-08-02@19:48:35.000+0000",
+            "name": "priamo-test-bidder-margin",
+            "status": "active",
+            "locked": false,
+            "siteId": 24782,
+            "revenueType": "flat_rate",
+            "floor": 10.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 20.0,
+            "publisherName": "priamo",
+            "publisherId": 12714,
+            "siteName": "priamo-tests",
+            "guid": "6VOM8F1F711FNCB47GNJHSNRPK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "priamo-test-bidder-margin",
+        "insertionOrderId": 15338,
+        "insertionOrderName": "priamo-test",
+        "advId": 12953,
+        "advName": "priamo-test",
+        "inheritedValues": {},
+        "guid": "1K4PJ980NP3MT2CPKK0BS9REMO",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/02/2023 03:22 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/02/2023 03:22 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "marginPercent": 0,
+        "finalCpm": 20.0,
+        "publisherMarginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "trackers": [],
+    "programmatic_demands": [
+      {
+        "id": 171693,
+        "createdAt": "2023-08-02@21:11:51.000+0000",
+        "updatedAt": "2023-08-02@21:11:59.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8911,
+            "createdAt": "2022-10-19@13:15:19.000+0000",
+            "updatedAt": "2023-08-03@15:36:46.000+0000",
+            "email": "priamo.germosen@intive.com",
+            "firstName": "Priamo",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo Germosen"
+          },
+          "auditDateTime": 1691010719000
+        },
+        "name": "test_dynamic_pricing_ok",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 2857,
+            "rtbBidderSeats": []
+          }
+        ],
+        "seatType": "wseat",
+        "enableDeal": false,
+        "startDate": "08/02/2023 03:22 PM",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 77110,
+            "createdAt": "2023-08-02@19:21:36.000+0000",
+            "updatedAt": "2023-08-02@19:48:35.000+0000",
+            "name": "priamo-test-bidder-margin",
+            "status": "active",
+            "locked": false,
+            "siteId": 24782,
+            "revenueType": "flat_rate",
+            "floor": 10.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 20.0,
+            "publisherName": "priamo",
+            "publisherId": 12714,
+            "siteName": "priamo-tests",
+            "guid": "6VOM8F1F711FNCB47GNJHSNRPK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "RRRI69O9CT1KVDP34S4MEKQFC0",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "rtb_bidder_conf": [
+      {
+        "id": 2857,
+        "createdAt": "2023-08-02@21:11:07.000+0000",
+        "updatedAt": "2023-08-02@21:11:07.000+0000",
+        "guid": "T097JILFJD1T94JPPANPM4UKOK",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8911,
+            "createdAt": "2022-10-19@13:15:19.000+0000",
+            "updatedAt": "2023-08-03@15:36:46.000+0000",
+            "email": "priamo.germosen@intive.com",
+            "firstName": "Priamo",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo Germosen"
+          },
+          "auditDateTime": 1691010667000
+        },
+        "name": "test_dynamic_pricing_ok",
+        "status": "active",
+        "testMode": false,
+        "accessAllowed": true,
+        "rtbSpecVersion": "2.5",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 3145,
+            "rtbRegionId": 2,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?numberOfBids=1&bidAmount=12"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "customSizeEnabled": false,
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "audiences": []
+  },
+  "trackers": []
+}

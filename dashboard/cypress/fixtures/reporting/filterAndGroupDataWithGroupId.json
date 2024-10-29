@@ -1,0 +1,25 @@
+{
+	"data": [
+		{
+			"data": {
+				"opportunities": 100,
+				"impressions": 10,
+				"grossrevenue": 50
+			},
+			"group": "groupId1",
+			"groupPrettyName": "Test publisher",
+			"groupId": 1
+		},
+		{
+			"data": {
+				"opportunities": 150,
+				"impressions": 20,
+				"grossrevenue": 30
+			},
+			"group": "groupId2",
+			"groupPrettyName": "Test publisher2",
+			"groupId": null
+		}
+	],
+	"dimension": "PUBLISHER"
+}

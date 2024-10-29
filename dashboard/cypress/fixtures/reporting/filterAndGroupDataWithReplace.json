@@ -1,0 +1,20 @@
+{
+	"data": [
+		{
+			"data": { "opportunities": 100, "impressions": 10, "grossrevenue": 50 },
+			"group": "null",
+			"groupPrettyName": ""
+		},
+		{
+			"data": { "opportunities": 150, "impressions": 20, "grossrevenue": 30 },
+			"group": "[REPLACE]",
+			"groupPrettyName": ""
+		},
+		{
+			"data": { "opportunities": 200, "impressions": 20, "grossrevenue": 100 },
+			"group": "Denver",
+			"groupPrettyName": ""
+		}
+	],
+	"dimension": "APP_BUNDLE"
+}

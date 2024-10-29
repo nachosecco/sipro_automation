@@ -1,0 +1,8 @@
+{
+	"baseUrl": "https://int1.platform.column6.tv/",
+	"env": {
+		"dashboardApi": "https://manageint1.siprocalads.com",
+		"auth": "https://manageint1.siprocalads.com/v2/auth",
+		"inventoryRouter": "https://routerint1.siprocalads.com/"
+	}
+}

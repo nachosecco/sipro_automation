@@ -1,0 +1,778 @@
+{
+	"supply": {
+		"placement": {
+			"id": 78747,
+			"createdAt": "2024-03-01@05:11:43.000+0000",
+			"updatedAt": "2024-03-01@05:11:43.000+0000",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 9125,
+					"createdAt": "2023-06-02@14:13:17.000+0000",
+					"updatedAt": "2024-03-12@08:46:55.000+0000",
+					"email": "sangam.aggarwal@siprocal.com",
+					"firstName": "Sangam",
+					"lastName": "Aggarwal",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Sangam Aggarwal"
+				},
+				"auditDateTime": 1709269903000
+			},
+			"name": "test_tracker_media_adtag_ssai",
+			"status": "active",
+			"locked": false,
+			"siteId": 26397,
+			"revenueType": "flat_rate",
+			"floor": 0.0,
+			"revenueShare": 0.0,
+			"usingMultipleImpObjects": false,
+			"type": "mobile",
+			"blacklistWhitelist": {
+				"accessRestrictionType": "whitelist",
+				"restrictions": null
+			},
+			"advertiserDomainBlacklistWhitelist": {
+				"accessRestrictionType": "whitelist",
+				"restrictions": null
+			},
+			"appNameBlacklistWhitelist": {
+				"accessRestrictionType": "whitelist",
+				"restrictions": null
+			},
+			"appBundleIdBlacklistWhitelist": {
+				"accessRestrictionType": "whitelist",
+				"restrictions": null
+			},
+			"enableVPAID": false,
+			"enableC6AdManager": false,
+			"typeName": "Mobile App/CTV",
+			"siteStatus": "",
+			"allowRon": false,
+			"maxDuration": 60,
+			"enableAdResponseMediaLimit": false,
+			"preventDuplicateCreatives": false,
+			"bidderMargin": 0.0,
+			"publisherName": "test_tracker_media_adtag_ssai",
+			"publisherId": 14552,
+			"siteName": "test_tracker_media_adtag_ssai",
+			"formatName": "Video",
+			"guid": "86FR7GF5P12UP7TJO7ISHDFCHK",
+			"secureTag": "https://mobileqa2.siprocalads.com/vast?uid=86FR7GF5P12UP7TJO7ISHDFCHK&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&ssai=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+			"trackers": [
+				976
+			],
+			"media": [
+				{
+					"id": 174908,
+					"createdAt": "2024-03-01@05:16:53.000+0000",
+					"updatedAt": "2024-03-12@08:46:11.000+0000",
+					"name": "test_tracker_media_adtag_ssai",
+					"mediaTypeId": 2,
+					"enablePCPM": false,
+					"cpm": 4.0,
+					"mediaSource": "tag",
+					"clickThroughUrl": "",
+					"adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?ssai=[ssai]",
+					"supportsVpaid": false,
+					"status": "active",
+					"locked": false,
+					"blacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					},
+					"campaignId": 41857,
+					"campaignName": "test_tracker_media_adtag_ssai",
+					"insertionOrderId": 14320,
+					"insertionOrderName": "test_tracker_media_adtag_ssai",
+					"advId": 12041,
+					"advName": "test_tracker_media_adtag_ssai",
+					"inheritedValues": {},
+					"guid": "E0HDVFUNC12EP8MVNVBM017C40",
+					"alignmentType": "static",
+					"campaignStartDate": "02/29/2024 10:24 AM",
+					"allowIVTFiltering": true,
+					"ivtFilteringRequired": false,
+					"houseAd": false,
+					"customDateRange": false,
+					"customStartDate": "02/29/2024 10:24 AM",
+					"includesVpaid": false,
+					"cloneAlignments": true,
+					"cloned": false,
+					"finalCpm": 4.0,
+					"publisherMarginPercent": 0,
+					"marginPercent": 0,
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					}
+				}
+			],
+			"programmaticDemands": [],
+			"vastVersion": "4.0",
+			"auctionType": "SECOND_PRICE",
+			"enableIVTFiltering": false,
+			"allowIVTFiltering": true,
+			"allowServerSideRequests": false,
+			"minBitrate": 300,
+			"maxBitrate": 25000,
+			"allowMultipleWinners": false,
+			"allowAuctionWinByCPMperSecond": false,
+			"bidderServiceEnabled": false,
+			"requestTypeRTB": false,
+			"cloneAlignments": true,
+			"revenueSharePercent": 0.0,
+			"publisherMarginPercent": 0,
+			"marginPercent": 0,
+			"customSizeEnabled": false,
+			"inheritedValues": {}
+		},
+		"site": {
+			"id": 26397,
+			"createdAt": "2024-03-01@04:59:36.000+0000",
+			"updatedAt": "2024-03-01@04:59:36.000+0000",
+			"publisherId": 14552,
+			"name": "test_tracker_media_adtag_ssai",
+			"status": "active",
+			"defaultRevenueShare": 0.0,
+			"defaultFloor": 0.0,
+			"url": "",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 9125,
+					"createdAt": "2023-06-02@14:13:17.000+0000",
+					"updatedAt": "2024-03-12@08:46:55.000+0000",
+					"email": "sangam.aggarwal@siprocal.com",
+					"firstName": "Sangam",
+					"lastName": "Aggarwal",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Sangam Aggarwal"
+				},
+				"auditDateTime": 1709269176000
+			},
+			"publisherName": "test_tracker_media_adtag_ssai",
+			"guid": "TKP65C4FFL2OPCJ2M27NRPCC0O",
+			"placements": [
+				{
+					"id": 78747,
+					"createdAt": "2024-03-01@05:11:43.000+0000",
+					"updatedAt": "2024-03-01@05:11:43.000+0000",
+					"name": "test_tracker_media_adtag_ssai",
+					"status": "active",
+					"locked": false,
+					"siteId": 26397,
+					"revenueType": "flat_rate",
+					"floor": 0.0,
+					"revenueShare": 0.0,
+					"usingMultipleImpObjects": false,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "whitelist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"bidderMargin": 0.0,
+					"publisherName": "test_tracker_media_adtag_ssai",
+					"publisherId": 14552,
+					"siteName": "test_tracker_media_adtag_ssai",
+					"guid": "86FR7GF5P12UP7TJO7ISHDFCHK",
+					"vastVersion": "4.0",
+					"enableIVTFiltering": false,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"allowMultipleWinners": false,
+					"allowAuctionWinByCPMperSecond": false,
+					"bidderServiceEnabled": false,
+					"requestTypeRTB": false,
+					"cloneAlignments": true,
+					"revenueSharePercent": 0.0,
+					"publisherMarginPercent": 0,
+					"marginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				}
+			],
+			"defaultRevenueSharePercent": 0.0
+		},
+		"publisher": {
+			"id": 14552,
+			"createdAt": "2024-03-01@04:58:45.000+0000",
+			"updatedAt": "2024-03-01@04:58:45.000+0000",
+			"name": "test_tracker_media_adtag_ssai",
+			"contactName": "test",
+			"contactEmail": "test@test.com",
+			"contactPhone": "1234567890",
+			"contactAddress": "test",
+			"billingInfoApplicable": true,
+			"billingContactName": "",
+			"billingContactPhone": "",
+			"billingContactEmail": "",
+			"billingContactAddress": "",
+			"defaultRevenueShare": 0.0,
+			"defaultFloor": 0.0,
+			"tmax": 300,
+			"status": "active",
+			"webSiteDomain": "column6.tv",
+			"adsTxtAccountId": "T8L1NIDV354U3AGRP6VHJ2F18S",
+			"adSystemDomain": "siprocalads.com",
+			"guid": "T8L1NIDV354U3AGRP6VHJ2F18S",
+			"companyName": "Column6",
+			"sites": [
+				{
+					"id": 26397,
+					"createdAt": "2024-03-01@04:59:36.000+0000",
+					"updatedAt": "2024-03-01@04:59:36.000+0000",
+					"publisherId": 14552,
+					"name": "test_tracker_media_adtag_ssai",
+					"status": "active",
+					"defaultRevenueShare": 0.0,
+					"defaultFloor": 0.0,
+					"url": "",
+					"publisherName": "test_tracker_media_adtag_ssai",
+					"guid": "TKP65C4FFL2OPCJ2M27NRPCC0O",
+					"defaultRevenueSharePercent": 0.0
+				}
+			],
+			"certAuthorityID": "",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 9125,
+					"createdAt": "2023-06-02@14:13:17.000+0000",
+					"updatedAt": "2024-03-12@08:46:55.000+0000",
+					"email": "sangam.aggarwal@siprocal.com",
+					"firstName": "Sangam",
+					"lastName": "Aggarwal",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Sangam Aggarwal"
+				},
+				"auditDateTime": 1709269125000
+			},
+			"adsTxtIdLevel": "publisher",
+			"accountRelationship": "direct",
+			"supplyType": "direct",
+			"sellerType": "publisher",
+			"confidential": false,
+			"defaultRevenueSharePercent": 0.0
+		},
+		"trackers": [
+			{
+				"id": 976,
+				"for": "placement"
+			}
+		]
+	},
+	"demand": {
+		"advertisers": [
+			{
+				"id": 12041,
+				"createdAt": "2024-03-01@05:12:57.000+0000",
+				"updatedAt": "2024-03-01@05:12:57.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 9125,
+						"createdAt": "2023-06-02@14:13:17.000+0000",
+						"updatedAt": "2024-03-12@08:46:55.000+0000",
+						"email": "sangam.aggarwal@siprocal.com",
+						"firstName": "Sangam",
+						"lastName": "Aggarwal",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Sangam Aggarwal"
+					},
+					"auditDateTime": 1709269977000
+				},
+				"name": "test_tracker_media_adtag_ssai",
+				"guid": "8S86NUJBBL4NV43BV9LLREBVD0",
+				"status": "active",
+				"campaignCount": 0,
+				"contactName": "test",
+				"contactEmail": "test@test.com",
+				"contactPhone": "1234567890",
+				"contactAddress": "test",
+				"billingInfoApplicable": false,
+				"pricingOptions": "CPM",
+				"demandFeePercentage": 0.0,
+				"insertionOrders": [
+					{
+						"id": 14320,
+						"createdAt": "2024-03-01@05:13:13.000+0000",
+						"updatedAt": "2024-03-01@05:13:13.000+0000",
+						"name": "test_tracker_media_adtag_ssai",
+						"status": "active",
+						"terms": 45,
+						"advId": 12041,
+						"advName": "test_tracker_media_adtag_ssai",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 41857,
+								"name": "test_tracker_media_adtag_ssai"
+							}
+						],
+						"guid": "JFVVU7NU350OLFVV3RV1ISCAF8",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					}
+				]
+			}
+		],
+		"insertion_orders": [
+			{
+				"id": 14320,
+				"createdAt": "2024-03-01@05:13:13.000+0000",
+				"updatedAt": "2024-03-01@05:13:13.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 9125,
+						"createdAt": "2023-06-02@14:13:17.000+0000",
+						"updatedAt": "2024-03-12@08:46:55.000+0000",
+						"email": "sangam.aggarwal@siprocal.com",
+						"firstName": "Sangam",
+						"lastName": "Aggarwal",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Sangam Aggarwal"
+					},
+					"auditDateTime": 1709269993000
+				},
+				"name": "test_tracker_media_adtag_ssai",
+				"status": "active",
+				"terms": 45,
+				"advId": 12041,
+				"advName": "test_tracker_media_adtag_ssai",
+				"files": [],
+				"geoTargetingConfig": {},
+				"deviceTargeting": {
+					"devices": []
+				},
+				"categoryTargeting": [],
+				"blacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"appNameBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"appBundleIdBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"campaigns": [
+					{
+						"id": 41857,
+						"createdAt": "2024-03-01@05:14:02.000+0000",
+						"updatedAt": "2024-03-01@05:14:02.000+0000",
+						"name": "test_tracker_media_adtag_ssai",
+						"status": "running",
+						"insertionOrderId": 14320,
+						"insertionOrderName": "test_tracker_media_adtag_ssai",
+						"advId": 12041,
+						"advName": "test_tracker_media_adtag_ssai",
+						"cpm": 0.0,
+						"startDate": "02/29/2024 10:24 AM",
+						"goal": "open",
+						"enableFrequencyCapping": false,
+						"frequencyCappingPeriod": 86400,
+						"blacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"singleAdMediaResponse": false,
+						"houseAd": false,
+						"inheritedValues": {},
+						"guid": "6NSA3PVAKP5J3E51SVLADMPH90",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						}
+					}
+				],
+				"campaignTableList": [
+					{
+						"id": 41857,
+						"name": "test_tracker_media_adtag_ssai"
+					}
+				],
+				"guid": "JFVVU7NU350OLFVV3RV1ISCAF8",
+				"advertiserStatus": "",
+				"advertiserDomainBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"inheritedValues": {}
+			}
+		],
+		"campaigns": [
+			{
+				"id": 41857,
+				"createdAt": "2024-03-01@05:14:02.000+0000",
+				"updatedAt": "2024-03-01@05:14:02.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 9125,
+						"createdAt": "2023-06-02@14:13:17.000+0000",
+						"updatedAt": "2024-03-12@08:46:55.000+0000",
+						"email": "sangam.aggarwal@siprocal.com",
+						"firstName": "Sangam",
+						"lastName": "Aggarwal",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Sangam Aggarwal"
+					},
+					"auditDateTime": 1709270042000
+				},
+				"name": "test_tracker_media_adtag_ssai",
+				"status": "running",
+				"insertionOrderId": 14320,
+				"insertionOrderName": "test_tracker_media_adtag_ssai",
+				"advId": 12041,
+				"advName": "test_tracker_media_adtag_ssai",
+				"cpm": 0.0,
+				"startDate": "02/29/2024 10:24 AM",
+				"goal": "open",
+				"geoTargetingConfig": {},
+				"deviceTargeting": {
+					"devices": []
+				},
+				"enableFrequencyCapping": false,
+				"frequencyCappingPeriod": 86400,
+				"blacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"appNameBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"appBundleIdBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"media": [
+					{
+						"id": 174908,
+						"createdAt": "2024-03-01@05:16:53.000+0000",
+						"updatedAt": "2024-03-12@08:46:11.000+0000",
+						"name": "test_tracker_media_adtag_ssai",
+						"mediaTypeId": 2,
+						"enablePCPM": false,
+						"cpm": 4.0,
+						"mediaSource": "tag",
+						"clickThroughUrl": "",
+						"adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?ssai=[ssai]",
+						"supportsVpaid": false,
+						"status": "active",
+						"locked": false,
+						"blacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"campaignId": 41857,
+						"campaignName": "test_tracker_media_adtag_ssai",
+						"insertionOrderId": 14320,
+						"insertionOrderName": "test_tracker_media_adtag_ssai",
+						"advId": 12041,
+						"advName": "test_tracker_media_adtag_ssai",
+						"inheritedValues": {},
+						"guid": "E0HDVFUNC12EP8MVNVBM017C40",
+						"alignmentType": "static",
+						"campaignStartDate": "02/29/2024 10:24 AM",
+						"allowIVTFiltering": true,
+						"ivtFilteringRequired": false,
+						"houseAd": false,
+						"customDateRange": false,
+						"customStartDate": "02/29/2024 10:24 AM",
+						"includesVpaid": false,
+						"cloneAlignments": true,
+						"cloned": false,
+						"finalCpm": 4.0,
+						"publisherMarginPercent": 0,
+						"marginPercent": 0,
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						}
+					}
+				],
+				"singleAdMediaResponse": false,
+				"houseAd": false,
+				"inheritedValues": {},
+				"guid": "6NSA3PVAKP5J3E51SVLADMPH90",
+				"ioStatus": "",
+				"advertiserDomainBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				}
+			}
+		],
+		"media": [
+			{
+				"id": 174908,
+				"createdAt": "2024-03-01@05:16:53.000+0000",
+				"updatedAt": "2024-03-12@08:46:11.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 9125,
+						"createdAt": "2023-06-02@14:13:17.000+0000",
+						"updatedAt": "2024-03-12@08:46:55.000+0000",
+						"email": "sangam.aggarwal@siprocal.com",
+						"firstName": "Sangam",
+						"lastName": "Aggarwal",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Sangam Aggarwal"
+					},
+					"auditDateTime": 1710233171000
+				},
+				"name": "test_tracker_media_adtag_ssai",
+				"mediaTypeId": 2,
+				"enablePCPM": false,
+				"cpm": 4.0,
+				"mediaSource": "tag",
+				"clickThroughUrl": "",
+				"creativeType": "mediaFile",
+				"mediaFiles": [],
+				"mediaUrls": [],
+				"adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?ssai=[ssai]",
+				"supportsVpaid": false,
+				"status": "active",
+				"locked": false,
+				"position": "pre",
+				"autoPlay": false,
+				"allowAudio": true,
+				"duration": 30,
+				"geoTargetingConfig": {},
+				"deviceTargeting": {
+					"devices": []
+				},
+				"trackers": [
+					976,
+					929,
+					581,
+					582,
+					648,
+					859
+				],
+				"customTags": [],
+				"blacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"appNameBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"appBundleIdBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				},
+				"campaignId": 41857,
+				"customQueryParams": [],
+				"advertiserDomain": "",
+				"placements": [
+					{
+						"id": 78747,
+						"createdAt": "2024-03-01@05:11:43.000+0000",
+						"updatedAt": "2024-03-01@05:11:43.000+0000",
+						"name": "test_tracker_media_adtag_ssai",
+						"status": "active",
+						"locked": false,
+						"siteId": 26397,
+						"revenueType": "flat_rate",
+						"floor": 0.0,
+						"revenueShare": 0.0,
+						"usingMultipleImpObjects": false,
+						"type": "mobile",
+						"blacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "whitelist",
+							"restrictions": null
+						},
+						"enableVPAID": false,
+						"typeName": "Mobile App/CTV",
+						"allowRon": false,
+						"maxDuration": 60,
+						"enableAdResponseMediaLimit": false,
+						"preventDuplicateCreatives": false,
+						"bidderMargin": 0.0,
+						"publisherName": "test_tracker_media_adtag_ssai",
+						"publisherId": 14552,
+						"siteName": "test_tracker_media_adtag_ssai",
+						"guid": "86FR7GF5P12UP7TJO7ISHDFCHK",
+						"vastVersion": "4.0",
+						"enableIVTFiltering": false,
+						"allowIVTFiltering": true,
+						"minBitrate": 300,
+						"maxBitrate": 25000,
+						"allowMultipleWinners": false,
+						"allowAuctionWinByCPMperSecond": false,
+						"bidderServiceEnabled": false,
+						"requestTypeRTB": false,
+						"cloneAlignments": true,
+						"revenueSharePercent": 0.0,
+						"publisherMarginPercent": 0,
+						"marginPercent": 0,
+						"customSizeEnabled": false,
+						"inheritedValues": {}
+					}
+				],
+				"campaignName": "test_tracker_media_adtag_ssai",
+				"insertionOrderId": 14320,
+				"insertionOrderName": "test_tracker_media_adtag_ssai",
+				"advId": 12041,
+				"advName": "test_tracker_media_adtag_ssai",
+				"inheritedValues": {},
+				"guid": "E0HDVFUNC12EP8MVNVBM017C40",
+				"supportedPricingOptions": "CPM",
+				"campaignStatus": "",
+				"alignmentType": "static",
+				"campaignStartDate": "02/29/2024 10:24 AM",
+				"allowIVTFiltering": true,
+				"ivtFilteringRequired": false,
+				"houseAd": false,
+				"customDateRange": false,
+				"customStartDate": "02/29/2024 10:24 AM",
+				"includesVpaid": false,
+				"audiences": [],
+				"cloneAlignments": true,
+				"cloned": false,
+				"finalCpm": 4.0,
+				"publisherMarginPercent": 0,
+				"marginPercent": 0,
+				"advertiserDomainBlacklistWhitelist": {
+					"accessRestrictionType": "whitelist",
+					"restrictions": null
+				}
+			}
+		],
+		"trackers": [],
+		"programmatic_demands": [],
+		"rtb_bidder_conf": [],
+		"audiences": []
+	},
+	"trackers": [
+		{
+			"id": 976,
+			"createdAt": "2024-03-01@05:10:51.000+0000",
+			"updatedAt": "2024-03-12@08:45:48.000+0000",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 9125,
+					"createdAt": "2023-06-02@14:13:17.000+0000",
+					"updatedAt": "2024-03-12@08:46:55.000+0000",
+					"email": "sangam.aggarwal@siprocal.com",
+					"firstName": "Sangam",
+					"lastName": "Aggarwal",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Sangam Aggarwal"
+				},
+				"auditDateTime": 1710233148000
+			},
+			"name": "test_tracker_media_adtag_ssai",
+			"description": "test_tracker_media_adtag_ssai",
+			"url": "https://bidder-guid.delivery.automation?ssai=[ssai]",
+			"type": "IMG",
+			"event": "impression",
+			"typeLabel": "Beacon",
+			"placementEnabled": true,
+			"placementDefault": false,
+			"mediaEnabled": true,
+			"mediaDefault": false,
+			"status": "active"
+		}
+	]
+}

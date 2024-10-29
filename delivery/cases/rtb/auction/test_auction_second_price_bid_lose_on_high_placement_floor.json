@@ -1,0 +1,863 @@
+{
+  "supply": {
+    "placement": {
+      "id": 77412,
+      "createdAt": "2023-12-02@10:15:42.000+0000",
+      "updatedAt": "2023-12-02@10:15:53.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9125,
+          "createdAt": "2023-06-02@14:13:17.000+0000",
+          "updatedAt": "2023-12-02@10:19:49.000+0000",
+          "email": "sangam.aggarwal@siprocal.com",
+          "firstName": "Sangam",
+          "lastName": "Aggarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Sangam Aggarwal"
+        },
+        "auditDateTime": 1701512153000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+      "status": "active",
+      "locked": false,
+      "siteId": 26083,
+      "revenueType": "flat_rate",
+      "floor": 12.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+      "publisherId": 14151,
+      "siteName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+      "formatName": "Video",
+      "guid": "7R27Q66K1T7AN13T33A0VFLBTC",
+      "secureTag": "https://mobileqa2.siprocalads.com/vast?uid=7R27Q66K1T7AN13T33A0VFLBTC&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [
+        1,
+        4,
+        581,
+        582,
+        583,
+        648,
+        859,
+        860
+      ],
+      "media": [],
+      "programmaticDemands": [
+        {
+          "id": 172590,
+          "createdAt": "2023-12-02@10:12:00.000+0000",
+          "updatedAt": "2023-12-02@10:12:00.000+0000",
+          "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+          "status": "active",
+          "enableDeal": true,
+          "dealId": "CP_3839",
+          "privateDeal": false,
+          "auctionType": "SECOND_PRICE",
+          "floor": 10.0,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "D68MDJ605P73F4B6PJ02TJHNM4",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        }
+      ],
+      "vastVersion": "4.0",
+      "auctionType": "FIRST_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 26083,
+      "createdAt": "2023-12-02@10:14:08.000+0000",
+      "updatedAt": "2023-12-02@10:14:53.000+0000",
+      "publisherId": 14151,
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9125,
+          "createdAt": "2023-06-02@14:13:17.000+0000",
+          "updatedAt": "2023-12-02@10:19:49.000+0000",
+          "email": "sangam.aggarwal@siprocal.com",
+          "firstName": "Sangam",
+          "lastName": "Aggarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Sangam Aggarwal"
+        },
+        "auditDateTime": 1701512093000
+      },
+      "publisherName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+      "guid": "9OPE1Q6M1D2P5CN0T3B0N1CIKS",
+      "placements": [
+        {
+          "id": 77412,
+          "createdAt": "2023-12-02@10:15:42.000+0000",
+          "updatedAt": "2023-12-02@10:15:53.000+0000",
+          "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+          "status": "active",
+          "locked": false,
+          "siteId": 26083,
+          "revenueType": "flat_rate",
+          "floor": 12.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+          "publisherId": 14151,
+          "siteName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+          "guid": "7R27Q66K1T7AN13T33A0VFLBTC",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 14151,
+      "createdAt": "2023-12-02@10:13:53.000+0000",
+      "updatedAt": "2023-12-02@10:14:39.000+0000",
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+      "contactName": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactAddress": "",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "publisherdomain.com",
+      "adsTxtAccountId": "A1K048SQ856ODA024ED43FC69S",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "A1K048SQ856ODA024ED43FC69S",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 26083,
+          "createdAt": "2023-12-02@10:14:08.000+0000",
+          "updatedAt": "2023-12-02@10:14:53.000+0000",
+          "publisherId": 14151,
+          "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+          "guid": "9OPE1Q6M1D2P5CN0T3B0N1CIKS",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9125,
+          "createdAt": "2023-06-02@14:13:17.000+0000",
+          "updatedAt": "2023-12-02@10:19:49.000+0000",
+          "email": "sangam.aggarwal@siprocal.com",
+          "firstName": "Sangam",
+          "lastName": "Aggarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Sangam Aggarwal"
+        },
+        "auditDateTime": 1701512079000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": [
+      {
+        "id": 1,
+        "for": "placement"
+      },
+      {
+        "id": 4,
+        "for": "placement"
+      },
+      {
+        "id": 581,
+        "for": "placement"
+      },
+      {
+        "id": 582,
+        "for": "placement"
+      },
+      {
+        "id": 583,
+        "for": "placement"
+      },
+      {
+        "id": 648,
+        "for": "placement"
+      },
+      {
+        "id": 859,
+        "for": "placement"
+      },
+      {
+        "id": 860,
+        "for": "placement"
+      }
+    ]
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [
+      {
+        "id": 172590,
+        "createdAt": "2023-12-02@10:12:00.000+0000",
+        "updatedAt": "2023-12-02@10:12:00.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9125,
+            "createdAt": "2023-06-02@14:13:17.000+0000",
+            "updatedAt": "2023-12-02@10:19:49.000+0000",
+            "email": "sangam.aggarwal@siprocal.com",
+            "firstName": "Sangam",
+            "lastName": "Aggarwal",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Sangam Aggarwal"
+          },
+          "auditDateTime": 1701511920000
+        },
+        "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 2419,
+            "rtbBidderSeats": []
+          }
+        ],
+        "enableDeal": true,
+        "dealId": "CP_3839",
+        "privateDeal": false,
+        "auctionType": "SECOND_PRICE",
+        "startDate": "12/02/2023 03:27 PM",
+        "floor": 10.0,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 77412,
+            "createdAt": "2023-12-02@10:15:42.000+0000",
+            "updatedAt": "2023-12-02@10:15:53.000+0000",
+            "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+            "status": "active",
+            "locked": false,
+            "siteId": 26083,
+            "revenueType": "flat_rate",
+            "floor": 12.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+            "publisherId": 14151,
+            "siteName": "test_auction_second_price_bid_lose_on_high_placement_floor",
+            "guid": "7R27Q66K1T7AN13T33A0VFLBTC",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "D68MDJ605P73F4B6PJ02TJHNM4",
+        "audiences": [],
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "rtb_bidder_conf": [
+      {
+        "id": 2419,
+        "createdAt": "2023-12-02@10:10:56.000+0000",
+        "updatedAt": "2023-12-02@10:10:56.000+0000",
+        "guid": "57KT8CH5Q1565AEK68IT0MJ2VS",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9125,
+            "createdAt": "2023-06-02@14:13:17.000+0000",
+            "updatedAt": "2023-12-02@10:19:49.000+0000",
+            "email": "sangam.aggarwal@siprocal.com",
+            "firstName": "Sangam",
+            "lastName": "Aggarwal",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Sangam Aggarwal"
+          },
+          "auditDateTime": 1701511856000
+        },
+        "name": "test_auction_second_price_bid_lose_on_high_placement_floor",
+        "status": "active",
+        "testMode": false,
+        "usingMultipleImpObjects": false,
+        "accessAllowed": true,
+        "rtbSpecVersion": "2.6",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 2710,
+            "rtbRegionId": 2,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?numberOfBids=1&dealId=CP_3839&bidAmount=15"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "rtbCustomExtensions": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "customSizeEnabled": false,
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "audiences": []
+  },
+  "trackers": [
+    {
+      "id": 1,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2018-11-20@16:22:46.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7762,
+          "createdAt": "2017-09-26@20:11:06.000+0000",
+          "updatedAt": "2023-08-03@13:04:26.000+0000",
+          "email": "dmalanga@genesismedia.com",
+          "firstName": "Dennis",
+          "lastName": "Malanga",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dennis Malanga"
+        },
+        "auditDateTime": 1542730966000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [1]",
+      "description": "Comscore",
+      "url": "http://b.scorecardresearch.com/p?c1=1&c2=16041093&",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 4,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2017-03-21@13:49:33.000+0000",
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [2]",
+      "description": "NHT Bot Detect",
+      "url": "//pixel.adsafeprotected.com/bapi?anId=8390&amp;",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 581,
+      "createdAt": "2022-08-19@10:10:08.000+0000",
+      "updatedAt": "2022-08-19@10:10:23.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8906,
+          "createdAt": "2022-04-05@14:14:12.000+0000",
+          "updatedAt": "2023-11-30@08:46:10.000+0000",
+          "email": "priyanka.agarwal1@tothenew.com",
+          "firstName": "Priyanka Agarwal",
+          "lastName": "",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priyanka Agarwal "
+        },
+        "auditDateTime": 1660903823000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [3]",
+      "description": "priyanka_tracker",
+      "url": "test.com",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 582,
+      "createdAt": "2022-08-19@10:17:41.000+0000",
+      "updatedAt": "2022-08-19@10:17:41.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8906,
+          "createdAt": "2022-04-05@14:14:12.000+0000",
+          "updatedAt": "2023-11-30@08:46:10.000+0000",
+          "email": "priyanka.agarwal1@tothenew.com",
+          "firstName": "Priyanka Agarwal",
+          "lastName": "",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priyanka Agarwal "
+        },
+        "auditDateTime": 1660904261000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [4]",
+      "description": "priyanka_tracker_withmacro",
+      "url": "http://column6.com?[device_id][us_privacy][pod_size][pod_max_dur][pod_min_ad_dur][pod_max_ad_dur]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 583,
+      "createdAt": "2023-02-27@16:17:03.000+0000",
+      "updatedAt": "2023-02-27@16:17:40.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8939,
+          "createdAt": "2023-01-31@15:02:48.000+0000",
+          "updatedAt": "2023-11-29@18:08:29.000+0000",
+          "email": "akhanom@column6.tv",
+          "firstName": "Afroza",
+          "lastName": "Khamon",
+          "phoneNumber": "",
+          "timeZone": "America/Detroit",
+          "status": "active",
+          "name": "Afroza Khamon"
+        },
+        "auditDateTime": 1677514660000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [5]",
+      "description": "test-feb27",
+      "url": "www.abc.com",
+      "type": "IMG",
+      "event": "opportunity",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "active"
+    },
+    {
+      "id": 648,
+      "createdAt": "2023-06-22@19:13:58.000+0000",
+      "updatedAt": "2023-06-22@19:13:58.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8929,
+          "createdAt": "2023-01-12@18:43:23.000+0000",
+          "updatedAt": "2023-09-20@10:53:13.000+0000",
+          "email": "1695207179487automation@test.com",
+          "firstName": "(UI) User edit - First name",
+          "lastName": "Test",
+          "phoneNumber": "155345654",
+          "timeZone": "Z",
+          "status": "deleted",
+          "name": "(UI) User edit - First name Test"
+        },
+        "auditDateTime": 1687461238000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [6]",
+      "description": "test_vast_version_2_0",
+      "url": "http://priyanka.com?bidderguid=[bidder_guid]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 859,
+      "createdAt": "2023-11-09@13:43:55.000+0000",
+      "updatedAt": "2023-11-09@14:01:04.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8939,
+          "createdAt": "2023-01-31@15:02:48.000+0000",
+          "updatedAt": "2023-11-29@18:08:29.000+0000",
+          "email": "akhanom@column6.tv",
+          "firstName": "Afroza",
+          "lastName": "Khamon",
+          "phoneNumber": "",
+          "timeZone": "America/Detroit",
+          "status": "active",
+          "name": "Afroza Khamon"
+        },
+        "auditDateTime": 1699538464000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [7]",
+      "description": "CP-3717_display_trackers_placements_by_media",
+      "url": "https://us.shein.com/?transactionid=[tid]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 860,
+      "createdAt": "2023-11-09@14:13:18.000+0000",
+      "updatedAt": "2023-11-09@14:14:23.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8939,
+          "createdAt": "2023-01-31@15:02:48.000+0000",
+          "updatedAt": "2023-11-29@18:08:29.000+0000",
+          "email": "akhanom@column6.tv",
+          "firstName": "Afroza",
+          "lastName": "Khamon",
+          "phoneNumber": "",
+          "timeZone": "America/Detroit",
+          "status": "active",
+          "name": "Afroza Khamon"
+        },
+        "auditDateTime": 1699539263000
+      },
+      "name": "test_auction_second_price_bid_lose_on_high_placement_floor [8]",
+      "description": "CP-3717_display_trackers_placements_by_media_1",
+      "url": "https://www.starbucks.com/?transactionid=[tid]",
+      "type": "IMG",
+      "event": "opportunity",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "active"
+    }
+  ]
+}

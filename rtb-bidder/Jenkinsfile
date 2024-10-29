@@ -1,0 +1,97 @@
+@Library('c6_shared_lib@master') _
+
+def AWS_ENVIRONMENT = JOB_NAME.split("/")[0]
+
+def getAWSSecret( String secret_name) {
+	def region = "us-west-2"
+	def secretId="/shared_infra/rtb-bidder-regression-testing_${env.DSE_ENVIRONMENT}/${secret_name}"
+    sh '''
+    echo ${secretId}
+    '''
+    return sh(script: "aws secretsmanager get-secret-value --region ${region} --secret-id ${secretId} | jq --raw-output '.SecretString'", returnStdout: true).trim()
+}
+
+
+pipeline {
+    agent { label 'shared_infra_slave' }
+    environment {
+		DSE_ENVIRONMENT = "${AWS_ENVIRONMENT}"
+		DF_MEDIA_SERVER_URL="https://media${AWS_ENVIRONMENT}.siprocalads.com"
+        DSE_DASHBOARD_API="https://manage${AWS_ENVIRONMENT}.siprocalads.com"
+        RTBRT_RTB_BIDDER_HOST="https://bidder${AWS_ENVIRONMENT}.siprocalads.com"
+       	DSE_API_USER="rtb_bidder@column6.com"
+
+        // Parameters for pytest re-run
+        DF_CONFIG_RERUN_FAILED_TESTS_NO_OF_TIMES="${RERUN_FAILED_TESTS_NO_OF_TIMES}"
+        DF_CONFIG_RERUN_FAILED_TESTS_DELAY_TIME="${RERUN_FAILED_TESTS_DELAY_TIME}"
+
+        // Parameters for pytest parallel execution
+        DF_NUMBER_OF_PROCESS_OF_PYTEST="${NUMBER_OF_PROCESS_OF_PYTEST}"
+    }
+
+	stages {
+		stage("Upload Json Data File"){
+			steps{
+				withPythonEnv('Python-3.8') {
+					dir("data-seed-upload") {
+						script {
+							env.DSE_API_PWD = getAWSSecret("RTBRT_RTB_DSE_API_PWD")
+							sh '''
+								echo $DSE_API_PWD
+								pip3 install -r ./requirements.txt
+								python3 upload.py delivery "${WORKSPACE}/rtb-bidder/cases/"
+							'''
+						}
+					}
+					dir("rtb-bidder") {
+						script {
+							env.DSE_API_PWD = getAWSSecret("RTBRT_RTB_DSE_API_PWD")
+							sh '''
+							 . ./"${DSE_ENVIRONMENT}".env
+								python3 JsonDataFileGenerator.py --password ${DSE_API_PWD} --username ${DSE_API_USER} --dashboard_server ${DSE_DASHBOARD_API} --env ${DSE_ENVIRONMENT} --company_id "${RTBRT_COMPANY_ID}"
+							'''
+						}
+					}
+				}
+			}
+		}
+
+		stage("Run Tests") {
+			steps {
+				withPythonEnv('Python-3.8') {
+					sh """
+						cd ${WORKSPACE}/rtb-bidder
+						pip3 install -r requirements.txt
+						 . ./"${DSE_ENVIRONMENT}".env
+						./run_tests.sh ${params.TEST_TYPE}
+					"""
+				}
+			}
+		}
+	}
+	post {
+		always {
+			publishHTML target: [
+				allowMissing: false,
+				alwaysLinkToLastBuild: false,
+				keepAll: true,
+				reportName: 'Reports',
+				reportDir: 'rtb-bidder/build',
+				reportFiles: 'report.html'
+			]
+			cleanWs()
+		}
+		success {
+			script {
+				def successMessage = "rtb-bidder regression testing job SUCCESS :- ${BUILD_URL}"
+				jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-test-automation")
+			}
+		}
+		failure {
+			script{
+				def failureMessage = "ALERT: rtb-bidder regression testing job  FAILED:- ${BUILD_URL}"
+				jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-test-automation")
+			}
+		}
+	}
+}

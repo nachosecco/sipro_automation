@@ -1,0 +1,112 @@
+{
+  "LOCAL": [
+    {
+      "companyId": 1,
+      "reason": "this is the default company"
+    }
+  ],
+  "DEV": [
+    {
+      "companyId": 1,
+      "reason": "this is the default company"
+    },
+    {
+      "companyId": 2176,
+      "reason": "this is the principal delivery regression company"
+    },
+    {
+      "companyId": 3345,
+      "reason": "this is the secondary delivery regression company, for CPM priority"
+    },
+    {
+      "companyId": 2709,
+      "reason": "this is the secondary delivery regression company, for display click"
+    },
+    {
+      "companyId": 2944,
+      "reason": "this is the dashboard regression company"
+    },
+    {
+      "companyId": 3010,
+      "reason": "this is the rtb bidder regression company"
+    }
+  ],
+  "QA1": [
+    {
+      "companyId": 1,
+      "reason": "this is the default company"
+    },
+    {
+      "companyId": 810,
+      "reason": "this is the principal delivery regression company"
+    },
+    {
+      "companyId": 1264,
+      "reason": "this is the secondary delivery regression company, for CPM priority"
+    },
+    {
+      "companyId": 1093,
+      "reason": "this is the secondary delivery regression company, for display click"
+    },
+    {
+      "companyId": 1186,
+      "reason": "this is the dashboard regression company"
+    },
+    {
+      "companyId": 1243,
+      "reason": "this is the rtb bidder regression company"
+    }
+  ],
+  "QA2": [
+    {
+      "companyId": 1,
+      "reason": "this is the default company"
+    },
+    {
+      "companyId": 809,
+      "reason": "this is the principal delivery regression company"
+    },
+    {
+      "companyId": 1467,
+      "reason": "this is the secondary delivery regression company, for CPM priority"
+    },
+    {
+      "companyId": 1162,
+      "reason": "this is the secondary delivery regression company, for display click"
+    },
+    {
+      "companyId": 1492,
+      "reason": "this is the dashboard regression company"
+    },
+    {
+      "companyId": 1447,
+      "reason": "this is the rtb bidder regression company"
+    }
+  ],
+  "INT1": [
+    {
+      "companyId": 1,
+      "reason": "this is the default company"
+    },
+    {
+      "companyId": 1578,
+      "reason": "this is the principal delivery regression company"
+    },
+    {
+      "companyId": 2139,
+      "reason": "this is the secondary delivery regression company, for CPM priority"
+    },
+    {
+      "companyId": 1751,
+      "reason": "this is the secondary delivery regression company, for display click"
+    },
+    {
+      "companyId": 2170,
+      "reason": "this is the dashboard regression company"
+    },
+    {
+      "companyId": 2493,
+      "reason": "this is the rtb bidder regression company"
+    }
+  ]
+}

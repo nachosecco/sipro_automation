@@ -1,0 +1,241 @@
+{
+  "supply": {
+    "placement": {
+      "id": 75925,
+      "createdAt": "2023-06-27@06:50:49.000+0000",
+      "updatedAt": "2023-06-27@06:50:49.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8905,
+          "createdAt": "2022-08-04@06:47:38.000+0000",
+          "updatedAt": "2023-07-07@06:01:00.000+0000",
+          "email": "ajain@column6.com",
+          "firstName": "Amit",
+          "lastName": "Jain",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Amit Jain"
+        },
+        "auditDateTime": 1687848649000
+      },
+      "name": "test_gpp_sid_param",
+      "status": "active",
+      "locked": false,
+      "siteId": 23454,
+      "revenueType": "flat_rate",
+      "floor": 1.0,
+      "auctionFloorIncrement": 1.0,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "publisherName": "Delivery_Automation_Publisher",
+      "publisherId": 11337,
+      "siteName": "Delivery_Automation_Sites",
+      "formatName": "Video",
+      "guid": "MBEL6C9DJL77D7AJ642347JMBC",
+      "secureTag": "https://mobiledev.altitude-arena.com/vast?uid=MBEL6C9DJL77D7AJ642347JMBC&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [
+        1,
+        4,
+        557
+      ],
+      "media": [],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "publisherMarginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 23454,
+      "createdAt": "2022-05-25@20:32:44.000+0000",
+      "updatedAt": "2022-05-25@20:32:44.000+0000",
+      "publisherId": 11337,
+      "name": "test_gpp_param",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-07-07@19:48:44.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1653510764000
+      },
+      "publisherName": "Delivery_Automation_Publisher",
+      "guid": "IQC4U916R53PT62F4GJDJLSUKK",
+      "placements": [
+		  {
+			  "id": 75924,
+			  "createdAt": "2023-06-27@06:50:49.000+0000",
+			  "updatedAt": "2023-06-27@06:50:49.000+0000",
+			  "name": "test_gpp_sid_param",
+			  "status": "active",
+			  "locked": false,
+			  "siteId": 23454,
+			  "revenueType": "flat_rate",
+			  "floor": 1.0,
+			  "auctionFloorIncrement": 1.0,
+			  "revenueShare": 0.0,
+			  "type": "mobile",
+			  "blacklistWhitelist": {
+				  "accessRestrictionType": "blacklist",
+				  "restrictions": null
+			  },
+			  "advertiserDomainBlacklistWhitelist": {
+				  "accessRestrictionType": "blacklist",
+				  "restrictions": null
+			  },
+			  "appNameBlacklistWhitelist": {
+				  "accessRestrictionType": "blacklist",
+				  "restrictions": null
+			  },
+			  "appBundleIdBlacklistWhitelist": {
+				  "accessRestrictionType": "blacklist",
+				  "restrictions": null
+			  },
+			  "typeName": "Mobile App/CTV",
+			  "allowRon": false,
+			  "maxDuration": 60,
+			  "enableAdResponseMediaLimit": false,
+			  "preventDuplicateCreatives": false,
+			  "publisherName": "Delivery_Automation_Publisher",
+			  "publisherId": 11337,
+			  "siteName": "Delivery_Automation_Sites",
+			  "guid": "MBEL6C9DJL77D7AJ642347JMBC",
+			  "vastVersion": "4.0",
+			  "enableIVTFiltering": false,
+			  "allowIVTFiltering": true,
+			  "minBitrate": 300,
+			  "maxBitrate": 25000,
+			  "publisherMarginPercent": 0,
+			  "revenueSharePercent": 0.0,
+			  "marginPercent": 0,
+			  "customSizeEnabled": false,
+			  "inheritedValues": {}
+		  }
+	  ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 11337,
+      "createdAt": "2022-05-25@20:32:30.000+0000",
+      "updatedAt": "2023-04-05@09:55:11.000+0000",
+      "name": "test_gpp_param",
+      "contactName": "auto",
+      "contactEmail": "auto@g.com",
+      "contactPhone": "9891119334",
+      "contactAddress": "123",
+      "billingInfoApplicable": true,
+      "billingContactName": "",
+      "billingContactPhone": "",
+      "billingContactEmail": "",
+      "billingContactAddress": "",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "column6.tv",
+      "adsTxtAccountId": "CGJ3AAGLID6NJ9HL58AP7JBPPG",
+      "adSystemDomain": "altitude-arena.com",
+      "guid": "CGJ3AAGLID6NJ9HL58AP7JBPPG",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 23454,
+          "createdAt": "2022-05-25@20:32:44.000+0000",
+          "updatedAt": "2022-05-25@20:32:44.000+0000",
+          "publisherId": 11337,
+          "name": "Delivery_Automation_Sites",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "defaultFloor": 0.0,
+          "url": "",
+          "publisherName": "Delivery_Automation_Publisher",
+          "guid": "IQC4U916R53PT62F4GJDJLSUKK",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8905,
+          "createdAt": "2022-08-04@06:47:38.000+0000",
+          "updatedAt": "2023-07-07@06:01:00.000+0000",
+          "email": "ajain@column6.com",
+          "firstName": "Amit",
+          "lastName": "Jain",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Amit Jain"
+        },
+        "auditDateTime": 1680688511000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": []
+}

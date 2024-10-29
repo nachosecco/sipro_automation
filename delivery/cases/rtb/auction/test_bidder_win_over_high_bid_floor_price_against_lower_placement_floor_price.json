@@ -1,0 +1,2764 @@
+{
+  "supply": {
+    "placement": {
+      "id": 76524,
+      "createdAt": "2023-09-07@19:46:48.000+0000",
+      "updatedAt": "2023-09-11@18:40:37.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-09-11@18:13:13.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1694457637000
+      },
+      "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+      "status": "active",
+      "locked": false,
+      "siteId": 23123,
+      "revenueType": "flat_rate",
+      "floor": 7.0,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "PROD-TEST-PUBLISHER",
+      "publisherId": 11036,
+      "siteName": "PROD-TEST-SITE",
+      "formatName": "Video",
+      "guid": "JQ63L5JVLL3G931QIPVQQ5O47O",
+      "secureTag": "https://mobileqa2.altitude-arena.com/vast?uid=JQ63L5JVLL3G931QIPVQQ5O47O&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [],
+      "programmaticDemands": [
+        {
+          "id": 170794,
+          "createdAt": "2023-09-07@19:46:26.000+0000",
+          "updatedAt": "2023-09-07@19:50:24.000+0000",
+          "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+          "status": "active",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "Q11BTKGR896UB0LUQ8DK5RF53S",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        }
+      ],
+      "vastVersion": "4.0",
+      "auctionType": "FIRST_PRICE",
+      "enableIVTFiltering": true,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 23123,
+      "createdAt": "2021-05-05@22:01:46.000+0000",
+      "updatedAt": "2021-05-05@22:01:46.000+0000",
+      "publisherId": 11036,
+      "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-09-11@18:13:13.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1620252106000
+      },
+      "publisherName": "PROD-TEST-PUBLISHER",
+      "guid": "ENR3QHE2R9385DHT8N1DL9K2OO",
+      "placements": [
+        {
+          "id": 76338,
+          "createdAt": "2023-07-25@16:48:40.000+0000",
+          "updatedAt": "2023-07-25@16:48:55.000+0000",
+          "name": "test-aling",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "B745AKBNPP5AL22LA5RSTELAUC",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74161,
+          "createdAt": "2023-04-26@19:12:25.000+0000",
+          "updatedAt": "2023-05-05@16:37:22.000+0000",
+          "name": "reportChartTest",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 2.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "CF1GSO2LR53M10OEC1ATJPR07C",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76529,
+          "createdAt": "2023-09-07@21:06:59.000+0000",
+          "updatedAt": "2023-09-11@18:13:29.000+0000",
+          "name": "test_rtb_service_bidder_win_over_lower_incoming_min_price_against_higher_outgoing_bid_price",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 7.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 10.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "0BBV27H41T0N55VH3OI0UOBIS4",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76403,
+          "createdAt": "2023-08-17@16:00:31.000+0000",
+          "updatedAt": "2023-08-17@16:04:25.000+0000",
+          "name": "dynamic_pricing_test",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 3.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "JHV4CNHM8D3L1FI6BOR46HQGD4",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76467,
+          "createdAt": "2023-08-30@01:34:13.000+0000",
+          "updatedAt": "2023-09-06@20:34:40.000+0000",
+          "name": "placement-$15-media-cpm$5-bidfloor$10",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 8.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 20.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "LUOPQ80K3H3KNCCT40A1OTQBC0",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76151,
+          "createdAt": "2023-06-29@14:02:41.000+0000",
+          "updatedAt": "2023-06-29@14:02:41.000+0000",
+          "name": "Test_delivery_demo_automation",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "RQD4QU159P4656IDF0IKTU32RK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76478,
+          "createdAt": "2023-08-30@14:54:05.000+0000",
+          "updatedAt": "2023-08-30@17:13:56.000+0000",
+          "name": "placement-wildcard-target-test1",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "4NKREKMT6L77BADNABEJA3JLJ0",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74175,
+          "createdAt": "2023-05-09@17:34:58.000+0000",
+          "updatedAt": "2023-05-09@18:07:38.000+0000",
+          "name": "CP-3076_null_point_exception_error",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "auctionFloorIncrement": 5.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "O3RT0ND6N12HJDUGBMJBG58PL8",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76479,
+          "createdAt": "2023-08-30@17:13:04.000+0000",
+          "updatedAt": "2023-08-30@17:13:31.000+0000",
+          "name": "placement-wildcard-target-test2",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "77FQ9ONNOD1597T4SBRS74IKE0",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 72450,
+          "createdAt": "2021-05-05@22:02:50.000+0000",
+          "updatedAt": "2021-05-05@22:02:50.000+0000",
+          "name": "PROD-TEST-VAST",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "vast",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Instream",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "76P1ET15NL5PJCGNEGIRRQSPG8",
+          "vastVersion": "2.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 72449,
+          "createdAt": "2021-05-05@22:02:15.000+0000",
+          "updatedAt": "2023-08-07@19:16:57.000+0000",
+          "name": "PROD-TEST-CTV",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "3MM3LJAD3H6TPB1QPL6HO7ESN8",
+          "vastVersion": "3.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 72452,
+          "createdAt": "2021-05-05@22:03:10.000+0000",
+          "updatedAt": "2021-05-05@22:03:10.000+0000",
+          "name": "PROD-TEST-VPAID",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "vast",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Instream",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "E5EUIUSV4L6ML7F9FEFIANBAU4",
+          "vastVersion": "2.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74052,
+          "createdAt": "2022-07-07@18:30:19.000+0000",
+          "updatedAt": "2022-07-07@18:30:40.000+0000",
+          "name": "Test-pacing-forcast-1",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "4J2DVA4NC124916VL2BM0D24UC",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74180,
+          "createdAt": "2023-05-09@20:57:51.000+0000",
+          "updatedAt": "2023-05-09@22:35:12.000+0000",
+          "name": "CP-3076-etl-null-point-exception-vpaid",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "auctionFloorIncrement": 0.01,
+          "revenueShare": 0.0,
+          "type": "vast",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Instream",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "3I3P6PUCJD0OF1SJCV69N0C768",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 72454,
+          "createdAt": "2021-05-05@22:03:40.000+0000",
+          "updatedAt": "2021-05-05@22:03:40.000+0000",
+          "name": "PROD-TEST-OUTSTREAM",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "outstream",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "OutStream",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "GCE1UJ03S10JV70V9G1U149VO0",
+          "passback": "",
+          "defaultIntercept": "1001",
+          "mobileIntercept": "10001",
+          "cssPath": "",
+          "framebuster": "",
+          "viewUrl": "",
+          "clickUrl": "",
+          "outstreamPassbackUrl": "",
+          "browserBlacklist": [
+            "IE7",
+            "IE8",
+            "IE9"
+          ],
+          "frequencyCap": -1,
+          "enableAudio": false,
+          "closeButton": true,
+          "dockPosition": "bottom_right",
+          "avOptOut": true,
+          "imageLocation": "",
+          "collapse": false,
+          "elementsBlacklist": [],
+          "beforeCssPath": false,
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74182,
+          "createdAt": "2023-05-10@11:43:20.000+0000",
+          "updatedAt": "2023-05-10@12:12:52.000+0000",
+          "name": "Cp-3076_null_point_exception_Media_Targeting_Canada",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "auctionFloorIncrement": 5.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "A89O8MCSG50OJ4S4B6E82CC9QS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74181,
+          "createdAt": "2023-05-09@22:44:58.000+0000",
+          "updatedAt": "2023-05-10@04:11:46.000+0000",
+          "name": "CP-3076-etl-null-point-exception-ctv",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.01,
+          "auctionFloorIncrement": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "8CM013JP7L3QTB00HPSJR5TEK4",
+          "vastVersion": "3.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74184,
+          "createdAt": "2023-05-10@19:53:03.000+0000",
+          "updatedAt": "2023-05-11@15:58:32.000+0000",
+          "name": "Cp-3076_null_point_exception_min_vs_floor_price",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.02,
+          "auctionFloorIncrement": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "T3R37B47PL7O7DHJLI3SQRS330",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74058,
+          "createdAt": "2022-10-17@17:47:08.000+0000",
+          "updatedAt": "2022-10-24@22:46:27.000+0000",
+          "name": "test-qa2",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "E54C86EE216H526437710J8IEO",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74057,
+          "createdAt": "2022-08-26@18:49:34.000+0000",
+          "updatedAt": "2022-08-26@18:52:03.000+0000",
+          "name": "test-bidder",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "DRA5E0B72L59J52N05JHBMKPLK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74059,
+          "createdAt": "2022-12-20@15:01:20.000+0000",
+          "updatedAt": "2022-12-20@15:01:34.000+0000",
+          "name": "PROD-TEST-Upload-creative-test-audience",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "AUO9CSFI955BHC4ME7P4IULO8C",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74062,
+          "createdAt": "2023-01-08@22:21:46.000+0000",
+          "updatedAt": "2023-01-08@22:22:06.000+0000",
+          "name": "AWS_fre_media-1-pl",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "PP068GUM5P7IR0348FB2SJPDLS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 75219,
+          "createdAt": "2023-06-23@15:56:11.000+0000",
+          "updatedAt": "2023-07-03@21:45:34.000+0000",
+          "name": "test-vpaid",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "vast",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Instream",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "FETEC77NTT2A9EN63JRUVH541G",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76371,
+          "createdAt": "2023-08-07@19:17:31.000+0000",
+          "updatedAt": "2023-08-07@19:17:44.000+0000",
+          "name": "test-bidder-margin",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.1,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 5.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "BA695JKFCL6D734IPQ7MBJ6JPO",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76310,
+          "createdAt": "2023-07-20@06:04:40.000+0000",
+          "updatedAt": "2023-07-20@06:06:12.000+0000",
+          "name": "2-winners-4-bidder-placement2",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "2L2B5DT2L56PV15IMUHAJ3CVE4",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": true,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76249,
+          "createdAt": "2023-07-14@18:55:59.000+0000",
+          "updatedAt": "2023-07-14@20:17:24.000+0000",
+          "name": "2-winners-4-bidder-placement1",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "UOHA5GLKFH66V8L2OAQ7PF3FCK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": true,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76508,
+          "createdAt": "2023-09-06@20:56:15.000+0000",
+          "updatedAt": "2023-09-07@15:35:38.000+0000",
+          "name": "auction-tests-bidderr4",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 7.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 10.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "3OO7DEFVKH54VC3MN7VQ9IIFGS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76381,
+          "createdAt": "2023-08-09@15:37:24.000+0000",
+          "updatedAt": "2023-08-09@15:37:49.000+0000",
+          "name": "test-private-connection-inventory",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "VQBRAUQ5G52FF5TLFD2O217NIS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74080,
+          "createdAt": "2023-02-15@22:39:04.000+0000",
+          "updatedAt": "2023-02-15@22:39:14.000+0000",
+          "name": "ProgDeal2test",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "5OURU2ID394PRFDV196HK2CTLO",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74079,
+          "createdAt": "2023-02-13@21:11:21.000+0000",
+          "updatedAt": "2023-02-15@22:56:52.000+0000",
+          "name": "testdealprog",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "UNCNEONRBD3O76BNCBTLNPS3TS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76383,
+          "createdAt": "2023-08-11@16:33:40.000+0000",
+          "updatedAt": "2023-08-11@16:33:40.000+0000",
+          "name": "outstream-placement-test",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "outstream",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "OutStream",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "MQHOU817IL2OH8SF40JPBTC82K",
+          "defaultIntercept": "1001",
+          "mobileIntercept": "10001",
+          "cssPath": "",
+          "framebuster": "",
+          "viewUrl": "",
+          "clickUrl": "",
+          "outstreamPassbackUrl": "",
+          "browserBlacklist": [
+            "IE7",
+            "IE8",
+            "IE9"
+          ],
+          "frequencyCap": -1,
+          "enableAudio": false,
+          "closeButton": true,
+          "dockPosition": "bottom_right",
+          "avOptOut": false,
+          "imageLocation": "",
+          "collapse": true,
+          "elementsBlacklist": [],
+          "beforeCssPath": false,
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76386,
+          "createdAt": "2023-08-13@18:26:05.000+0000",
+          "updatedAt": "2023-08-14@18:43:36.000+0000",
+          "name": "new domain tests",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "DIVOSICSU56PRFSE96EF23CT3G",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 73958,
+          "createdAt": "2022-04-07@16:02:21.000+0000",
+          "updatedAt": "2022-04-07@16:02:37.000+0000",
+          "name": "PROD-flink_pl-test",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "B1EJ4MPF593RL79IBCNILLTQQ4",
+          "vastVersion": "2.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74086,
+          "createdAt": "2023-03-10@12:14:41.000+0000",
+          "updatedAt": "2023-03-16@06:19:35.000+0000",
+          "name": "DealAuctionTest amit",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "auctionFloorIncrement": 0.1,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "K5154L1LR95170IIAGQTL6GJGS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74085,
+          "createdAt": "2023-02-28@17:00:41.000+0000",
+          "updatedAt": "2023-02-28@18:01:53.000+0000",
+          "name": "afroza_placement_bidder_test",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "8U5T8V20MH40N2UKFH0B8I0BL0",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 73960,
+          "createdAt": "2022-04-11@15:21:00.000+0000",
+          "updatedAt": "2022-04-11@15:21:00.000+0000",
+          "name": "test-while-off",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "0FG7T7D3BD7DD83UJMHLM7MM8C",
+          "vastVersion": "2.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74151,
+          "createdAt": "2023-04-24@18:55:26.000+0000",
+          "updatedAt": "2023-04-24@18:55:26.000+0000",
+          "name": "hot fix media page load issue",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 5.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "NJTLNFIFHH33DEQRNP7OPTHMN4",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76391,
+          "createdAt": "2023-08-14@18:39:54.000+0000",
+          "updatedAt": "2023-08-14@20:45:31.000+0000",
+          "name": "domain_test1",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "1DOC66B8PL4DVC6335KCQ66VGS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 73961,
+          "createdAt": "2022-04-11@19:48:40.000+0000",
+          "updatedAt": "2022-04-11@19:49:30.000+0000",
+          "name": "test-Feq",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "HH64BMB2I52EB325R5H92L75C4",
+          "vastVersion": "2.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76524,
+          "createdAt": "2023-09-07@19:46:48.000+0000",
+          "updatedAt": "2023-09-11@18:40:37.000+0000",
+          "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 7.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "JQ63L5JVLL3G931QIPVQQ5O47O",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76523,
+          "createdAt": "2023-09-07@15:40:15.000+0000",
+          "updatedAt": "2023-09-07@20:31:45.000+0000",
+          "name": "test_bidder_loose_over_high_placement_floor_price_against_bid_floor_price",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 7.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "50T1N4KNOP4C7EGRIABSDU633K",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74032,
+          "createdAt": "2022-06-17@18:55:50.000+0000",
+          "updatedAt": "2022-06-17@19:04:27.000+0000",
+          "name": "new-pacing-time",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "T7UE3HKFRL61FF71OQ7TRN0NNK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76528,
+          "createdAt": "2023-09-07@21:03:18.000+0000",
+          "updatedAt": "2023-09-11@18:14:21.000+0000",
+          "name": "test_rtb_service_bidder_loose_over_lower_incoming_rtb_floor_price_against_lower_dsp_outgoing_floor_price",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "flat_rate",
+          "floor": 7.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 10.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "KQLUS51RKL0S3AVE2GTQBCE1A4",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74031,
+          "createdAt": "2022-06-09@01:02:26.000+0000",
+          "updatedAt": "2022-06-09@01:02:26.000+0000",
+          "name": "test-dealt-vast",
+          "status": "active",
+          "locked": false,
+          "siteId": 23123,
+          "revenueType": "rev_share",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "publisherId": 11036,
+          "siteName": "PROD-TEST-SITE",
+          "guid": "67JLC9RE2P6PJ9QM4TN1DRCPU4",
+          "vastVersion": "2.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 11036,
+      "createdAt": "2021-05-05@22:01:34.000+0000",
+      "updatedAt": "2023-03-20@06:25:22.000+0000",
+      "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+      "contactName": "d",
+      "contactEmail": "d@d.com",
+      "contactPhone": "123",
+      "contactAddress": "abc",
+      "billingInfoApplicable": true,
+      "billingContactName": "",
+      "billingContactPhone": "",
+      "billingContactEmail": "",
+      "billingContactAddress": "",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "column6.com",
+      "adsTxtAccountId": "NDA39I1M6D4LN51KP0R36EAR4O",
+      "adSystemDomain": "siprocalads.com, altitude-arena.com",
+      "guid": "NDA39I1M6D4LN51KP0R36EAR4O",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 23123,
+          "createdAt": "2021-05-05@22:01:46.000+0000",
+          "updatedAt": "2021-05-05@22:01:46.000+0000",
+          "publisherId": 11036,
+          "name": "PROD-TEST-SITE",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "defaultFloor": 0.0,
+          "url": "",
+          "publisherName": "PROD-TEST-PUBLISHER",
+          "guid": "ENR3QHE2R9385DHT8N1DL9K2OO",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8926,
+          "createdAt": "2022-09-20@06:52:52.000+0000",
+          "updatedAt": "2023-08-22@10:31:11.000+0000",
+          "email": "ajain@column6.com",
+          "firstName": "Amit",
+          "lastName": "Jain",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Amit Jain"
+        },
+        "auditDateTime": 1678948804000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [
+      {
+        "id": 170794,
+        "createdAt": "2023-09-07@19:46:26.000+0000",
+        "updatedAt": "2023-09-07@19:50:24.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8939,
+            "createdAt": "2023-01-31@15:02:48.000+0000",
+            "updatedAt": "2023-09-09@17:51:18.000+0000",
+            "email": "akhanom@column6.tv",
+            "firstName": "Afroza",
+            "lastName": "Khamon",
+            "phoneNumber": "",
+            "timeZone": "America/Detroit",
+            "status": "active",
+            "name": "Afroza Khamon"
+          },
+          "auditDateTime": 1694116224000
+        },
+        "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 2005,
+            "rtbBidderSeats": []
+          }
+        ],
+        "seatType": "wseat",
+        "enableDeal": false,
+        "startDate": "09/06/2023 08:52 PM",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 76524,
+            "createdAt": "2023-09-07@19:46:48.000+0000",
+            "updatedAt": "2023-09-11@18:40:37.000+0000",
+            "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+            "status": "active",
+            "locked": false,
+            "siteId": 23123,
+            "revenueType": "flat_rate",
+            "floor": 7.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "PROD-TEST-PUBLISHER",
+            "publisherId": 11036,
+            "siteName": "PROD-TEST-SITE",
+            "guid": "JQ63L5JVLL3G931QIPVQQ5O47O",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "Q11BTKGR896UB0LUQ8DK5RF53S",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "rtb_bidder_conf": [
+      {
+        "id": 2005,
+        "createdAt": "2023-09-07@19:45:53.000+0000",
+        "updatedAt": "2023-09-07@19:50:46.000+0000",
+        "guid": "F4VP3B6I5940JFSHLJ92KA094K",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8939,
+            "createdAt": "2023-01-31@15:02:48.000+0000",
+            "updatedAt": "2023-09-09@17:51:18.000+0000",
+            "email": "akhanom@column6.tv",
+            "firstName": "Afroza",
+            "lastName": "Khamon",
+            "phoneNumber": "",
+            "timeZone": "America/Detroit",
+            "status": "active",
+            "name": "Afroza Khamon"
+          },
+          "auditDateTime": 1694116246000
+        },
+        "name": "test_bidder_win_over_high_bid_floor_price_against_lower_placement_floor_price",
+        "status": "active",
+        "testMode": false,
+        "accessAllowed": true,
+        "rtbSpecVersion": "2.5",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 2296,
+            "rtbRegionId": 2,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?bidAmount=10"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "customSizeEnabled": false,
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "audiences": []
+  },
+  "trackers": []
+}

@@ -1,0 +1,723 @@
+{
+  "supply": {
+    "placement": {
+      "id": 83649,
+      "createdAt": "2024-03-27@19:09:13.000+0000",
+      "updatedAt": "2024-03-27@19:09:13.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8763,
+          "createdAt": "2021-06-28@16:03:16.000+0000",
+          "updatedAt": "2024-03-27@20:15:26.000+0000",
+          "email": "steven.cothren@siprocal.com",
+          "firstName": "Steven",
+          "lastName": "Cothren",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Steven Cothren"
+        },
+        "auditDateTime": 1711566553000
+      },
+      "name": "test_content_qagmediarating_event_values",
+      "status": "active",
+      "locked": false,
+      "siteId": 27493,
+      "revenueType": "flat_rate",
+      "floor": 1.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_content_qagmediarating_event_values",
+      "publisherId": 16041,
+      "siteName": "test_content_qagmediarating_event_values",
+      "formatName": "Video",
+      "guid": "FUE51GFC8H2KH72GO7M481A81K",
+      "secureTag": "https://mobiledev.siprocalads.com/vast?uid=FUE51GFC8H2KH72GO7M481A81K&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&ssai=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 184618,
+          "createdAt": "2024-03-27@19:11:27.000+0000",
+          "updatedAt": "2024-03-27@19:11:46.000+0000",
+          "name": "test_content_qagmediarating_event_values",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 5.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 49619,
+          "campaignName": "test_content_qagmediarating_event_values",
+          "insertionOrderId": 18501,
+          "insertionOrderName": "test_content_qagmediarating_event_values",
+          "advId": 16852,
+          "advName": "test_content_qagmediarating_event_values",
+          "inheritedValues": {},
+          "guid": "T74HGRVSS92GT28ODVUE558E0S",
+          "alignmentType": "static",
+          "campaignStartDate": "03/27/2024 03:09 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "03/27/2024 03:09 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 5.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": true,
+      "allowIVTFiltering": true,
+      "allowServerSideRequests": false,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "bidderServiceEnabled": true,
+      "requestTypeRTB": false,
+      "cloneAlignments": true,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 27493,
+      "createdAt": "2024-03-27@19:08:42.000+0000",
+      "updatedAt": "2024-03-27@19:08:42.000+0000",
+      "publisherId": 16041,
+      "name": "test_content_qagmediarating_event_values",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8763,
+          "createdAt": "2021-06-28@16:03:16.000+0000",
+          "updatedAt": "2024-03-27@20:15:26.000+0000",
+          "email": "steven.cothren@siprocal.com",
+          "firstName": "Steven",
+          "lastName": "Cothren",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Steven Cothren"
+        },
+        "auditDateTime": 1711566522000
+      },
+      "publisherName": "test_content_qagmediarating_event_values",
+      "guid": "24MFIH31HH4B7B7P8HGOP65J5G",
+      "placements": [
+        {
+          "id": 83649,
+          "createdAt": "2024-03-27@19:09:13.000+0000",
+          "updatedAt": "2024-03-27@19:09:13.000+0000",
+          "name": "test_content_qagmediarating_event_values",
+          "status": "active",
+          "locked": false,
+          "siteId": 27493,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_content_qagmediarating_event_values",
+          "publisherId": 16041,
+          "siteName": "test_content_qagmediarating_event_values",
+          "guid": "FUE51GFC8H2KH72GO7M481A81K",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": true,
+          "requestTypeRTB": false,
+          "cloneAlignments": true,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 16041,
+      "createdAt": "2024-03-27@19:07:03.000+0000",
+      "updatedAt": "2024-03-27@19:07:03.000+0000",
+      "name": "test_content_qagmediarating_event_values",
+      "contactName": "test",
+      "contactEmail": "test@siprocal.com",
+      "contactPhone": "123456789",
+      "contactAddress": "123 Main",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "www.siprocal.com",
+      "adsTxtAccountId": "U7A9BDCMN53EP54LMMBBI1NCI4",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "U7A9BDCMN53EP54LMMBBI1NCI4",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 27493,
+          "createdAt": "2024-03-27@19:08:42.000+0000",
+          "updatedAt": "2024-03-27@19:08:42.000+0000",
+          "publisherId": 16041,
+          "name": "test_content_qagmediarating_event_values",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_content_qagmediarating_event_values",
+          "guid": "24MFIH31HH4B7B7P8HGOP65J5G",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8763,
+          "createdAt": "2021-06-28@16:03:16.000+0000",
+          "updatedAt": "2024-03-27@20:15:26.000+0000",
+          "email": "steven.cothren@siprocal.com",
+          "firstName": "Steven",
+          "lastName": "Cothren",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Steven Cothren"
+        },
+        "auditDateTime": 1711566423000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 16852,
+        "createdAt": "2024-03-27@19:09:45.000+0000",
+        "updatedAt": "2024-03-27@19:09:45.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2024-03-27@20:15:26.000+0000",
+            "email": "steven.cothren@siprocal.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1711566585000
+        },
+        "name": "test_content_qagmediarating_event_values",
+        "guid": "AHR5CNEJN94C9DIMBN9RKQ6418",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "test",
+        "contactEmail": "test@siprocal.com",
+        "contactPhone": "123456789",
+        "contactAddress": "123 Main",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "demandFeePercentage": 0.0,
+        "insertionOrders": [
+          {
+            "id": 18501,
+            "createdAt": "2024-03-27@19:09:52.000+0000",
+            "updatedAt": "2024-03-27@19:09:52.000+0000",
+            "name": "test_content_qagmediarating_event_values",
+            "status": "active",
+            "terms": 30,
+            "advId": 16852,
+            "advName": "test_content_qagmediarating_event_values",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 49619,
+                "name": "test_content_qagmediarating_event_values"
+              }
+            ],
+            "guid": "7EU9JT38AT7VTF4PUHK5FVVUS0",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 18501,
+        "createdAt": "2024-03-27@19:09:52.000+0000",
+        "updatedAt": "2024-03-27@19:09:52.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2024-03-27@20:15:26.000+0000",
+            "email": "steven.cothren@siprocal.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1711566592000
+        },
+        "name": "test_content_qagmediarating_event_values",
+        "status": "active",
+        "terms": 30,
+        "advId": 16852,
+        "advName": "test_content_qagmediarating_event_values",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 49619,
+            "createdAt": "2024-03-27@19:10:23.000+0000",
+            "updatedAt": "2024-03-27@19:10:23.000+0000",
+            "name": "test_content_qagmediarating_event_values",
+            "status": "running",
+            "insertionOrderId": 18501,
+            "insertionOrderName": "test_content_qagmediarating_event_values",
+            "advId": 16852,
+            "advName": "test_content_qagmediarating_event_values",
+            "cpm": 5.0,
+            "startDate": "03/27/2024 03:09 PM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "P6S1SIRJ3H6NVE0U9DPHP7BVEO",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 49619,
+            "name": "test_content_qagmediarating_event_values"
+          }
+        ],
+        "guid": "7EU9JT38AT7VTF4PUHK5FVVUS0",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 49619,
+        "createdAt": "2024-03-27@19:10:23.000+0000",
+        "updatedAt": "2024-03-27@19:10:23.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2024-03-27@20:15:26.000+0000",
+            "email": "steven.cothren@siprocal.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1711566623000
+        },
+        "name": "test_content_qagmediarating_event_values",
+        "status": "running",
+        "insertionOrderId": 18501,
+        "insertionOrderName": "test_content_qagmediarating_event_values",
+        "advId": 16852,
+        "advName": "test_content_qagmediarating_event_values",
+        "cpm": 5.0,
+        "startDate": "03/27/2024 03:09 PM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 184618,
+            "createdAt": "2024-03-27@19:11:27.000+0000",
+            "updatedAt": "2024-03-27@19:11:46.000+0000",
+            "name": "test_content_qagmediarating_event_values",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 5.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 49619,
+            "campaignName": "test_content_qagmediarating_event_values",
+            "insertionOrderId": 18501,
+            "insertionOrderName": "test_content_qagmediarating_event_values",
+            "advId": 16852,
+            "advName": "test_content_qagmediarating_event_values",
+            "inheritedValues": {},
+            "guid": "T74HGRVSS92GT28ODVUE558E0S",
+            "alignmentType": "static",
+            "campaignStartDate": "03/27/2024 03:09 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "03/27/2024 03:09 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 5.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "P6S1SIRJ3H6NVE0U9DPHP7BVEO",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 184618,
+        "createdAt": "2024-03-27@19:11:27.000+0000",
+        "updatedAt": "2024-03-27@19:11:46.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2024-03-27@20:15:26.000+0000",
+            "email": "steven.cothren@siprocal.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1711566706000
+        },
+        "name": "test_content_qagmediarating_event_values",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 5.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 49619,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 83649,
+            "createdAt": "2024-03-27@19:09:13.000+0000",
+            "updatedAt": "2024-03-27@19:09:13.000+0000",
+            "name": "test_content_qagmediarating_event_values",
+            "status": "active",
+            "locked": false,
+            "siteId": 27493,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_content_qagmediarating_event_values",
+            "publisherId": 16041,
+            "siteName": "test_content_qagmediarating_event_values",
+            "guid": "FUE51GFC8H2KH72GO7M481A81K",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": true,
+            "requestTypeRTB": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_content_qagmediarating_event_values",
+        "insertionOrderId": 18501,
+        "insertionOrderName": "test_content_qagmediarating_event_values",
+        "advId": 16852,
+        "advName": "test_content_qagmediarating_event_values",
+        "inheritedValues": {},
+        "guid": "T74HGRVSS92GT28ODVUE558E0S",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "03/27/2024 03:09 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "03/27/2024 03:09 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 5.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": [],
+    "trackers": []
+  },
+  "trackers": []
+}

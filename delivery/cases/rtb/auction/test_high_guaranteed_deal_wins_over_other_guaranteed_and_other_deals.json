@@ -1,0 +1,1553 @@
+{
+  "supply": {
+    "placement": {
+      "id": 77512,
+      "createdAt": "2023-08-24@20:01:48.000+0000",
+      "updatedAt": "2023-08-24@20:16:12.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9055,
+          "createdAt": "2023-05-04@15:45:12.000+0000",
+          "updatedAt": "2023-08-24@19:40:11.000+0000",
+          "email": "pgermosen@sparkdigital.com",
+          "firstName": "Priamo ",
+          "lastName": "Germosen",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priamo  Germosen"
+        },
+        "auditDateTime": 1692908172000
+      },
+      "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals",
+      "status": "active",
+      "locked": false,
+      "siteId": 23511,
+      "revenueType": "flat_rate",
+      "floor": 5.0,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "priamo-pub",
+      "publisherId": 11383,
+      "siteName": "priamo-site",
+      "formatName": "Video",
+      "guid": "MSSMQ4QMET2EDEBD2DB7E9762C",
+      "secureTag": "https://mobileqa1.altitude-arena.com/vast?uid=MSSMQ4QMET2EDEBD2DB7E9762C&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [],
+      "programmaticDemands": [
+        {
+          "id": 171259,
+          "createdAt": "2023-08-24@19:55:47.000+0000",
+          "updatedAt": "2023-08-24@19:57:17.000+0000",
+          "name": "CP_3581_high_guaranteed_deal_wins_over_deals",
+          "status": "active",
+          "enableDeal": true,
+          "dealId": "CP_3581_high_deal_win",
+          "privateDeal": true,
+          "auctionType": "AGREED_UPON_DEAL_PRICE",
+          "floor": 20.0,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "2OL6AEQ8FH3C5AJ57D47ODM2HS",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        },
+        {
+          "id": 171260,
+          "createdAt": "2023-08-24@19:58:22.000+0000",
+          "updatedAt": "2023-08-24@19:58:22.000+0000",
+          "name": "CP_3581_high_deal_loses",
+          "status": "active",
+          "enableDeal": true,
+          "dealId": "CP_3581_h_deal_loss",
+          "privateDeal": false,
+          "auctionType": "AGREED_UPON_DEAL_PRICE",
+          "floor": 25.01,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "UP4190AVBH4HF20KG5FLPU8NR8",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        },
+        {
+          "id": 171261,
+          "createdAt": "2023-08-24@20:00:42.000+0000",
+          "updatedAt": "2023-08-24@20:00:42.000+0000",
+          "name": "CP_3581_guaranteed_deal_loses",
+          "status": "active",
+          "enableDeal": true,
+          "dealId": "CP_3581_gd_deal_loss",
+          "privateDeal": true,
+          "auctionType": "AGREED_UPON_DEAL_PRICE",
+          "floor": 10.0,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "UHRFIURMS13N1DNPFDRE0PRGBK",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        }
+      ],
+      "vastVersion": "4.0",
+      "auctionType": "FIRST_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "marginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 23511,
+      "createdAt": "2023-03-09@14:25:51.000+0000",
+      "updatedAt": "2023-08-21@15:32:35.000+0000",
+      "publisherId": 11383,
+      "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9055,
+          "createdAt": "2023-05-04@15:45:12.000+0000",
+          "updatedAt": "2023-08-24@19:40:11.000+0000",
+          "email": "pgermosen@sparkdigital.com",
+          "firstName": "Priamo ",
+          "lastName": "Germosen",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priamo  Germosen"
+        },
+        "auditDateTime": 1692631955000
+      },
+      "publisherName": "priamo-pub",
+      "guid": "KQE763G4793Q773J1O23L5T3R4",
+      "placements": [
+        {
+          "id": 74087,
+          "createdAt": "2023-03-09@14:26:29.000+0000",
+          "updatedAt": "2023-03-09@14:30:22.000+0000",
+          "name": "priamo-placement-demo-ctv",
+          "status": "active",
+          "locked": false,
+          "siteId": 23511,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo-pub",
+          "publisherId": 11383,
+          "siteName": "priamo-site",
+          "guid": "5QEABMEMN1799755R7BBGRKK5C",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 77495,
+          "createdAt": "2023-08-21@12:38:33.000+0000",
+          "updatedAt": "2023-08-21@12:48:45.000+0000",
+          "name": "test-min_floor_managed",
+          "status": "active",
+          "locked": false,
+          "siteId": 23511,
+          "revenueType": "flat_rate",
+          "floor": 10.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 20.0,
+          "publisherName": "priamo-pub",
+          "publisherId": 11383,
+          "siteName": "priamo-site",
+          "guid": "NIHK7SM2UD67D8Q3UB1F6F3M34",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74088,
+          "createdAt": "2023-03-10@12:33:44.000+0000",
+          "updatedAt": "2023-03-10@12:40:45.000+0000",
+          "name": "inventory router placement test",
+          "status": "inactive",
+          "locked": false,
+          "siteId": 23511,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo-pub",
+          "publisherId": 11383,
+          "siteName": "priamo-site",
+          "guid": "QIDAQA8FGT4IN6LD547OEE9BMK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 77512,
+          "createdAt": "2023-08-24@20:01:48.000+0000",
+          "updatedAt": "2023-08-24@20:16:12.000+0000",
+          "name": "CP_3581_high_guaranteed_deal_wins_over_deals",
+          "status": "active",
+          "locked": false,
+          "siteId": 23511,
+          "revenueType": "flat_rate",
+          "floor": 5.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo-pub",
+          "publisherId": 11383,
+          "siteName": "priamo-site",
+          "guid": "MSSMQ4QMET2EDEBD2DB7E9762C",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 77445,
+          "createdAt": "2023-07-27@20:50:53.000+0000",
+          "updatedAt": "2023-07-27@20:57:32.000+0000",
+          "name": "day-parting-priamo",
+          "status": "deleted",
+          "locked": false,
+          "siteId": 23511,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo-pub",
+          "publisherId": 11383,
+          "siteName": "priamo-site",
+          "guid": "QLPI0OMRNT1T5CP0CBDRV4UIRO",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 74118,
+          "createdAt": "2023-03-29@17:20:13.000+0000",
+          "updatedAt": "2023-03-29@17:20:21.000+0000",
+          "name": "Automation Entity updated",
+          "status": "deleted",
+          "locked": false,
+          "siteId": 23511,
+          "revenueType": "rev_share",
+          "floor": 10.0,
+          "revenueShare": 60.5,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo-pub",
+          "publisherId": 11383,
+          "siteName": "priamo-site",
+          "guid": "2CU51MO1D956DF2GRC0MLQJ67O",
+          "vastVersion": "2.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.605,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 76304,
+          "createdAt": "2023-07-19@15:02:31.000+0000",
+          "updatedAt": "2023-07-19@15:02:31.000+0000",
+          "name": "priamo-test-always",
+          "status": "active",
+          "locked": false,
+          "siteId": 23511,
+          "revenueType": "flat_rate",
+          "floor": 5.02,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "priamo-pub",
+          "publisherId": 11383,
+          "siteName": "priamo-site",
+          "guid": "Q3UL52AKV52S7FAIH5AFJLE3O0",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 11383,
+      "createdAt": "2023-03-09@14:23:43.000+0000",
+      "updatedAt": "2023-03-09@14:23:43.000+0000",
+      "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals",
+      "contactName": "pgermosen",
+      "contactEmail": "pgermosen@column6.tv",
+      "contactPhone": "8098574222",
+      "contactAddress": "pgermosen",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "https:google.com",
+      "adsTxtAccountId": "TQRK88PKMP075DQ44CQBC43I94",
+      "adSystemDomain": "altitude-arena.com",
+      "guid": "TQRK88PKMP075DQ44CQBC43I94",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 23511,
+          "createdAt": "2023-03-09@14:25:51.000+0000",
+          "updatedAt": "2023-08-21@15:32:35.000+0000",
+          "publisherId": 11383,
+          "name": "priamo-site",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "priamo-pub",
+          "guid": "KQE763G4793Q773J1O23L5T3R4",
+          "defaultRevenueSharePercent": 0.0
+        },
+        {
+          "id": 23510,
+          "createdAt": "2023-03-09@14:25:07.000+0000",
+          "updatedAt": "2023-03-09@14:25:07.000+0000",
+          "publisherId": 11383,
+          "name": "site-pub",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "priamo-pub",
+          "guid": "M9O15P3PAT7HFC0ISHSLF7ON1S",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8951,
+          "createdAt": "2023-03-02@17:21:27.000+0000",
+          "updatedAt": "2023-05-04@20:53:41.000+0000",
+          "email": "pgermosen@column.tv",
+          "firstName": "Joel",
+          "lastName": "Germosen",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "deleted",
+          "name": "Joel Germosen"
+        },
+        "auditDateTime": 1678371823000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [
+      {
+        "id": 171259,
+        "createdAt": "2023-08-24@19:55:47.000+0000",
+        "updatedAt": "2023-08-24@19:57:17.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9055,
+            "createdAt": "2023-05-04@15:45:12.000+0000",
+            "updatedAt": "2023-08-24@19:40:11.000+0000",
+            "email": "pgermosen@sparkdigital.com",
+            "firstName": "Priamo ",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo  Germosen"
+          },
+          "auditDateTime": 1692907037000
+        },
+        "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals [1]",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 1962,
+            "rtbBidderSeats": []
+          }
+        ],
+        "enableDeal": true,
+        "dealId": "CP_3581_high_deal_win",
+        "privateDeal": true,
+        "auctionType": "AGREED_UPON_DEAL_PRICE",
+        "dealGoal": "impressions",
+        "impressionsTarget": 9999999,
+        "startDate": "08/24/2023 03:54 PM",
+        "endDate": "08/26/2031 03:55 PM",
+        "floor": 20.0,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 77512,
+            "createdAt": "2023-08-24@20:01:48.000+0000",
+            "updatedAt": "2023-08-24@20:16:12.000+0000",
+            "name": "CP_3581_high_guaranteed_deal_wins_over_deals",
+            "status": "active",
+            "locked": false,
+            "siteId": 23511,
+            "revenueType": "flat_rate",
+            "floor": 5.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "priamo-pub",
+            "publisherId": 11383,
+            "siteName": "priamo-site",
+            "guid": "MSSMQ4QMET2EDEBD2DB7E9762C",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "2OL6AEQ8FH3C5AJ57D47ODM2HS",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      },
+      {
+        "id": 171260,
+        "createdAt": "2023-08-24@19:58:22.000+0000",
+        "updatedAt": "2023-08-24@19:58:22.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9055,
+            "createdAt": "2023-05-04@15:45:12.000+0000",
+            "updatedAt": "2023-08-24@19:40:11.000+0000",
+            "email": "pgermosen@sparkdigital.com",
+            "firstName": "Priamo ",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo  Germosen"
+          },
+          "auditDateTime": 1692907102000
+        },
+        "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals [2]",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 1964,
+            "rtbBidderSeats": []
+          }
+        ],
+        "enableDeal": true,
+        "dealId": "CP_3581_h_deal_loss",
+        "privateDeal": false,
+        "auctionType": "AGREED_UPON_DEAL_PRICE",
+        "startDate": "08/24/2023 03:54 PM",
+        "floor": 25.01,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 77512,
+            "createdAt": "2023-08-24@20:01:48.000+0000",
+            "updatedAt": "2023-08-24@20:16:12.000+0000",
+            "name": "CP_3581_high_guaranteed_deal_wins_over_deals",
+            "status": "active",
+            "locked": false,
+            "siteId": 23511,
+            "revenueType": "flat_rate",
+            "floor": 5.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "priamo-pub",
+            "publisherId": 11383,
+            "siteName": "priamo-site",
+            "guid": "MSSMQ4QMET2EDEBD2DB7E9762C",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "UP4190AVBH4HF20KG5FLPU8NR8",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      },
+      {
+        "id": 171261,
+        "createdAt": "2023-08-24@20:00:42.000+0000",
+        "updatedAt": "2023-08-24@20:00:42.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9055,
+            "createdAt": "2023-05-04@15:45:12.000+0000",
+            "updatedAt": "2023-08-24@19:40:11.000+0000",
+            "email": "pgermosen@sparkdigital.com",
+            "firstName": "Priamo ",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo  Germosen"
+          },
+          "auditDateTime": 1692907242000
+        },
+        "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals [3]",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 1963,
+            "rtbBidderSeats": []
+          }
+        ],
+        "enableDeal": true,
+        "dealId": "CP_3581_gd_deal_loss",
+        "privateDeal": true,
+        "auctionType": "AGREED_UPON_DEAL_PRICE",
+        "dealGoal": "impressions",
+        "impressionsTarget": 10000000,
+        "startDate": "08/24/2023 03:54 PM",
+        "endDate": "08/24/2031 04:00 PM",
+        "floor": 10.0,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 77512,
+            "createdAt": "2023-08-24@20:01:48.000+0000",
+            "updatedAt": "2023-08-24@20:16:12.000+0000",
+            "name": "CP_3581_high_guaranteed_deal_wins_over_deals",
+            "status": "active",
+            "locked": false,
+            "siteId": 23511,
+            "revenueType": "flat_rate",
+            "floor": 5.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "priamo-pub",
+            "publisherId": 11383,
+            "siteName": "priamo-site",
+            "guid": "MSSMQ4QMET2EDEBD2DB7E9762C",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "UHRFIURMS13N1DNPFDRE0PRGBK",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "rtb_bidder_conf": [
+      {
+        "id": 1962,
+        "createdAt": "2023-08-24@19:45:41.000+0000",
+        "updatedAt": "2023-08-24@19:52:28.000+0000",
+        "guid": "TKQHC73NPT1BPD8M3HRSUCLS7C",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9055,
+            "createdAt": "2023-05-04@15:45:12.000+0000",
+            "updatedAt": "2023-08-24@19:40:11.000+0000",
+            "email": "pgermosen@sparkdigital.com",
+            "firstName": "Priamo ",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo  Germosen"
+          },
+          "auditDateTime": 1692906748000
+        },
+        "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals [1]",
+        "status": "active",
+        "testMode": false,
+        "accessAllowed": true,
+        "rtbSpecVersion": "2.5",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 2688,
+            "rtbRegionId": 1,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?numberOfBids=1&dealId=CP_3581_high_deal_win&bidAmount=20"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "customSizeEnabled": false,
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      },
+      {
+        "id": 1964,
+        "createdAt": "2023-08-24@19:53:13.000+0000",
+        "updatedAt": "2023-08-24@19:53:13.000+0000",
+        "guid": "1HMNGN4H5963NBBOBI8IKB1R44",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9055,
+            "createdAt": "2023-05-04@15:45:12.000+0000",
+            "updatedAt": "2023-08-24@19:40:11.000+0000",
+            "email": "pgermosen@sparkdigital.com",
+            "firstName": "Priamo ",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo  Germosen"
+          },
+          "auditDateTime": 1692906793000
+        },
+        "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals [2]",
+        "status": "active",
+        "testMode": false,
+        "accessAllowed": true,
+        "rtbSpecVersion": "2.5",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 2690,
+            "rtbRegionId": 1,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?numberOfBids=1&dealId=CP_3581_h_deal_loss&bidAmount=25"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "customSizeEnabled": false,
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      },
+      {
+        "id": 1963,
+        "createdAt": "2023-08-24@19:52:16.000+0000",
+        "updatedAt": "2023-08-24@19:52:34.000+0000",
+        "guid": "7SHLNVK3A16138QRVQ1L1B0HJK",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 9055,
+            "createdAt": "2023-05-04@15:45:12.000+0000",
+            "updatedAt": "2023-08-24@19:40:11.000+0000",
+            "email": "pgermosen@sparkdigital.com",
+            "firstName": "Priamo ",
+            "lastName": "Germosen",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Priamo  Germosen"
+          },
+          "auditDateTime": 1692906754000
+        },
+        "name": "test_high_guaranteed_deal_wins_over_other_guaranteed_and_other_deals [3]",
+        "status": "active",
+        "testMode": false,
+        "accessAllowed": true,
+        "rtbSpecVersion": "2.5",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 2689,
+            "rtbRegionId": 1,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?numberOfBids=1&dealId=CP_3581_gd_deal_loss&bidAmount=10"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "customSizeEnabled": false,
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "audiences": []
+  },
+  "trackers": []
+}

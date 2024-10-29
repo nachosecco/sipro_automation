@@ -1,0 +1,62 @@
+@Library('c6_shared_lib@master') _
+
+def AWS_ENVIRONMENT = JOB_NAME.split("/")[0]
+
+pipeline {
+	agent {label "${AWS_ENVIRONMENT}_slave"}
+
+	environment {
+		HOUR = sh(script: "date -u -d '-4 hours' '+%Y%m%d_%H00'", returnStdout: true).trim()
+	}
+
+	stages {
+		stage("Run Validations") {
+			steps {
+				dir("data") {
+					script {
+						if (params.HOUR != null && !params.HOUR.isEmpty()) {
+							HOUR = params.HOUR
+						}
+						else if (AWS_ENVIRONMENT != "prod") {
+							HOUR = sh(script: "date -u -d '-1 hours' '+%Y%m%d_%H00'", returnStdout: true).trim()
+						}
+					}
+					withPythonEnv('Python-3.8') {
+						sh """
+							pip3 install -r requirements.txt
+							python validator.py ${AWS_ENVIRONMENT} ${HOUR} ${params.COMPANY_GUID}
+						"""
+					}
+				}
+			}
+		}
+	}
+	post {
+		success {
+			script {
+				def successMessage = "Impression counts from Druid and Athena for hour ${HOUR} matches in ${AWS_ENVIRONMENT} environment:- ${BUILD_URL}"
+				if (AWS_ENVIRONMENT == "prod") {
+					jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-prod-success")
+				} else {
+					jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-nonprod-success")
+				}
+			}
+		}
+		failure {
+			script{
+				node('shared_infra_static_slave_1') {
+				def failureMessage = "ALERT: Impression counts from Druid and Athena for hour ${HOUR} does not match in ${AWS_ENVIRONMENT} environment:- ${BUILD_URL}"
+				if (AWS_ENVIRONMENT == "prod") {
+					def snsSubject = "impression-counts-validation-prod Job FAILED!"
+					def snsArn = "arn:aws:sns:us-west-2:222177275596:c6_shared_infra_sns_uw2_jenkins_alerts"
+                    jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-prod-failures")					
+                    sh "aws sns publish --topic-arn '${snsArn}' --subject '${snsSubject}' --message '${failureMessage}'"
+				} else {
+					jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-nonprod-failures")
+				}
+			}
+		}
+	}
+}
+}
+

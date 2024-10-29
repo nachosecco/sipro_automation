@@ -1,0 +1,8 @@
+{
+	"baseUrl": "https://qa2.platform.column6.tv/",
+	"env": {
+		"dashboardApi": "https://manageqa2.siprocalads.com",
+		"auth": "https://manageqa2.siprocalads.com/v2/auth",
+		"inventoryRouter": "https://routerqa2.siprocalads.com/"
+	}
+}

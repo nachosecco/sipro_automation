@@ -1,0 +1,20 @@
+{
+	"data": [
+		{
+			"data": { "opportunities": 250, "impressions": 10, "grossrevenue": 100 },
+			"group": "20230123",
+			"groupPrettyName": "01/23/2023 : 10"
+		},
+		{
+			"data": { "opportunities": 200, "impressions": 20, "grossrevenue": 150 },
+			"group": "20230124",
+			"groupPrettyName": "01/23/2023 : 19"
+		},
+		{
+			"data": { "opportunities": 300, "impressions": 30, "grossrevenue": 50 },
+			"group": "20230125",
+			"groupPrettyName": "01/25/2023 : 8"
+		}
+	],
+	"dimension": "HOUR"
+}

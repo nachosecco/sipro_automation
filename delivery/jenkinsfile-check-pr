@@ -1,0 +1,135 @@
+@Library('c6_shared_lib@master')
+
+def postGitHubComment(String comment) {
+    if ("${GIT_BRANCH}" == "master") {
+        return
+    }
+
+    withCredentials([usernameColonPassword(credentialsId: '1087bd3e-ceb0-464a-bc65-f0386e00b06a', variable: 'github_pat')]) {
+        def (user, bearerToken) = github_pat.tokenize(':')
+        def command = String.format("set +x; curl --silent --request POST --header 'Authorization: Bearer %s' 'https://api.github.com/repos/genesismedia/altitudedigital/issues/%s/comments' --data-raw '{\"body\": \"%s\"}'", bearerToken, "${CHANGE_ID}", comment)
+        sh(script: command)
+    }
+}
+
+def getPythonFilesChanged(){
+    def pythonFiles = [] as HashSet
+    def changeLogSets = currentBuild.changeSets
+    for (int i = 0; i < changeLogSets.size(); i++) {
+        def entries = changeLogSets[i].items
+        for (int j = 0; j < entries.length; j++) {
+            def entry = entries[j]
+
+            echo "${entry.commitId} by ${entry.author} on ${new Date(entry.timestamp)}: ${entry.msg}"
+
+            def files = new ArrayList(entry.affectedFiles)
+            for (int k = 0; k < files.size(); k++) {
+                def file = files[k]
+                echo "  ${file.editType.name} ${file.path}"
+                if (file.path.endsWith(".py")){
+                    pythonFiles.add(file.path)
+                }
+            }
+        }
+    }
+    return pythonFiles
+}
+
+def executeBlackForFilesChanged() {
+    def files = getPythonFilesChanged()
+    if (files.size()==0){
+        echo "There is no python file changed, so we are going to skip"
+        return
+    }
+
+    echo "Trying to check the lint of files \n ${files}"
+
+    for (file in files) {
+        def blackResult = sh(
+            script: "black --check ${file}",
+            returnStatus: true
+        )
+        if (blackResult != 0){
+           error 'Failed in Black Lint'
+        }
+    }
+}
+
+def executeLintForFilesChanged() {
+    def files = getPythonFilesChanged()
+    if (files.size()==0){
+        echo "There is no python file changed, so we are going to skip"
+        return
+    }
+
+    for (file in files) {
+        def pylintResult = sh(
+            script: "pylint -s n ${file}",
+            returnStatus: true
+        )
+        if (pylintResult != 0)  {
+            error 'Failed in Pylint'
+        }
+    }
+}
+
+pipeline {
+    agent {label 'shared_infra_slave'}
+
+    options {
+        timeout(time: 1, unit: 'HOURS') // Intentionally long, just meant to avoid a hung job
+        buildDiscarder(
+            logRotator(
+                numToKeepStr: "10",
+                artifactNumToKeepStr: "10"
+            )
+        )
+    }
+    stages {
+        stage("Environment Preparation"){
+               steps {
+                 withPythonEnv('Python-3.8') {
+                     sh '''
+                                pip3 install black
+                                pip3 install pylint
+                        '''
+                 }
+
+               }
+        }
+        stage('Black Lint') {
+            steps {
+                withPythonEnv('Python-3.8') {
+                    executeBlackForFilesChanged()
+
+                }
+            }
+            post {
+                failure {
+                    postGitHubComment("ALERT - Black Lint Step has failed!\\r\\n${BUILD_URL}")
+                }
+            }
+        }
+        stage('PyLint') {
+            steps {
+                withPythonEnv('Python-3.8') {
+                    executeLintForFilesChanged()
+
+                }
+            }
+            post {
+                failure {
+                    postGitHubComment("ALERT - PYLint Step has failed!\\r\\n${BUILD_URL}")
+                }
+            }
+        }
+
+
+        stage('Clean up') {
+            steps {
+                deleteDir()
+            }
+        }
+    }
+
+}

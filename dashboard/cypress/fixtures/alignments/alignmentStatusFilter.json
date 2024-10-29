@@ -1,0 +1,16 @@
+{
+	"media": [
+		{
+			"id": 7,
+			"name": "Test Media Active",
+			"cpm": 10.0,
+			"status": "active"
+		},
+		{
+			"id": 8,
+			"name": "Test Media Inactive",
+			"cpm": 10.0,
+			"status": "inactive"
+		}
+	]
+}

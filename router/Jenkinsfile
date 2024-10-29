@@ -1,0 +1,88 @@
+@Library('c6_shared_lib@master')
+
+def getAWSSecret(String region, String secretId) {
+    return sh(script: "aws secretsmanager get-secret-value --region ${region} --secret-id ${secretId} | jq --raw-output '.SecretString'", returnStdout: true).trim()
+}
+
+def getRouterRegressionUser(){
+	return getAWSSecret("us-west-2","/shared_infra/router_regression_${ENVIRONMENT}/ROUTER_REGRESSION_USER");
+}
+
+
+def getRouterRegressionPassword(){
+	return getAWSSecret("us-west-2","/shared_infra/router_regression_${ENVIRONMENT}/ROUTER_REGRESSION_PASSWORD");
+}
+
+pipeline {
+    agent { label 'shared_infra_slave' }
+    environment {
+        // Commented, until we add the users for router regression, is going to be used to change the way we point to router demand sources
+
+        // RS_API_USER = getDeliveryRegressionUser()
+        // RS_API_PWD  = getDeliveryRegressionPassword()
+
+        // CSV data Files
+        RS_DATA_FILE="data/data-file-env-${ENVIRONMENT}.csv"
+
+        // Inventory Routers Parameter
+        RS_URL="https://router${ENVIRONMENT}.altitude-arena.com"
+
+        // Parameters for pytest parallel execution
+        RS_NUMBER_OF_PROCESS_OF_PYTEST="${NUMBER_OF_PROCESS_OF_PYTEST}"
+
+        // Parameters for Logs (required by delivery framework as a library)
+        DEFAULT_KIBANA_HOST="kibana-${ENVIRONMENT}.rowdy.cc"
+        READ_LOG_OPEN_SEARCH_HOST="${params.KIBANA_HOST != null && params.KIBANA_HOST != '' ? params.KIBANA_HOST : env.DEFAULT_KIBANA_HOST}"
+        READ_LOG_STRATEGY="OPEN_SEARCH"
+        DF_CONFIG_MAX_RETRY_TO_FIND_TID="${TID_MAX_RETRY}"
+        DF_CONFIG_WAIT_TIME_RETRY_TO_FIND_TID="${TID_WAIT_TIME}"
+    }
+    stages {
+        stage("Run automation test cases"){
+            steps{
+                withPythonEnv('Python-3.8') {
+                    script {
+
+                        sh '''
+
+                            pip3 install -r ${WORKSPACE}/router/requirements.txt
+
+                            DELIVERY_PATH="${WORKSPACE}/delivery"
+                            ROUTER_PATH="{WORKSPACE}/router"
+                            export RS_ROUTER_PATH="$ROUTER_PATH:$DELIVERY_PATH"
+
+                            cd ${WORKSPACE}/router
+                            ./run_tests.sh ${TEST_TYPE}
+                        '''
+                    }
+                }
+            }
+        }
+  }
+
+  post {
+          always {
+            publishHTML target: [
+            allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportName : 'Reports',
+            reportDir:   'router/build',
+            reportFiles: 'report.html'
+            ]
+            cleanWs()
+          }
+          success {
+            script {
+              def successMessage = "Router regression testing job SUCCESS in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-test-automation")
+            }
+          }
+          failure {
+            script{
+              def failureMessage = "ALERT: Router regression testing job FAILED in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-test-automation")
+            }
+          }
+  }
+}

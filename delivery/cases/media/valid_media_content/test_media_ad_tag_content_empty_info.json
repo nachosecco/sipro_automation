@@ -1,0 +1,1479 @@
+{
+	"supply": {
+		"placement": {
+			"id": 73931,
+			"createdAt": "2022-10-27@06:22:51.000+0000",
+			"updatedAt": "2022-10-27@17:40:40.000+0000",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 8907,
+					"createdAt": "2022-08-16@02:49:38.000+0000",
+					"updatedAt": "2023-04-26@17:07:41.000+0000",
+					"email": "dsumi@column6.com",
+					"firstName": "Dilara",
+					"lastName": "Sumi",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Dilara Sumi"
+				},
+				"auditDateTime": 1666892440000
+			},
+			"name": "test_media_ad_tag_content_empty_info",
+			"status": "active",
+			"locked": false,
+			"siteId": 23477,
+			"revenueType": "rev_share",
+			"floor": 0.0,
+			"revenueShare": 0.0,
+			"type": "mobile",
+			"blacklistWhitelist": {
+				"accessRestrictionType": "blacklist",
+				"restrictions": null
+			},
+			"advertiserDomainBlacklistWhitelist": {
+				"accessRestrictionType": "blacklist",
+				"restrictions": null
+			},
+			"appNameBlacklistWhitelist": {
+				"accessRestrictionType": "blacklist",
+				"restrictions": null
+			},
+			"appBundleIdBlacklistWhitelist": {
+				"accessRestrictionType": "blacklist",
+				"restrictions": null
+			},
+			"enableVPAID": false,
+			"enableC6AdManager": false,
+			"typeName": "Mobile App/CTV",
+			"siteStatus": "",
+			"allowRon": false,
+			"maxDuration": 60,
+			"enableAdResponseMediaLimit": false,
+			"preventDuplicateCreatives": false,
+			"publisherName": "publisher_vinod",
+			"publisherId": 11362,
+			"siteName": "column6",
+			"formatName": "Video",
+			"guid": "17D656P18L7NP6J2JCGKANRSCC",
+			"secureTag": "https://mobiledev.altitude-arena.com/vast?uid=17D656P18L7NP6J2JCGKANRSCC&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+			"trackers": [
+				557
+			],
+			"moatCustomerId": "jtRfd032a3ca1425",
+			"media": [
+				{
+					"id": 165080,
+					"createdAt": "2022-10-27@04:54:36.000+0000",
+					"updatedAt": "2022-11-10@11:37:12.000+0000",
+					"name": "automation_campaign_vinod_campaigns_sc_media",
+					"mediaTypeId": 2,
+					"enablePCPM": false,
+					"cpm": 10.0,
+					"mediaSource": "tag",
+					"clickThroughUrl": "",
+					"adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?us_privacy=[us_privacy]&user_id=[user_id_type]&device_id=[device_id]&idfa=[idfa]&schain=[supply_chain]&content_episode=[content_episode]&content_title=[content_title]&content_series=[content_series]&content_genre=[content_genre]&content_cat=[content_cat]&content_prodq=[content_prodq]&content_qagmediarating=[content_qagmediarating]&content_livestream=[content_livestream]&content_len=[content_len]&content_language=[content_language]",
+					"supportsVpaid": false,
+					"status": "active",
+					"locked": false,
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"campaignId": 34687,
+					"campaignName": "automation_campaign_vinod_campaigns",
+					"insertionOrderId": 10963,
+					"insertionOrderName": "vinod_insertion_order",
+					"advId": 8432,
+					"advName": "automation_campaign_vinod_advertiser",
+					"inheritedValues": {},
+					"guid": "406P2U1TF53C53CHF0UNIHM2HO",
+					"alignmentType": "static",
+					"campaignStartDate": "10/21/2022 10:36 AM",
+					"campaignEndDate": "01/31/2060 02:00 AM",
+					"allowIVTFiltering": true,
+					"ivtFilteringRequired": false,
+					"houseAd": false,
+					"customDateRange": false,
+					"customStartDate": "10/21/2022 10:36 AM",
+					"customEndDate": "01/31/2024 02:00 AM",
+					"includesVpaid": false,
+					"finalCpm": 10.0,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					}
+				}
+			],
+			"programmaticDemands": [],
+			"vastVersion": "4.0",
+			"auctionType": "SECOND_PRICE",
+			"enableIVTFiltering": false,
+			"allowIVTFiltering": true,
+			"minBitrate": 300,
+			"maxBitrate": 25000,
+			"revenueSharePercent": 0.0,
+			"marginPercent": 0,
+			"publisherMarginPercent": 0,
+			"customSizeEnabled": false,
+			"inheritedValues": {}
+		},
+		"site": {
+			"id": 23477,
+			"createdAt": "2022-10-27@06:21:26.000+0000",
+			"updatedAt": "2022-10-27@06:21:26.000+0000",
+			"publisherId": 11362,
+			"name": "test_media_ad_tag_content_empty_info",
+			"status": "active",
+			"defaultRevenueShare": 0.0,
+			"defaultFloor": 0.01,
+			"url": "",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 8909,
+					"createdAt": "2022-09-21@13:48:50.000+0000",
+					"updatedAt": "2023-02-02@08:06:08.000+0000",
+					"email": "vinod.inti@digitalreef.com",
+					"firstName": "Vinod",
+					"lastName": "Inti",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Vinod Inti"
+				},
+				"auditDateTime": 1666851686000
+			},
+			"publisherName": "publisher_vinod",
+			"guid": "90SL3FT18H5PREAHNUGK82STEO",
+			"placements": [
+				{
+					"id": 74318,
+					"createdAt": "2022-12-20@12:31:54.000+0000",
+					"updatedAt": "2023-02-04@12:33:13.000+0000",
+					"name": "Automation Entity updated",
+					"status": "deleted",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 10.0,
+					"revenueShare": 60.5,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "VNMDBTO6QD3Q9B6LUS3D7TT40S",
+					"vastVersion": "2.0",
+					"enableIVTFiltering": true,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.605,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				},
+				{
+					"id": 74862,
+					"createdAt": "2023-02-24@19:54:22.000+0000",
+					"updatedAt": "2023-02-24@19:54:54.000+0000",
+					"name": "Automation Entity",
+					"status": "deleted",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 1.0,
+					"revenueShare": 60.5,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "N5QA4CHBGD7JDD5268LO7FPMT4",
+					"vastVersion": "2.0",
+					"enableIVTFiltering": true,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.605,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				},
+				{
+					"id": 73931,
+					"createdAt": "2022-10-27@06:22:51.000+0000",
+					"updatedAt": "2022-10-27@17:40:40.000+0000",
+					"name": "publisher_placement_vinod",
+					"status": "active",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 0.0,
+					"revenueShare": 0.0,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "17D656P18L7NP6J2JCGKANRSCC",
+					"vastVersion": "4.0",
+					"enableIVTFiltering": false,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.0,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				},
+				{
+					"id": 74681,
+					"createdAt": "2023-01-26@12:32:23.000+0000",
+					"updatedAt": "2023-01-26@12:32:30.000+0000",
+					"name": "Automation Entity",
+					"status": "deleted",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 1.0,
+					"revenueShare": 60.5,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "UB3N73NIBH6T91RJHRP5OFEK1K",
+					"vastVersion": "2.0",
+					"enableIVTFiltering": true,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.605,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				},
+				{
+					"id": 75161,
+					"createdAt": "2023-04-01@11:33:18.000+0000",
+					"updatedAt": "2023-04-01@11:33:48.000+0000",
+					"name": "Automation Entity",
+					"status": "deleted",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 1.0,
+					"revenueShare": 60.5,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "DDDQ7OI02P2LD6T3S901DDAMJ8",
+					"vastVersion": "2.0",
+					"enableIVTFiltering": true,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.605,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				},
+				{
+					"id": 74806,
+					"createdAt": "2023-02-14@20:27:15.000+0000",
+					"updatedAt": "2023-02-14@20:27:54.000+0000",
+					"name": "Automation Entity",
+					"status": "deleted",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 1.0,
+					"revenueShare": 60.5,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "Q2I871J0AL27N943GPG5AD3R4O",
+					"vastVersion": "2.0",
+					"enableIVTFiltering": true,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.605,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				},
+				{
+					"id": 74838,
+					"createdAt": "2023-02-21@14:25:26.000+0000",
+					"updatedAt": "2023-02-21@14:25:59.000+0000",
+					"name": "Automation Entity",
+					"status": "deleted",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 1.0,
+					"revenueShare": 60.5,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "6NVKIH8HC155TFQ98K8M1UIUIK",
+					"vastVersion": "2.0",
+					"enableIVTFiltering": true,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.605,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				},
+				{
+					"id": 73955,
+					"createdAt": "2022-11-08@11:14:45.000+0000",
+					"updatedAt": "2023-02-03@17:09:54.000+0000",
+					"name": "Automation Entity updated",
+					"status": "deleted",
+					"locked": false,
+					"siteId": 23477,
+					"revenueType": "rev_share",
+					"floor": 10.0,
+					"revenueShare": 60.5,
+					"type": "mobile",
+					"blacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"advertiserDomainBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appNameBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"appBundleIdBlacklistWhitelist": {
+						"accessRestrictionType": "blacklist",
+						"restrictions": null
+					},
+					"typeName": "Mobile App/CTV",
+					"allowRon": false,
+					"maxDuration": 60,
+					"enableAdResponseMediaLimit": false,
+					"preventDuplicateCreatives": false,
+					"publisherName": "publisher_vinod",
+					"publisherId": 11362,
+					"siteName": "column6",
+					"guid": "N56ML031HP3T93BAG1GOTDUK1O",
+					"vastVersion": "2.0",
+					"enableIVTFiltering": true,
+					"allowIVTFiltering": true,
+					"minBitrate": 300,
+					"maxBitrate": 25000,
+					"revenueSharePercent": 0.605,
+					"marginPercent": 0,
+					"publisherMarginPercent": 0,
+					"customSizeEnabled": false,
+					"inheritedValues": {}
+				}
+			],
+			"defaultRevenueSharePercent": 0.0
+		},
+		"publisher": {
+			"id": 11362,
+			"createdAt": "2022-10-27@06:20:54.000+0000",
+			"updatedAt": "2022-10-27@06:20:54.000+0000",
+			"name": "test_media_ad_tag_content_empty_info",
+			"contactName": "vinod",
+			"contactEmail": "vinod.inti@digitalreef.com",
+			"contactPhone": "9666873737",
+			"contactAddress": "Motivity Labs",
+			"billingInfoApplicable": true,
+			"billingContactName": "",
+			"billingContactPhone": "",
+			"billingContactEmail": "",
+			"billingContactAddress": "",
+			"defaultRevenueShare": 0.0,
+			"defaultFloor": 0.0,
+			"tmax": 300,
+			"status": "active",
+			"webSiteDomain": "column6.com",
+			"adsTxtAccountId": "PDCGFTVSDP4K5687UVU6T2A2SG",
+			"adSystemDomain": "altitude-arena.com",
+			"guid": "PDCGFTVSDP4K5687UVU6T2A2SG",
+			"companyName": "Column6",
+			"sites": [
+				{
+					"id": 23477,
+					"createdAt": "2022-10-27@06:21:26.000+0000",
+					"updatedAt": "2022-10-27@06:21:26.000+0000",
+					"publisherId": 11362,
+					"name": "column6",
+					"status": "active",
+					"defaultRevenueShare": 0.0,
+					"defaultFloor": 0.01,
+					"url": "",
+					"publisherName": "publisher_vinod",
+					"guid": "90SL3FT18H5PREAHNUGK82STEO",
+					"defaultRevenueSharePercent": 0.0
+				}
+			],
+			"certAuthorityID": "",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 8909,
+					"createdAt": "2022-09-21@13:48:50.000+0000",
+					"updatedAt": "2023-02-02@08:06:08.000+0000",
+					"email": "vinod.inti@digitalreef.com",
+					"firstName": "Vinod",
+					"lastName": "Inti",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Vinod Inti"
+				},
+				"auditDateTime": 1666851654000
+			},
+			"adsTxtIdLevel": "publisher",
+			"accountRelationship": "direct",
+			"supplyType": "direct",
+			"sellerType": "publisher",
+			"confidential": false,
+			"defaultRevenueSharePercent": 0.0
+		},
+		"trackers": [
+			{
+				"id": 557,
+				"for": "placement"
+			}
+		]
+	},
+	"demand": {
+		"advertisers": [
+			{
+				"id": 8432,
+				"createdAt": "2022-10-21@10:29:35.000+0000",
+				"updatedAt": "2022-10-21@10:29:35.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 8909,
+						"createdAt": "2022-09-21@13:48:50.000+0000",
+						"updatedAt": "2023-02-02@08:06:08.000+0000",
+						"email": "vinod.inti@digitalreef.com",
+						"firstName": "Vinod",
+						"lastName": "Inti",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Vinod Inti"
+					},
+					"auditDateTime": 1666348175000
+				},
+				"name": "test_media_ad_tag_content_empty_info",
+				"guid": "11K4PMIBB140FA2CR95LH607HG",
+				"status": "active",
+				"campaignCount": 0,
+				"contactName": "vinod",
+				"contactEmail": "vinod.inti@digitalreef.com",
+				"contactPhone": "9666873737",
+				"contactAddress": "Motivity Labs",
+				"billingInfoApplicable": false,
+				"billingContactName": "",
+				"billingContactPhone": "",
+				"billingContactEmail": "",
+				"billingContactAddress": "",
+				"pricingOptions": "CPM",
+				"insertionOrders": [
+					{
+						"id": 11351,
+						"createdAt": "2022-12-15@13:31:15.000+0000",
+						"updatedAt": "2022-12-24@12:31:00.000+0000",
+						"name": "Automation Entity updated",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 35257,
+								"name": "Automation Entity"
+							}
+						],
+						"guid": "2GLN7JC7PP6OJARJPM3SSBC9H4",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 12635,
+						"createdAt": "2023-04-03@16:43:48.000+0000",
+						"updatedAt": "2023-04-03@16:44:50.000+0000",
+						"name": "Automation Entity",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 37171,
+								"name": "Automated Entity 1680540226771"
+							}
+						],
+						"guid": "5R03N71RD900F01RJGTML007VC",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 11890,
+						"createdAt": "2023-02-11@12:30:56.000+0000",
+						"updatedAt": "2023-02-15@12:31:19.000+0000",
+						"name": "Automation Entity updated",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [],
+						"guid": "GPTFBEGA6P6MJENLN853CJB924",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 13056,
+						"createdAt": "2023-04-27@11:29:36.000+0000",
+						"updatedAt": "2023-04-27@11:29:42.000+0000",
+						"name": "Automation Entity updated",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [],
+						"guid": "8HE16F1GDP0N370J7GO6S0BHSG",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 12607,
+						"createdAt": "2023-03-31@19:03:12.000+0000",
+						"updatedAt": "2023-03-31@19:08:18.000+0000",
+						"name": "Automation Entity",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 37125,
+								"name": "Automated Entity 1680289389437"
+							},
+							{
+								"id": 37131,
+								"name": "Automated Entity 1680289576668"
+							}
+						],
+						"guid": "1JO427U47H4TVC213V23P2EVPC",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 11141,
+						"createdAt": "2022-11-30@18:35:50.000+0000",
+						"updatedAt": "2022-12-12@14:31:26.000+0000",
+						"name": "Automation Entity updated",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 35116,
+								"name": "Automation Entity"
+							}
+						],
+						"guid": "JTVB0M68KT4HDFLGB34AFQ8MFS",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 12581,
+						"createdAt": "2023-03-31@06:10:56.000+0000",
+						"updatedAt": "2023-03-31@06:12:02.000+0000",
+						"name": "Automation Entity",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 37099,
+								"name": "Automated Entity 1680243053523"
+							}
+						],
+						"guid": "VS9B5PTVJD4QD4LISUVPMAD6TS",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 10963,
+						"createdAt": "2022-10-21@10:35:21.000+0000",
+						"updatedAt": "2022-10-27@17:43:54.000+0000",
+						"name": "vinod_insertion_order",
+						"status": "active",
+						"terms": 45,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"primaryContactName": "vinod inti",
+						"primaryContactEmail": "vinod.inti@digitalreef.com",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 36225,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 36839,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 36454,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 37093,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 37472,
+								"name": "Automation Entity updated"
+							},
+							{
+								"id": 34687,
+								"name": "automation_campaign_vinod_campaigns"
+							},
+							{
+								"id": 37811,
+								"name": "Automation Entity updated"
+							},
+							{
+								"id": 36946,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 36536,
+								"name": "Automation Entity updated"
+							},
+							{
+								"id": 37560,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 35959,
+								"name": "Automation Entity updated"
+							},
+							{
+								"id": 36971,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 37258,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 35945,
+								"name": "Automation Entity updated"
+							},
+							{
+								"id": 36302,
+								"name": "Automation Entity"
+							},
+							{
+								"id": 37006,
+								"name": "Automation Entity updated"
+							}
+						],
+						"guid": "RJ1N77A5I12D70RJJL2P156JJC",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					},
+					{
+						"id": 11155,
+						"createdAt": "2022-12-02@14:24:20.000+0000",
+						"updatedAt": "2022-12-02@16:31:12.000+0000",
+						"name": "Automation Entity",
+						"status": "deleted",
+						"terms": 30,
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"categoryTargeting": [],
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignTableList": [
+							{
+								"id": 34991,
+								"name": "Automated Entity 1669998496810"
+							},
+							{
+								"id": 34990,
+								"name": "Automated Entity 1669991050472"
+							}
+						],
+						"guid": "E2DFPIUCG16VP6NSPF681FFS74",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"inheritedValues": {}
+					}
+				]
+			}
+		],
+		"insertion_orders": [
+			{
+				"id": 10963,
+				"createdAt": "2022-10-21@10:35:21.000+0000",
+				"updatedAt": "2022-10-27@17:43:54.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 8907,
+						"createdAt": "2022-08-16@02:49:38.000+0000",
+						"updatedAt": "2023-04-26@17:07:41.000+0000",
+						"email": "dsumi@column6.com",
+						"firstName": "Dilara",
+						"lastName": "Sumi",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Dilara Sumi"
+					},
+					"auditDateTime": 1666892634000
+				},
+				"name": "test_media_ad_tag_content_empty_info",
+				"status": "active",
+				"terms": 45,
+				"advId": 8432,
+				"advName": "automation_campaign_vinod_advertiser",
+				"files": [],
+				"primaryContactName": "vinod inti",
+				"primaryContactEmail": "vinod.inti@digitalreef.com",
+				"geoTargetingConfig": {
+					"geoCountry": [],
+					"geoRegion": [],
+					"geoCity": [],
+					"geoDma": [],
+					"geoCountryInitialOptions": {},
+					"geoRegionInitialOptions": {},
+					"geoCityInitialOptions": {},
+					"geoDmaInitialOptions": {}
+				},
+				"deviceTargeting": {
+					"devices": [],
+					"desktopDeviceVendors": [],
+					"smartphoneDeviceVendors": [],
+					"tabletDeviceVendors": [],
+					"ctvDeviceVendors": []
+				},
+				"categoryTargeting": [],
+				"useCustomSize": false,
+				"sizeTargeting": [],
+				"blacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"appNameBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"appBundleIdBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"campaigns": [
+					{
+						"id": 34687,
+						"createdAt": "2022-10-21@10:40:41.000+0000",
+						"updatedAt": "2022-10-27@17:45:07.000+0000",
+						"name": "automation_campaign_vinod_campaigns",
+						"status": "running",
+						"insertionOrderId": 10963,
+						"insertionOrderName": "vinod_insertion_order",
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"cpm": 5.0,
+						"startDate": "10/21/2022 10:36 AM",
+						"endDate": "01/31/2024 02:00 AM",
+						"goal": "open",
+						"enableFrequencyCapping": false,
+						"frequencyCappingPeriod": 60,
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"singleAdMediaResponse": false,
+						"houseAd": false,
+						"inheritedValues": {},
+						"guid": "4BVES9TIR9413FNE4UPDLU0HLS",
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						}
+					}
+				],
+				"campaignTableList": [
+					{
+						"id": 34687,
+						"name": "automation_campaign_vinod_campaigns"
+					}
+				],
+				"guid": "RJ1N77A5I12D70RJJL2P156JJC",
+				"advertiserStatus": "",
+				"customSizeEnabled": false,
+				"advertiserDomainBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"inheritedValues": {}
+			}
+		],
+		"campaigns": [
+			{
+				"id": 34687,
+				"createdAt": "2022-10-21@10:40:41.000+0000",
+				"updatedAt": "2022-10-27@17:45:07.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 8907,
+						"createdAt": "2022-08-16@02:49:38.000+0000",
+						"updatedAt": "2023-04-26@17:07:41.000+0000",
+						"email": "dsumi@column6.com",
+						"firstName": "Dilara",
+						"lastName": "Sumi",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Dilara Sumi"
+					},
+					"auditDateTime": 1666892707000
+				},
+				"name": "test_media_ad_tag_content_empty_info",
+				"status": "running",
+				"insertionOrderId": 10963,
+				"insertionOrderName": "vinod_insertion_order",
+				"advId": 8432,
+				"advName": "automation_campaign_vinod_advertiser",
+				"cpm": 5.0,
+				"startDate": "10/21/2022 10:36 AM",
+				"endDate": "01/31/2024 02:00 AM",
+				"goal": "open",
+				"geoTargetingConfig": {
+					"geoCountry": [],
+					"geoRegion": [],
+					"geoCity": [],
+					"geoDma": [],
+					"geoCountryInitialOptions": {},
+					"geoRegionInitialOptions": {},
+					"geoCityInitialOptions": {},
+					"geoDmaInitialOptions": {}
+				},
+				"deviceTargeting": {
+					"devices": [],
+					"desktopDeviceVendors": [],
+					"smartphoneDeviceVendors": [],
+					"tabletDeviceVendors": [],
+					"ctvDeviceVendors": []
+				},
+				"useCustomSize": false,
+				"sizeTargeting": [],
+				"enableFrequencyCapping": false,
+				"frequencyCappingPeriod": 60,
+				"blacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"appNameBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"appBundleIdBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"media": [
+					{
+						"id": 165080,
+						"createdAt": "2022-10-27@04:54:36.000+0000",
+						"updatedAt": "2022-11-10@11:37:12.000+0000",
+						"name": "automation_campaign_vinod_campaigns_sc_media",
+						"mediaTypeId": 2,
+						"enablePCPM": false,
+						"cpm": 10.0,
+						"mediaSource": "tag",
+						"clickThroughUrl": "",
+						"adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?us_privacy=[us_privacy]&user_id=[user_id_type]&device_id=[device_id]&idfa=[idfa]&schain=[supply_chain]&content_episode=[content_episode]&content_title=[content_title]&content_series=[content_series]&content_genre=[content_genre]&content_cat=[content_cat]&content_prodq=[content_prodq]&content_qagmediarating=[content_qagmediarating]&content_livestream=[content_livestream]&content_len=[content_len]&content_language=[content_language]",
+						"supportsVpaid": false,
+						"status": "active",
+						"locked": false,
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"campaignId": 34687,
+						"campaignName": "automation_campaign_vinod_campaigns",
+						"insertionOrderId": 10963,
+						"insertionOrderName": "vinod_insertion_order",
+						"advId": 8432,
+						"advName": "automation_campaign_vinod_advertiser",
+						"inheritedValues": {},
+						"guid": "406P2U1TF53C53CHF0UNIHM2HO",
+						"alignmentType": "static",
+						"campaignStartDate": "10/21/2022 10:36 AM",
+						"campaignEndDate": "01/31/2060 02:00 AM",
+						"allowIVTFiltering": true,
+						"ivtFilteringRequired": false,
+						"houseAd": false,
+						"customDateRange": false,
+						"customStartDate": "10/21/2022 10:36 AM",
+						"customEndDate": "01/31/2024 02:00 AM",
+						"includesVpaid": false,
+						"finalCpm": 10.0,
+						"marginPercent": 0,
+						"publisherMarginPercent": 0,
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						}
+					}
+				],
+				"singleAdMediaResponse": false,
+				"houseAd": false,
+				"inheritedValues": {},
+				"guid": "4BVES9TIR9413FNE4UPDLU0HLS",
+				"ioStatus": "",
+				"customSizeEnabled": false,
+				"advertiserDomainBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				}
+			}
+		],
+		"media": [
+			{
+				"id": 165080,
+				"createdAt": "2022-10-27@04:54:36.000+0000",
+				"updatedAt": "2022-11-10@11:37:12.000+0000",
+				"auditEvent": {
+					"source": "human",
+					"jobNameEnum": "null",
+					"user": {
+						"id": 8909,
+						"createdAt": "2022-09-21@13:48:50.000+0000",
+						"updatedAt": "2023-02-02@08:06:08.000+0000",
+						"email": "vinod.inti@digitalreef.com",
+						"firstName": "Vinod",
+						"lastName": "Inti",
+						"phoneNumber": "",
+						"timeZone": "Z",
+						"status": "active",
+						"name": "Vinod Inti"
+					},
+					"auditDateTime": 1668080232000
+				},
+				"name": "test_media_ad_tag_content_empty_info",
+				"mediaTypeId": 2,
+				"enablePCPM": false,
+				"cpm": 10.0,
+				"mediaSource": "tag",
+				"clickThroughUrl": "",
+				"creativeType": "mediaFile",
+				"mediaFiles": [],
+				"mediaUrls": [],
+				"adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?us_privacy=[us_privacy]&user_id=[user_id_type]&device_id=[device_id]&idfa=[idfa]&schain=[supply_chain]&content_episode=[content_episode]&content_title=[content_title]&content_series=[content_series]&content_genre=[content_genre]&content_cat=[content_cat]&content_prodq=[content_prodq]&content_qagmediarating=[content_qagmediarating]&content_livestream=[content_livestream]&content_len=[content_len]&content_language=[content_language]",
+				"supportsVpaid": false,
+				"status": "active",
+				"locked": false,
+				"position": "pre",
+				"autoPlay": false,
+				"allowAudio": true,
+				"duration": 30,
+				"geoTargetingConfig": {
+					"geoCountry": [],
+					"geoRegion": [],
+					"geoCity": [],
+					"geoDma": [],
+					"geoCountryInitialOptions": {},
+					"geoRegionInitialOptions": {},
+					"geoCityInitialOptions": {},
+					"geoDmaInitialOptions": {}
+				},
+				"deviceTargeting": {
+					"devices": [],
+					"desktopDeviceVendors": [],
+					"smartphoneDeviceVendors": [],
+					"tabletDeviceVendors": [],
+					"ctvDeviceVendors": []
+				},
+				"useCustomSize": false,
+				"sizeTargeting": [],
+				"trackers": [],
+				"moatCustomerId": "jtRfd032a3ca1425",
+				"blacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"appNameBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"appBundleIdBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				},
+				"campaignId": 34687,
+				"customQueryParams": [],
+				"placements": [
+					{
+						"id": 73931,
+						"createdAt": "2022-10-27@06:22:51.000+0000",
+						"updatedAt": "2022-10-27@17:40:40.000+0000",
+						"name": "publisher_placement_vinod",
+						"status": "active",
+						"locked": false,
+						"siteId": 23477,
+						"revenueType": "rev_share",
+						"floor": 0.0,
+						"revenueShare": 0.0,
+						"type": "mobile",
+						"blacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"advertiserDomainBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appNameBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"appBundleIdBlacklistWhitelist": {
+							"accessRestrictionType": "blacklist",
+							"restrictions": null
+						},
+						"enableVPAID": false,
+						"typeName": "Mobile App/CTV",
+						"allowRon": false,
+						"maxDuration": 60,
+						"enableAdResponseMediaLimit": false,
+						"preventDuplicateCreatives": false,
+						"publisherName": "publisher_vinod",
+						"publisherId": 11362,
+						"siteName": "column6",
+						"guid": "17D656P18L7NP6J2JCGKANRSCC",
+						"vastVersion": "4.0",
+						"enableIVTFiltering": false,
+						"allowIVTFiltering": true,
+						"minBitrate": 300,
+						"maxBitrate": 25000,
+						"revenueSharePercent": 0.0,
+						"marginPercent": 0,
+						"publisherMarginPercent": 0,
+						"customSizeEnabled": false,
+						"inheritedValues": {}
+					}
+				],
+				"campaignName": "automation_campaign_vinod_campaigns",
+				"insertionOrderId": 10963,
+				"insertionOrderName": "vinod_insertion_order",
+				"advId": 8432,
+				"advName": "automation_campaign_vinod_advertiser",
+				"inheritedValues": {},
+				"guid": "406P2U1TF53C53CHF0UNIHM2HO",
+				"supportedPricingOptions": "CPM",
+				"campaignStatus": "",
+				"alignmentType": "static",
+				"campaignStartDate": "10/21/2022 10:36 AM",
+				"campaignEndDate": "01/31/2060 02:00 AM",
+				"allowIVTFiltering": true,
+				"ivtFilteringRequired": false,
+				"houseAd": false,
+				"customDateRange": false,
+				"customStartDate": "10/21/2022 10:36 AM",
+				"customEndDate": "01/31/2024 02:00 AM",
+				"includesVpaid": false,
+				"audiences": [],
+				"customSizeEnabled": false,
+				"finalCpm": 10.0,
+				"marginPercent": 0,
+				"publisherMarginPercent": 0,
+				"advertiserDomainBlacklistWhitelist": {
+					"accessRestrictionType": "blacklist",
+					"restrictions": null
+				}
+			}
+		],
+		"trackers": [],
+		"programmatic_demands": [],
+		"rtb_bidder_conf": []
+	},
+	"trackers": [
+		{
+			"id": 557,
+			"createdAt": "2022-09-29@08:54:33.000+0000",
+			"updatedAt": "2022-09-29@08:54:33.000+0000",
+			"auditEvent": {
+				"source": "human",
+				"jobNameEnum": "null",
+				"user": {
+					"id": 8878,
+					"createdAt": "2021-12-22@15:13:27.000+0000",
+					"updatedAt": "2023-05-22@08:49:41.000+0000",
+					"email": "Priyanka.agarwal1@tothenew.com",
+					"firstName": "Priyanka",
+					"lastName": "Agarwal",
+					"phoneNumber": "",
+					"timeZone": "Z",
+					"status": "active",
+					"name": "Priyanka Agarwal"
+				},
+				"auditDateTime": 1664441673000
+			},
+			"name": "test_media_ad_tag_content_empty_info",
+			"description": "priyanka_fronend_tracker",
+			"url": "http://priyanka.com?bidderguid=[bidder_guid]",
+			"type": "IMG",
+			"event": "impression",
+			"typeLabel": "Beacon",
+			"placementEnabled": true,
+			"placementDefault": true,
+			"mediaEnabled": true,
+			"mediaDefault": true,
+			"status": "active"
+		}
+	]
+}

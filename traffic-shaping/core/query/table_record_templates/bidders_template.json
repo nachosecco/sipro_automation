@@ -1,0 +1,37 @@
+{
+	"timedout": false,
+	"dealId": "",
+	"responseTime": 23,
+	"error": false,
+	"url": "https:\/\/fakebidder.rowdy.cc\/rtbResponse?",
+	"impIdOpps": [],
+	"impExp": 14400,
+	"buyerGuid": "",
+	"tcpError": false,
+	"bids": [
+		{
+			"mediaGuid": "7SMS0UPIOL1GPBE0FCPCA0OCPC",
+			"crid": "169694211",
+			"dealid": "",
+			"duration": 0,
+			"auctionId": "1",
+			"dealGuid": "",
+			"adid": "",
+			"adomains": [
+				"https:\/\/www.smaato.com"
+			],
+			"price": 10.051027,
+			"noBidReason": "-1",
+			"lossreasoncode": "BID_WON",
+			"seatId": "",
+			"id": "vast_seat1-bid1",
+			"closePrice": 0.11,
+			"win": true,
+			"impId": "1",
+			"cid": "24451"
+		}
+	],
+	"id": "<BIDDER_GUID>",
+	"noBid": false,
+	"errorDetails": ""
+}

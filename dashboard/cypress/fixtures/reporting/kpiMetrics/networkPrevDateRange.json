@@ -1,0 +1,27 @@
+{
+	"metrics": [],
+	"resolution": "HOUR",
+	"startTimestamp": 1672079400000,
+	"endTimestamp": 1672079400000,
+	"totals": {
+		"opportunities": 4500,
+		"adAttempts": 0,
+		"impressions": 25,
+		"revenue": 1123,
+		"clicks": 0,
+		"demandPartnerFee": 0,
+		"quartile0": 0,
+		"quartile25": 0,
+		"quartile50": 0,
+		"quartile75": 0,
+		"quartile100": 0,
+		"moatViewability": 0,
+		"moatAudibility": 0,
+		"moatVerifiedRevenue": 0.0,
+		"openVideoViewability": 0,
+		"viewableRate": 0.0,
+		"grossrevenue": 105,
+		"netRevenue": 0.0,
+		"trevenue": 0.0
+	}
+}

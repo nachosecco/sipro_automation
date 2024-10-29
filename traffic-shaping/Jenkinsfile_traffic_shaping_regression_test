@@ -1,0 +1,54 @@
+@Library('c6_shared_lib@master') _
+
+def AWS_ENVIRONMENT = JOB_NAME.split("/")[0]
+
+pipeline {
+	agent { label "${AWS_ENVIRONMENT}_slave" }
+	environment {
+		RS_NUMBER_OF_PROCESS_OF_PYTEST = "${NUMBER_OF_PROCESS_OF_PYTEST}"
+	}
+	stages {
+		stage("Install Dependencies") {
+			steps {
+				withPythonEnv('Python-3.8') {
+					sh 'pip3 install -r ${WORKSPACE}/traffic-shaping/requirements.txt'
+				}
+			}
+		}
+		stage("Run Tests") {
+			steps {
+				withPythonEnv('Python-3.8') {
+					script {
+						sh '''
+                            cd ${WORKSPACE}/traffic-shaping
+                            ./scripts/run_tests.sh -m ${TEST_TYPE} -env ${ENVIRONMENT}
+                        '''
+					}
+				}
+			}
+		}
+	}
+
+	post {
+		always {
+			publishHTML target: [
+					allowMissing         : false,
+					alwaysLinkToLastBuild: false,
+					keepAll              : true,
+					reportName           : 'Regression Test Reports',
+					reportDir            : 'traffic-shaping/build',
+					reportFiles          : 'report.html'
+			]
+			cleanWs()
+		}
+		failure {
+			script {
+				def failureMessage = "ALERT: Traffic Shaping regression testing job FAILED in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+				jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-test-automation")
+			}
+		}
+		cleanup {
+			cleanWs()
+		}
+	}
+}

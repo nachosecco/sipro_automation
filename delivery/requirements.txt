@@ -1,0 +1,16 @@
+aerospike>=15.0.0
+aiohttp>=3.9.5
+black==22.10.0
+boto3~=1.26.78
+botocore~=1.29.78
+opensearch-py~=2.3.2
+pre-commit==2.20.0
+pylint>=3.0.3
+pytest==7.2.0
+pytest-html==3.2.0
+pytest-logger>=0.5.1
+pytest-rerunfailures==10.3
+pytest-xdist>=2.5.0
+py~=1.11.0
+requests>=2.18.4
+selenium==4.6.0

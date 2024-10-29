@@ -1,0 +1,76 @@
+@Library('c6_shared_lib@master') _
+
+def getAWSSecret(String region, String secretId) {
+    return sh(script: "aws secretsmanager get-secret-value --region ${region} --secret-id ${secretId} | jq --raw-output '.SecretString'", returnStdout: true).trim()
+}
+
+
+pipeline {
+    agent { label 'shared_infra_slave' }
+	environment {
+		NO_OF_THREADS = "004"
+	}
+    stages {
+        stage("Install Dependencies & Run Dashboard Regression Test"){
+            steps{
+                    script {
+						cypress_user = getAWSSecret("us-west-2","/shared_infra/dashboard_regression_${ENVIRONMENT}/CYPRESS_UI_USER")
+                        cypress_password = getAWSSecret("us-west-2","/shared_infra/dashboard_regression_${ENVIRONMENT}/CYPRESS_UI_PASSWORD")
+                        cypress_global_user = getAWSSecret("us-west-2","/shared_infra/dashboard_regression_${ENVIRONMENT}/CYPRESS_GLOBAL_USER")
+                        cypress_global_password = getAWSSecret("us-west-2","/shared_infra/dashboard_regression_${ENVIRONMENT}/CYPRESS_GLOBAL_PASSWORD")
+                        sh """
+							. ~/.bashrc
+							set +x
+							export cypress_uiUser=${cypress_user}
+							export cypress_uiPassword=${cypress_password}
+							export cypress_globalUser=${cypress_global_user}
+							export cypress_globalPassword=${cypress_global_password}
+							set -x
+							nvm use v18.12.0
+							cd dashboard
+                        	rm -rf ./node_modules
+							npm install
+							npm run clean
+							npm run cy:run:parallel -- -t ${NO_OF_THREADS} -a '\"--env name=${ENVIRONMENT},retries=${RERUN_FAILED_TESTS_NO_OF_TIMES}\"'
+                        """
+                    }
+            }
+        }
+    }
+
+    post {
+          always {
+			script {
+				sh """
+					. ~/.bashrc
+					nvm use v18.12.0
+					cd dashboard
+					npm run generate-report
+				"""
+			}
+            publishHTML target: [
+				allowMissing: false,
+				alwaysLinkToLastBuild: false,
+				keepAll: true,
+				reportName : "Regression Test Reports",
+				reportDir:   "dashboard/cypress/reports/html",
+				reportFiles: "index.html"
+            ]
+          }
+          success {
+            script {
+              def successMessage = "Dashboard regression testing job SUCCESS in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-test-automation")
+            }
+          }
+          failure {
+            script {
+              def failureMessage = "ALERT: Dashboard regression testing job FAILED in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-test-automation")
+            }
+          }
+		  cleanup {
+			cleanWs()
+		  }
+    }
+}

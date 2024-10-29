@@ -1,0 +1,651 @@
+{
+  "supply": {
+    "placement": {
+      "id": 75867,
+      "createdAt": "2023-06-20@17:28:21.000+0000",
+      "updatedAt": "2023-06-27@15:27:14.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-07-07@19:48:44.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1687879634000
+      },
+      "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+      "status": "active",
+      "locked": false,
+      "siteId": 24883,
+      "revenueType": "flat_rate",
+      "floor": 0.01,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "publisherName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+      "publisherId": 12816,
+      "siteName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+      "formatName": "Video",
+      "guid": "DN9D3OFQL535H4MHS7TAJLIOMO",
+      "secureTag": "https://mobiledev.altitude-arena.com/vast?uid=DN9D3OFQL535H4MHS7TAJLIOMO&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [
+        1,
+        4,
+        557
+      ],
+      "media": [],
+      "programmaticDemands": [
+        {
+          "id": 169432,
+          "createdAt": "2023-06-20@17:25:10.000+0000",
+          "updatedAt": "2023-06-27@15:32:59.000+0000",
+          "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+          "status": "active",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "7BB5CQ8KF176P5IMD4A7GFJCC4",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        }
+      ],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "publisherMarginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 24883,
+      "createdAt": "2023-06-20@17:27:31.000+0000",
+      "updatedAt": "2023-06-27@15:27:07.000+0000",
+      "publisherId": 12816,
+      "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-07-07@19:48:44.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1687879627000
+      },
+      "publisherName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+      "guid": "N0F0SFJVDL7J37GE7PVMRFPHJC",
+      "placements": [
+        {
+          "id": 75867,
+          "createdAt": "2023-06-20@17:28:21.000+0000",
+          "updatedAt": "2023-06-27@15:27:14.000+0000",
+          "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+          "status": "active",
+          "locked": false,
+          "siteId": 24883,
+          "revenueType": "flat_rate",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "publisherName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+          "publisherId": 12816,
+          "siteName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+          "guid": "DN9D3OFQL535H4MHS7TAJLIOMO",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "publisherMarginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 12816,
+      "createdAt": "2023-06-20@17:27:23.000+0000",
+      "updatedAt": "2023-06-27@15:27:00.000+0000",
+      "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+      "contactName": "test",
+      "contactEmail": "tset@t.com",
+      "contactPhone": "123",
+      "contactAddress": "test",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "siprocal.com",
+      "adsTxtAccountId": "E96UJKAMS55UR3F9Q5BE3MVD60",
+      "adSystemDomain": "altitude-arena.com",
+      "guid": "E96UJKAMS55UR3F9Q5BE3MVD60",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 24883,
+          "createdAt": "2023-06-20@17:27:31.000+0000",
+          "updatedAt": "2023-06-27@15:27:07.000+0000",
+          "publisherId": 12816,
+          "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+          "guid": "N0F0SFJVDL7J37GE7PVMRFPHJC",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-07-07@19:48:44.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1687879620000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": [
+      {
+        "id": 1,
+        "for": "placement"
+      },
+      {
+        "id": 4,
+        "for": "placement"
+      },
+      {
+        "id": 557,
+        "for": "placement"
+      }
+    ]
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [
+      {
+        "id": 169432,
+        "createdAt": "2023-06-20@17:25:10.000+0000",
+        "updatedAt": "2023-06-27@15:32:59.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-07-07@19:48:44.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1687879979000
+        },
+        "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 1965,
+            "rtbBidderSeats": []
+          }
+        ],
+        "seatType": "wseat",
+        "enableDeal": false,
+        "startDate": "06/20/2023 11:35 AM",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 75867,
+            "createdAt": "2023-06-20@17:28:21.000+0000",
+            "updatedAt": "2023-06-27@15:27:14.000+0000",
+            "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+            "status": "active",
+            "locked": false,
+            "siteId": 24883,
+            "revenueType": "flat_rate",
+            "floor": 0.01,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "publisherName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+            "publisherId": 12816,
+            "siteName": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+            "guid": "DN9D3OFQL535H4MHS7TAJLIOMO",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "publisherMarginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "7BB5CQ8KF176P5IMD4A7GFJCC4",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "rtb_bidder_conf": [
+      {
+        "id": 1965,
+        "createdAt": "2023-06-20@17:22:32.000+0000",
+        "updatedAt": "2023-06-27@14:52:47.000+0000",
+        "guid": "CQOICG1B1P4SRC9680LGS6ED4K",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-07-07@19:48:44.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1687877567000
+        },
+        "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22",
+        "status": "active",
+        "testMode": false,
+        "rtbSpecVersion": "2.2",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 2253,
+            "rtbRegionId": 1,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "customSizeEnabled": false,
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "audiences": []
+  },
+  "trackers": [
+    {
+      "id": 1,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2018-11-20@16:22:46.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7762,
+          "createdAt": "2017-09-26@20:11:06.000+0000",
+          "updatedAt": "2023-02-22@15:22:32.000+0000",
+          "email": "dmalanga@genesismedia.com",
+          "firstName": "Dennis",
+          "lastName": "Malanga",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dennis Malanga"
+        },
+        "auditDateTime": 1542730966000
+      },
+      "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22 [1]",
+      "description": "Comscore",
+      "url": "http://b.scorecardresearch.com/p?c1=1&c2=16041093&",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 4,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2017-03-21@13:49:33.000+0000",
+      "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22 [2]",
+      "description": "NHT Bot Detect",
+      "url": "//pixel.adsafeprotected.com/bapi?anId=8390&amp;",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 557,
+      "createdAt": "2022-09-29@08:54:33.000+0000",
+      "updatedAt": "2022-09-29@08:54:33.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8878,
+          "createdAt": "2021-12-22@15:13:27.000+0000",
+          "updatedAt": "2023-07-05@09:01:49.000+0000",
+          "email": "Priyanka.agarwal1@tothenew.com",
+          "firstName": "Priyanka",
+          "lastName": "Agarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priyanka Agarwal"
+        },
+        "auditDateTime": 1664441673000
+      },
+      "name": "test_bid_request_ctv_us_privacy_colorado_1NNN_rtb22 [3]",
+      "description": "priyanka_fronend_tracker",
+      "url": "http://priyanka.com?bidderguid=[bidder_guid]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    }
+  ]
+}

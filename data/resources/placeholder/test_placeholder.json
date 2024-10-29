@@ -1,0 +1,728 @@
+{
+  "supply": {
+    "placement": {
+      "id": 88650,
+      "createdAt": "2024-07-08@19:56:58.000+0000",
+      "updatedAt": "2024-07-08@19:56:58.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8816,
+          "createdAt": "2021-09-27@18:18:53.000+0000",
+          "updatedAt": "2024-07-08@20:30:59.000+0000",
+          "email": "hhuang@column6.com",
+          "firstName": "Hui",
+          "lastName": "Huang",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Hui Huang"
+        },
+        "auditDateTime": 1720468618000
+      },
+      "name": "test_placeholder",
+      "status": "active",
+      "locked": false,
+      "siteId": 28029,
+      "revenueType": "flat_rate",
+      "floor": 0.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_placeholder",
+      "publisherId": 16833,
+      "siteName": "test_placeholder",
+      "formatName": "Video",
+      "guid": "G4C92SVCTP71564HEFMESVGIO8",
+      "secureTag": "https://mobile.siprocalads.com/vast?uid=G4C92SVCTP71564HEFMESVGIO8&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&ssai=[REPLACE]&eid=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 192188,
+          "createdAt": "2024-07-08@20:03:20.000+0000",
+          "updatedAt": "2024-07-08@20:04:25.000+0000",
+          "name": "test_placeholder",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 0.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 54981,
+          "campaignName": "test_placeholder",
+          "insertionOrderId": 19760,
+          "insertionOrderName": "test_placeholder",
+          "advId": 18566,
+          "advName": "test_placeholder",
+          "inheritedValues": {},
+          "guid": "BKG8IORTJ501P849CDUPJC0S6S",
+          "alignmentType": "static",
+          "campaignStartDate": "07/08/2024 11:20 AM",
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "07/08/2024 11:20 AM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": true,
+      "allowIVTFiltering": false,
+      "allowServerSideRequests": false,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "bidderServiceEnabled": false,
+      "requestTypeRTB": false,
+      "allowInventoryPartnerDomain": false,
+      "cloneAlignments": true,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 28029,
+      "createdAt": "2024-07-08@19:56:37.000+0000",
+      "updatedAt": "2024-07-08@19:56:37.000+0000",
+      "publisherId": 16833,
+      "name": "test_placeholder",
+      "status": "active",
+      "defaultRevenueShare": 85.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8816,
+          "createdAt": "2021-09-27@18:18:53.000+0000",
+          "updatedAt": "2024-07-08@20:30:59.000+0000",
+          "email": "hhuang@column6.com",
+          "firstName": "Hui",
+          "lastName": "Huang",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Hui Huang"
+        },
+        "auditDateTime": 1720468597000
+      },
+      "publisherName": "test_placeholder",
+      "guid": "6R4VD6LE391FP2FMJAN1K4NS3K",
+      "placements": [
+        {
+          "id": 88650,
+          "createdAt": "2024-07-08@19:56:58.000+0000",
+          "updatedAt": "2024-07-08@19:56:58.000+0000",
+          "name": "test_placeholder",
+          "status": "active",
+          "locked": false,
+          "siteId": 28029,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_placeholder",
+          "publisherId": 16833,
+          "siteName": "test_placeholder",
+          "guid": "G4C92SVCTP71564HEFMESVGIO8",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": false,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": false,
+          "requestTypeRTB": false,
+          "allowInventoryPartnerDomain": false,
+          "cloneAlignments": true,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.85
+    },
+    "publisher": {
+      "id": 16833,
+      "createdAt": "2024-07-08@19:56:12.000+0000",
+      "updatedAt": "2024-07-08@19:56:12.000+0000",
+      "name": "test_placeholder",
+      "contactName": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactAddress": "",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 85.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "siprocalads.com",
+      "adsTxtAccountId": "SSTVEUP7TP1EBEVNFCJUTON5UC",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "SSTVEUP7TP1EBEVNFCJUTON5UC",
+      "companyName": "Data pipeline regression",
+      "sites": [
+        {
+          "id": 28029,
+          "createdAt": "2024-07-08@19:56:37.000+0000",
+          "updatedAt": "2024-07-08@19:56:37.000+0000",
+          "publisherId": 16833,
+          "name": "test_placeholder",
+          "status": "active",
+          "defaultRevenueShare": 85.0,
+          "url": "",
+          "publisherName": "test_placeholder",
+          "guid": "6R4VD6LE391FP2FMJAN1K4NS3K",
+          "defaultRevenueSharePercent": 0.85
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8816,
+          "createdAt": "2021-09-27@18:18:53.000+0000",
+          "updatedAt": "2024-07-08@20:30:59.000+0000",
+          "email": "hhuang@column6.com",
+          "firstName": "Hui",
+          "lastName": "Huang",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Hui Huang"
+        },
+        "auditDateTime": 1720468572000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.85
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 18566,
+        "createdAt": "2024-07-08@19:58:17.000+0000",
+        "updatedAt": "2024-07-08@19:58:17.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8816,
+            "createdAt": "2021-09-27@18:18:53.000+0000",
+            "updatedAt": "2024-07-08@20:30:59.000+0000",
+            "email": "hhuang@column6.com",
+            "firstName": "Hui",
+            "lastName": "Huang",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Hui Huang"
+          },
+          "auditDateTime": 1720468697000
+        },
+        "name": "test_placeholder",
+        "guid": "NCUN9EJD0L785FBKN9MGBVK278",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "John Doe",
+        "contactEmail": "john.doe@siprocal.com",
+        "contactPhone": "1234567890",
+        "contactAddress": "1 Siprocal Street",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "demandFeePercentage": 0.0,
+        "insertionOrders": [
+          {
+            "id": 19760,
+            "createdAt": "2024-07-08@19:58:38.000+0000",
+            "updatedAt": "2024-07-08@19:58:38.000+0000",
+            "name": "test_placeholder",
+            "status": "active",
+            "terms": 30,
+            "advId": 18566,
+            "advName": "test_placeholder",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 54981,
+                "name": "test_placeholder"
+              }
+            ],
+            "guid": "VFPKEC7RQT7M5CQ763TTEFR2NK",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 19760,
+        "createdAt": "2024-07-08@19:58:38.000+0000",
+        "updatedAt": "2024-07-08@19:58:38.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8816,
+            "createdAt": "2021-09-27@18:18:53.000+0000",
+            "updatedAt": "2024-07-08@20:30:59.000+0000",
+            "email": "hhuang@column6.com",
+            "firstName": "Hui",
+            "lastName": "Huang",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Hui Huang"
+          },
+          "auditDateTime": 1720468718000
+        },
+        "name": "test_placeholder",
+        "status": "active",
+        "terms": 30,
+        "advId": 18566,
+        "advName": "test_placeholder",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 54981,
+            "createdAt": "2024-07-08@20:02:20.000+0000",
+            "updatedAt": "2024-07-08@20:02:20.000+0000",
+            "name": "test_placeholder",
+            "status": "running",
+            "insertionOrderId": 19760,
+            "insertionOrderName": "test_placeholder",
+            "advId": 18566,
+            "advName": "test_placeholder",
+            "cpm": 0.0,
+            "startDate": "07/08/2024 11:20 AM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "I9V0HI1L3P61TFG8P0QHTF0UTO",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 54981,
+            "name": "test_placeholder"
+          }
+        ],
+        "guid": "VFPKEC7RQT7M5CQ763TTEFR2NK",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 54981,
+        "createdAt": "2024-07-08@20:02:20.000+0000",
+        "updatedAt": "2024-07-08@20:02:20.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8816,
+            "createdAt": "2021-09-27@18:18:53.000+0000",
+            "updatedAt": "2024-07-08@20:30:59.000+0000",
+            "email": "hhuang@column6.com",
+            "firstName": "Hui",
+            "lastName": "Huang",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Hui Huang"
+          },
+          "auditDateTime": 1720468940000
+        },
+        "name": "test_placeholder",
+        "status": "running",
+        "insertionOrderId": 19760,
+        "insertionOrderName": "test_placeholder",
+        "advId": 18566,
+        "advName": "test_placeholder",
+        "cpm": 0.0,
+        "startDate": "07/08/2024 11:20 AM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 192188,
+            "createdAt": "2024-07-08@20:03:20.000+0000",
+            "updatedAt": "2024-07-08@20:04:25.000+0000",
+            "name": "test_placeholder",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 0.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 54981,
+            "campaignName": "test_placeholder",
+            "insertionOrderId": 19760,
+            "insertionOrderName": "test_placeholder",
+            "advId": 18566,
+            "advName": "test_placeholder",
+            "inheritedValues": {},
+            "guid": "BKG8IORTJ501P849CDUPJC0S6S",
+            "alignmentType": "static",
+            "campaignStartDate": "07/08/2024 11:20 AM",
+            "allowIVTFiltering": false,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "07/08/2024 11:20 AM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "I9V0HI1L3P61TFG8P0QHTF0UTO",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 192188,
+        "createdAt": "2024-07-08@20:03:20.000+0000",
+        "updatedAt": "2024-07-08@20:04:25.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8816,
+            "createdAt": "2021-09-27@18:18:53.000+0000",
+            "updatedAt": "2024-07-08@20:30:59.000+0000",
+            "email": "hhuang@column6.com",
+            "firstName": "Hui",
+            "lastName": "Huang",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Hui Huang"
+          },
+          "auditDateTime": 1720469065000
+        },
+        "name": "test_placeholder",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 0.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 54981,
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 88650,
+            "createdAt": "2024-07-08@19:56:58.000+0000",
+            "updatedAt": "2024-07-08@19:56:58.000+0000",
+            "name": "test_placeholder",
+            "status": "active",
+            "locked": false,
+            "siteId": 28029,
+            "revenueType": "flat_rate",
+            "floor": 0.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placeholder",
+            "publisherId": 16833,
+            "siteName": "test_placeholder",
+            "guid": "G4C92SVCTP71564HEFMESVGIO8",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_placeholder",
+        "insertionOrderId": 19760,
+        "insertionOrderName": "test_placeholder",
+        "advId": 18566,
+        "advName": "test_placeholder",
+        "inheritedValues": {},
+        "guid": "BKG8IORTJ501P849CDUPJC0S6S",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "07/08/2024 11:20 AM",
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "07/08/2024 11:20 AM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 0.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": [],
+    "trackers": []
+  },
+  "trackers": [],
+  "override_options": {
+    "company_name": "Data pipeline regression"
+  }
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+msg=$(cat $1)
+
+#This would execute the validation of the message
+. "$(dirname "$0")/check-message.sh" "$msg"

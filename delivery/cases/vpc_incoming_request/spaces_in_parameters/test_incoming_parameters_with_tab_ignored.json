@@ -1,0 +1,724 @@
+{
+  "supply": {
+    "placement": {
+      "id": 80865,
+      "createdAt": "2024-03-07@00:29:22.000+0000",
+      "updatedAt": "2024-03-07@00:29:28.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2024-03-06@20:03:03.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1709771368000
+      },
+      "name": "test_incoming_parameters_with_tab_ignored",
+      "status": "active",
+      "locked": false,
+      "siteId": 26502,
+      "revenueType": "flat_rate",
+      "floor": 2.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_incoming_parameters_with_tab_ignored",
+      "publisherId": 14698,
+      "siteName": "test_incoming_parameters_with_tab_ignored",
+      "formatName": "Video",
+      "guid": "6B9IBBU8797ML4P5LV43LNRA6G",
+      "secureTag": "https://mobileqa1.siprocalads.com/vast?uid=6B9IBBU8797ML4P5LV43LNRA6G&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&ssai=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 177233,
+          "createdAt": "2024-03-07@00:32:15.000+0000",
+          "updatedAt": "2024-03-07@00:33:30.000+0000",
+          "name": "test_incoming_parameters_with_tab_ignored",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 20.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?player_width=[player_width]&player_height=[player_height]&ip_address=[geo_ip]&lat=[geo_lat]&long=[geo_long]&ua=[ua]&app_name=[app_name]&app_id=[app_id]&=app_uri=[app_uri]&app_ver=[app_ver]&did=[device_id]&did_type=[devicecategory]&us_privacy=[us_privacy]&gpp=[gpp]&gpp_sid=[gpp_sid]&lmt=[lmt]&network_name=[network]&channel_name=[channel]&content_episode=[content_episode]&content_title=[content_title]&content_series=[content_series]&content_genre=[content_genre]&content_cat=[content_cat]&content_prodq=[content_prodq]&content_qagmediarating=[content_qagmediarating]&content_livestream=[content_livestream]&content_len=[content_len]&content_language=[content_language]&pod_size=[pod_size]&pod_max_dur=[pod_max_dur]&pod_min_ad_dur=[pod_min_ad_dur]&pod_max_ad_dur=[pod_max_ad_dur]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 43213,
+          "campaignName": "test_incoming_parameters_with_tab_ignored",
+          "insertionOrderId": 14582,
+          "insertionOrderName": "test_incoming_parameters_with_tab_ignored",
+          "advId": 12421,
+          "advName": "test_incoming_parameters_with_tab_ignored",
+          "inheritedValues": {},
+          "guid": "LM13LQ62RH2C70HQT31DPP63KS",
+          "alignmentType": "static",
+          "campaignStartDate": "03/06/2024 07:19 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "03/06/2024 07:19 PM",
+          "includesVpaid": false,
+          "cloned": false,
+          "finalCpm": 20.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "allowServerSideRequests": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "bidderServiceEnabled": true,
+      "requestTypeRTB": false,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 26502,
+      "createdAt": "2024-03-07@00:28:52.000+0000",
+      "updatedAt": "2024-03-07@00:28:52.000+0000",
+      "publisherId": 14698,
+      "name": "test_incoming_parameters_with_tab_ignored",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2024-03-06@20:03:03.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1709771332000
+      },
+      "publisherName": "test_incoming_parameters_with_tab_ignored",
+      "guid": "S1E5UIOEV56ND72V9C7FIVBMT0",
+      "placements": [
+        {
+          "id": 80865,
+          "createdAt": "2024-03-07@00:29:22.000+0000",
+          "updatedAt": "2024-03-07@00:29:28.000+0000",
+          "name": "test_incoming_parameters_with_tab_ignored",
+          "status": "active",
+          "locked": false,
+          "siteId": 26502,
+          "revenueType": "flat_rate",
+          "floor": 2.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_incoming_parameters_with_tab_ignored",
+          "publisherId": 14698,
+          "siteName": "test_incoming_parameters_with_tab_ignored",
+          "guid": "6B9IBBU8797ML4P5LV43LNRA6G",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": true,
+          "requestTypeRTB": false,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 14698,
+      "createdAt": "2024-03-07@00:28:34.000+0000",
+      "updatedAt": "2024-03-07@00:28:34.000+0000",
+      "name": "test_incoming_parameters_with_tab_ignored",
+      "contactName": "test_incoming_parameters_with_space_ignored",
+      "contactEmail": "test@g.com",
+      "contactPhone": "123456",
+      "contactAddress": "newyork",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "siprocal.com",
+      "adsTxtAccountId": "BHR1EHCSSD1H7DGN8MEE60OJHC",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "BHR1EHCSSD1H7DGN8MEE60OJHC",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 26502,
+          "createdAt": "2024-03-07@00:28:52.000+0000",
+          "updatedAt": "2024-03-07@00:28:52.000+0000",
+          "publisherId": 14698,
+          "name": "test_incoming_parameters_with_tab_ignored",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_incoming_parameters_with_tab_ignored",
+          "guid": "S1E5UIOEV56ND72V9C7FIVBMT0",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2024-03-06@20:03:03.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1709771314000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 12421,
+        "createdAt": "2024-03-07@00:30:20.000+0000",
+        "updatedAt": "2024-03-07@00:30:20.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2024-03-06@20:03:03.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1709771420000
+        },
+        "name": "test_incoming_parameters_with_tab_ignored",
+        "guid": "16UUGKA2514ODFF8A512GEC6QS",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "test_incoming_parameters_with_tab_ignored",
+        "contactEmail": "t@t.com",
+        "contactPhone": "1234567",
+        "contactAddress": "newyork",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "demandFeePercentage": 0.0,
+        "insertionOrders": [
+          {
+            "id": 14582,
+            "createdAt": "2024-03-07@00:30:27.000+0000",
+            "updatedAt": "2024-03-07@00:30:27.000+0000",
+            "name": "test_incoming_parameters_with_tab_ignored",
+            "status": "active",
+            "terms": 30,
+            "advId": 12421,
+            "advName": "test_incoming_parameters_with_tab_ignored",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 43213,
+                "name": "test_incoming_parameters_with_tab_ignored"
+              }
+            ],
+            "guid": "9T7V18FJLP5E93VGK7PQSMN46K",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 14582,
+        "createdAt": "2024-03-07@00:30:27.000+0000",
+        "updatedAt": "2024-03-07@00:30:27.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2024-03-06@20:03:03.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1709771427000
+        },
+        "name": "test_incoming_parameters_with_tab_ignored",
+        "status": "active",
+        "terms": 30,
+        "advId": 12421,
+        "advName": "test_incoming_parameters_with_tab_ignored",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 43213,
+            "createdAt": "2024-03-07@00:30:41.000+0000",
+            "updatedAt": "2024-03-07@00:31:11.000+0000",
+            "name": "test_incoming_parameters_with_tab_ignored",
+            "status": "running",
+            "insertionOrderId": 14582,
+            "insertionOrderName": "test_incoming_parameters_with_tab_ignored",
+            "advId": 12421,
+            "advName": "test_incoming_parameters_with_tab_ignored",
+            "cpm": 0.0,
+            "startDate": "03/06/2024 07:19 PM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "PLEO1GF1456SR7C0O7GI37ED84",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 43213,
+            "name": "test_incoming_parameters_with_tab_ignored"
+          }
+        ],
+        "guid": "9T7V18FJLP5E93VGK7PQSMN46K",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 43213,
+        "createdAt": "2024-03-07@00:30:41.000+0000",
+        "updatedAt": "2024-03-07@00:31:11.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2024-03-06@20:03:03.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1709771471000
+        },
+        "name": "test_incoming_parameters_with_tab_ignored",
+        "status": "running",
+        "insertionOrderId": 14582,
+        "insertionOrderName": "test_incoming_parameters_with_tab_ignored",
+        "advId": 12421,
+        "advName": "test_incoming_parameters_with_tab_ignored",
+        "cpm": 0.0,
+        "startDate": "03/06/2024 07:19 PM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 177233,
+            "createdAt": "2024-03-07@00:32:15.000+0000",
+            "updatedAt": "2024-03-07@00:33:30.000+0000",
+            "name": "test_incoming_parameters_with_tab_ignored",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 20.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?player_width=[player_width]&player_height=[player_height]&ip_address=[geo_ip]&lat=[geo_lat]&long=[geo_long]&ua=[ua]&app_name=[app_name]&app_id=[app_id]&=app_uri=[app_uri]&app_ver=[app_ver]&did=[device_id]&did_type=[devicecategory]&us_privacy=[us_privacy]&gpp=[gpp]&gpp_sid=[gpp_sid]&lmt=[lmt]&network_name=[network]&channel_name=[channel]&content_episode=[content_episode]&content_title=[content_title]&content_series=[content_series]&content_genre=[content_genre]&content_cat=[content_cat]&content_prodq=[content_prodq]&content_qagmediarating=[content_qagmediarating]&content_livestream=[content_livestream]&content_len=[content_len]&content_language=[content_language]&pod_size=[pod_size]&pod_max_dur=[pod_max_dur]&pod_min_ad_dur=[pod_min_ad_dur]&pod_max_ad_dur=[pod_max_ad_dur]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 43213,
+            "campaignName": "test_incoming_parameters_with_tab_ignored",
+            "insertionOrderId": 14582,
+            "insertionOrderName": "test_incoming_parameters_with_tab_ignored",
+            "advId": 12421,
+            "advName": "test_incoming_parameters_with_tab_ignored",
+            "inheritedValues": {},
+            "guid": "LM13LQ62RH2C70HQT31DPP63KS",
+            "alignmentType": "static",
+            "campaignStartDate": "03/06/2024 07:19 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "03/06/2024 07:19 PM",
+            "includesVpaid": false,
+            "cloned": false,
+            "finalCpm": 20.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "PLEO1GF1456SR7C0O7GI37ED84",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 177233,
+        "createdAt": "2024-03-07@00:32:15.000+0000",
+        "updatedAt": "2024-03-07@00:33:30.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2024-03-06@20:03:03.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1709771610000
+        },
+        "name": "test_incoming_parameters_with_tab_ignored",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 20.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?player_width=[player_width]&player_height=[player_height]&ip_address=[geo_ip]&lat=[geo_lat]&long=[geo_long]&ua=[ua]&app_name=[app_name]&app_id=[app_id]&=app_uri=[app_uri]&app_ver=[app_ver]&did=[device_id]&did_type=[devicecategory]&us_privacy=[us_privacy]&gpp=[gpp]&gpp_sid=[gpp_sid]&lmt=[lmt]&network_name=[network]&channel_name=[channel]&content_episode=[content_episode]&content_title=[content_title]&content_series=[content_series]&content_genre=[content_genre]&content_cat=[content_cat]&content_prodq=[content_prodq]&content_qagmediarating=[content_qagmediarating]&content_livestream=[content_livestream]&content_len=[content_len]&content_language=[content_language]&pod_size=[pod_size]&pod_max_dur=[pod_max_dur]&pod_min_ad_dur=[pod_min_ad_dur]&pod_max_ad_dur=[pod_max_ad_dur]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [
+          802,
+          964,
+          581,
+          582,
+          622,
+          638
+        ],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 43213,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 80865,
+            "createdAt": "2024-03-07@00:29:22.000+0000",
+            "updatedAt": "2024-03-07@00:29:28.000+0000",
+            "name": "test_incoming_parameters_with_tab_ignored",
+            "status": "active",
+            "locked": false,
+            "siteId": 26502,
+            "revenueType": "flat_rate",
+            "floor": 2.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_incoming_parameters_with_tab_ignored",
+            "publisherId": 14698,
+            "siteName": "test_incoming_parameters_with_tab_ignored",
+            "guid": "6B9IBBU8797ML4P5LV43LNRA6G",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": true,
+            "requestTypeRTB": false,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_incoming_parameters_with_tab_ignored",
+        "insertionOrderId": 14582,
+        "insertionOrderName": "test_incoming_parameters_with_tab_ignored",
+        "advId": 12421,
+        "advName": "test_incoming_parameters_with_tab_ignored",
+        "inheritedValues": {},
+        "guid": "LM13LQ62RH2C70HQT31DPP63KS",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "03/06/2024 07:19 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "03/06/2024 07:19 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloned": false,
+        "finalCpm": 20.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": []
+}

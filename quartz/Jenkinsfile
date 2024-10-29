@@ -1,0 +1,58 @@
+@Library('c6_shared_lib@master') _
+
+def AWS_ENVIRONMENT = JOB_NAME.split("/")[0]
+
+def getAWSSecret(String region, String secretId) {
+  return sh(script: "aws secretsmanager get-secret-value --region ${region} --secret-id ${secretId} | jq --raw-output '.SecretString'", returnStdout: true).trim()
+}
+
+pipeline {
+    agent {label "${AWS_ENVIRONMENT}_slave"}
+
+	stages {
+		stage("Run Tests") {
+			steps {
+				script {
+					env.QRT_SFTP_PASSWORD = getAWSSecret('us-west-2', "/${AWS_ENVIRONMENT}/quartz-regression-testing/QRT_SFTP_PASSWORD")
+					env.QRT_DOMAIN_DB_PASSWORD = getAWSSecret('us-west-2', "/${AWS_ENVIRONMENT}/quartz-regression-testing/QRT_DOMAIN_DB_PASSWORD")
+					env.QRT_DOMAIN_DB_USER = getAWSSecret('us-west-2', "/${AWS_ENVIRONMENT}/quartz-regression-testing/QRT_DOMAIN_DB_USERNAME")
+
+				}
+				dir("quartz") {
+					withPythonEnv('Python-3.8') {
+						sh """
+							pip3 install -r requirements.txt
+							. ./${AWS_ENVIRONMENT}.env
+							./run_tests.sh ${params.TEST_TYPE}
+						"""
+					}
+				}
+			}
+		}
+	}
+	post {
+		always {
+			publishHTML target: [
+				allowMissing: false,
+				alwaysLinkToLastBuild: false,
+				keepAll: true,
+				reportName: 'Reports',
+				reportDir: 'quartz/build',
+				reportFiles: 'report.html'
+			]
+			cleanWs()
+		}
+		success {
+			script {
+				def successMessage = "Quartz regression testing job SUCCESS in ${AWS_ENVIRONMENT} environment:- ${BUILD_URL}"
+				jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-test-automation")
+			}
+		}
+		failure {
+			script{
+				def failureMessage = "ALERT: Quartz regression testing job FAILED in ${AWS_ENVIRONMENT} environment:- ${BUILD_URL}"
+				jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-test-automation")
+			}
+		}
+	}
+}

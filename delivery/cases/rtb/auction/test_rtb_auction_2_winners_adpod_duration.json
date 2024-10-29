@@ -1,0 +1,1068 @@
+{
+  "supply": {
+    "placement": {
+      "id": 972,
+      "createdAt": "2023-07-11@22:40:54.000+0000",
+      "updatedAt": "2023-07-11@22:41:19.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8707,
+          "createdAt": "2023-06-28@14:57:36.000+0000",
+          "updatedAt": "2023-07-11@22:47:20.000+0000",
+          "email": "siprocal-delivery-automation@siprocal.com",
+          "firstName": "Delivery ",
+          "lastName": "Automation",
+          "phoneNumber": "8098574222",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Delivery  Automation"
+        },
+        "auditDateTime": 1689115279000
+      },
+      "name": "test_rtb_auction_2_winners_adpod_duration",
+      "status": "active",
+      "locked": false,
+      "siteId": 940,
+      "revenueType": "flat_rate",
+      "floor": 1.0,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "publisherName": "test_rtb_auction_2_winners",
+      "publisherId": 939,
+      "siteName": "test_rtb_auction_2_winners",
+      "formatName": "Video",
+      "guid": "CJ5T8LJGN535P2UKAPOBIPISOS",
+      "secureTag": "https://mobile.ad.local/vast?uid=CJ5T8LJGN535P2UKAPOBIPISOS&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [],
+      "programmaticDemands": [
+        {
+          "id": 1193,
+          "createdAt": "2023-07-11@22:37:56.000+0000",
+          "updatedAt": "2023-07-11@22:37:56.000+0000",
+          "name": "test_rtb_auction_2_winners [1]",
+          "status": "active",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "GAE3IGDODD17F71P86S6N4JNO8",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        },
+        {
+          "id": 1194,
+          "createdAt": "2023-07-11@22:37:56.000+0000",
+          "updatedAt": "2023-07-11@22:37:56.000+0000",
+          "name": "test_rtb_auction_2_winners [2]",
+          "status": "active",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "VGNVK697TP5J5BVQ34JUTAPING",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        }
+      ],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": false,
+      "allowMultipleWinners": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 940,
+      "createdAt": "2023-07-11@22:37:55.000+0000",
+      "updatedAt": "2023-07-11@22:37:55.000+0000",
+      "publisherId": 939,
+      "name": "test_rtb_auction_2_winners_adpod_duration",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8707,
+          "createdAt": "2023-06-28@14:57:36.000+0000",
+          "updatedAt": "2023-07-11@22:47:20.000+0000",
+          "email": "siprocal-delivery-automation@siprocal.com",
+          "firstName": "Delivery ",
+          "lastName": "Automation",
+          "phoneNumber": "8098574222",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Delivery  Automation"
+        },
+        "auditDateTime": 1689115075000
+      },
+      "publisherName": "test_rtb_auction_2_winners",
+      "guid": "KTA2KMA6G57FH51AB5382NNO04",
+      "placements": [
+        {
+          "id": 971,
+          "createdAt": "2023-07-11@22:37:55.000+0000",
+          "updatedAt": "2023-07-11@22:37:58.000+0000",
+          "name": "test_rtb_auction_2_winners",
+          "status": "active",
+          "locked": false,
+          "siteId": 940,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "publisherName": "test_rtb_auction_2_winners",
+          "publisherId": 939,
+          "siteName": "test_rtb_auction_2_winners",
+          "guid": "OD539EHT1P6JL2HKN8UGTV9QGO",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": false,
+          "allowMultipleWinners": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 972,
+          "createdAt": "2023-07-11@22:40:54.000+0000",
+          "updatedAt": "2023-07-11@22:41:19.000+0000",
+          "name": "test_rtb_auction_2_winners_ad_pod_duration",
+          "status": "active",
+          "locked": false,
+          "siteId": 940,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "publisherName": "test_rtb_auction_2_winners",
+          "publisherId": 939,
+          "siteName": "test_rtb_auction_2_winners",
+          "guid": "CJ5T8LJGN535P2UKAPOBIPISOS",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": false,
+          "allowMultipleWinners": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 939,
+      "createdAt": "2023-07-11@22:37:54.000+0000",
+      "updatedAt": "2023-07-11@22:37:54.000+0000",
+      "name": "test_rtb_auction_2_winners_adpod_duration",
+      "contactName": "test",
+      "contactEmail": "test@test.com",
+      "contactPhone": "2",
+      "contactAddress": "delivery-2-winners",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 2000,
+      "status": "active",
+      "webSiteDomain": "delivery-2-winners.win.com",
+      "adsTxtAccountId": "AVV59VAFL961FFIKVL7QKF0N98",
+      "adSystemDomain": "altitude-arena.com, ad.local",
+      "guid": "AVV59VAFL961FFIKVL7QKF0N98",
+      "companyName": "Delivery_Regression_Tests",
+      "sites": [
+        {
+          "id": 940,
+          "createdAt": "2023-07-11@22:37:55.000+0000",
+          "updatedAt": "2023-07-11@22:37:55.000+0000",
+          "publisherId": 939,
+          "name": "test_rtb_auction_2_winners",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "defaultFloor": 0.0,
+          "url": "",
+          "publisherName": "test_rtb_auction_2_winners",
+          "guid": "KTA2KMA6G57FH51AB5382NNO04",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8707,
+          "createdAt": "2023-06-28@14:57:36.000+0000",
+          "updatedAt": "2023-07-11@22:47:20.000+0000",
+          "email": "siprocal-delivery-automation@siprocal.com",
+          "firstName": "Delivery ",
+          "lastName": "Automation",
+          "phoneNumber": "8098574222",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Delivery  Automation"
+        },
+        "auditDateTime": 1689115074000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [
+      {
+        "id": 1193,
+        "createdAt": "2023-07-11@22:37:56.000+0000",
+        "updatedAt": "2023-07-11@22:37:56.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8707,
+            "createdAt": "2023-06-28@14:57:36.000+0000",
+            "updatedAt": "2023-07-11@22:47:20.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "8098574222",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689115076000
+        },
+        "name": "test_rtb_auction_2_winners_adpod_duration [1]",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 489,
+            "rtbBidderSeats": [
+              {
+                "id": 126,
+                "bidderId": 489,
+                "seatId": "Seat2",
+                "seatName": "Seat2",
+                "status": "active"
+              }
+            ]
+          }
+        ],
+        "seatType": "wseat",
+        "enableDeal": false,
+        "startDate": "07/04/2023 02:21 PM",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 972,
+            "createdAt": "2023-07-11@22:40:54.000+0000",
+            "updatedAt": "2023-07-11@22:41:19.000+0000",
+            "name": "test_rtb_auction_2_winners_ad_pod_duration",
+            "status": "active",
+            "locked": false,
+            "siteId": 940,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "publisherName": "test_rtb_auction_2_winners",
+            "publisherId": 939,
+            "siteName": "test_rtb_auction_2_winners",
+            "guid": "CJ5T8LJGN535P2UKAPOBIPISOS",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": false,
+            "allowMultipleWinners": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          },
+          {
+            "id": 971,
+            "createdAt": "2023-07-11@22:37:55.000+0000",
+            "updatedAt": "2023-07-11@22:37:58.000+0000",
+            "name": "test_rtb_auction_2_winners",
+            "status": "active",
+            "locked": false,
+            "siteId": 940,
+            "revenueType": "flat_rate",
+            "floor": 0.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "publisherName": "test_rtb_auction_2_winners",
+            "publisherId": 939,
+            "siteName": "test_rtb_auction_2_winners",
+            "guid": "OD539EHT1P6JL2HKN8UGTV9QGO",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": false,
+            "allowMultipleWinners": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "GAE3IGDODD17F71P86S6N4JNO8",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      },
+      {
+        "id": 1194,
+        "createdAt": "2023-07-11@22:37:56.000+0000",
+        "updatedAt": "2023-07-11@22:37:56.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8707,
+            "createdAt": "2023-06-28@14:57:36.000+0000",
+            "updatedAt": "2023-07-11@22:47:20.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "8098574222",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689115076000
+        },
+        "name": "test_rtb_auction_2_winners_adpod_duration [2]",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 490,
+            "rtbBidderSeats": [
+              {
+                "id": 127,
+                "bidderId": 490,
+                "seatId": "Seat1",
+                "seatName": "Seat1",
+                "status": "active"
+              }
+            ]
+          }
+        ],
+        "seatType": "wseat",
+        "enableDeal": false,
+        "startDate": "07/04/2023 02:21 PM",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 972,
+            "createdAt": "2023-07-11@22:40:54.000+0000",
+            "updatedAt": "2023-07-11@22:41:19.000+0000",
+            "name": "test_rtb_auction_2_winners_ad_pod_duration",
+            "status": "active",
+            "locked": false,
+            "siteId": 940,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "publisherName": "test_rtb_auction_2_winners",
+            "publisherId": 939,
+            "siteName": "test_rtb_auction_2_winners",
+            "guid": "CJ5T8LJGN535P2UKAPOBIPISOS",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": false,
+            "allowMultipleWinners": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          },
+          {
+            "id": 971,
+            "createdAt": "2023-07-11@22:37:55.000+0000",
+            "updatedAt": "2023-07-11@22:37:58.000+0000",
+            "name": "test_rtb_auction_2_winners",
+            "status": "active",
+            "locked": false,
+            "siteId": 940,
+            "revenueType": "flat_rate",
+            "floor": 0.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "publisherName": "test_rtb_auction_2_winners",
+            "publisherId": 939,
+            "siteName": "test_rtb_auction_2_winners",
+            "guid": "OD539EHT1P6JL2HKN8UGTV9QGO",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": false,
+            "allowMultipleWinners": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "VGNVK697TP5J5BVQ34JUTAPING",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "rtb_bidder_conf": [
+      {
+        "id": 489,
+        "createdAt": "2023-07-11@22:37:55.000+0000",
+        "updatedAt": "2023-07-11@22:37:55.000+0000",
+        "guid": "RVPFRRE84T6DJCNTTN42FN6PSK",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8707,
+            "createdAt": "2023-06-28@14:57:36.000+0000",
+            "updatedAt": "2023-07-11@22:47:20.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "8098574222",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689115075000
+        },
+        "name": "test_rtb_auction_2_winners_adpod_duration [1]",
+        "status": "active",
+        "testMode": false,
+        "rtbSpecVersion": "2.5",
+        "supportedRtbMediaTypes": [
+          "DISPLAY",
+          "MOBILE",
+          "VIDEO"
+        ],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 489,
+            "rtbRegionId": 2,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?numberOfBids=1&seat=Seat2&bidAmount=13"
+          }
+        ],
+        "rtbBidderSeats": [
+          {
+            "id": 126,
+            "bidderId": 489,
+            "seatId": "Seat2",
+            "seatName": "Seat2",
+            "status": "active"
+          }
+        ],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "customSizeEnabled": false,
+        "inheritedValues": {}
+      },
+      {
+        "id": 490,
+        "createdAt": "2023-07-11@22:37:56.000+0000",
+        "updatedAt": "2023-07-11@22:37:56.000+0000",
+        "guid": "49E5NITKIL0QH72RPEQ9A4D858",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8707,
+            "createdAt": "2023-06-28@14:57:36.000+0000",
+            "updatedAt": "2023-07-11@22:47:20.000+0000",
+            "email": "siprocal-delivery-automation@siprocal.com",
+            "firstName": "Delivery ",
+            "lastName": "Automation",
+            "phoneNumber": "8098574222",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Delivery  Automation"
+          },
+          "auditDateTime": 1689115076000
+        },
+        "name": "test_rtb_auction_2_winners_adpod_duration [2]",
+        "status": "active",
+        "testMode": false,
+        "rtbSpecVersion": "2.5",
+        "supportedRtbMediaTypes": [
+          "DISPLAY",
+          "MOBILE",
+          "VIDEO"
+        ],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 490,
+            "rtbRegionId": 2,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?numberOfBids=1&seat=Seat1&bidAmount=14"
+          }
+        ],
+        "rtbBidderSeats": [
+          {
+            "id": 127,
+            "bidderId": 490,
+            "seatId": "Seat1",
+            "seatName": "Seat1",
+            "status": "active"
+          }
+        ],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "customSizeEnabled": false,
+        "inheritedValues": {}
+      }
+    ],
+    "audiences": []
+  },
+  "trackers": []
+}

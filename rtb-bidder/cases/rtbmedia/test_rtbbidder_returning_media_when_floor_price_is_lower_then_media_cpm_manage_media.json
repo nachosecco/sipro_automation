@@ -1,0 +1,716 @@
+{
+  "supply": {
+    "placement": {
+      "id": 79568,
+      "createdAt": "2023-12-13@22:37:38.000+0000",
+      "updatedAt": "2023-12-13@22:37:55.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-12-13@19:22:53.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1702507075000
+      },
+      "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+      "status": "active",
+      "locked": false,
+      "siteId": 26819,
+      "revenueType": "flat_rate",
+      "floor": 0.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 10.0,
+      "publisherName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+      "publisherId": 15116,
+      "siteName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+      "formatName": "Video",
+      "guid": "0615L26MOH15N0IQH3BC8GIR4G",
+      "secureTag": "https://mobiledev.siprocalads.com/vast?uid=0615L26MOH15N0IQH3BC8GIR4G&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 176865,
+          "createdAt": "2023-12-13@22:39:56.000+0000",
+          "updatedAt": "2023-12-13@22:40:03.000+0000",
+          "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 10.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 43790,
+          "campaignName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "insertionOrderId": 17143,
+          "insertionOrderName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "advId": 15060,
+          "advName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "inheritedValues": {},
+          "guid": "DHRB24L98H2V9DLH2AKK9DFKU0",
+          "alignmentType": "static",
+          "campaignStartDate": "12/13/2023 05:26 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "12/13/2023 05:26 PM",
+          "includesVpaid": false,
+          "finalCpm": 10.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "cloned": false,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "FIRST_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 26819,
+      "createdAt": "2023-12-13@22:37:14.000+0000",
+      "updatedAt": "2023-12-13@22:37:14.000+0000",
+      "publisherId": 15116,
+      "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-12-13@19:22:53.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1702507034000
+      },
+      "publisherName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+      "guid": "5461OSCLS10FR30SE6AU107TQK",
+      "placements": [
+        {
+          "id": 79568,
+          "createdAt": "2023-12-13@22:37:38.000+0000",
+          "updatedAt": "2023-12-13@22:37:55.000+0000",
+          "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "status": "active",
+          "locked": false,
+          "siteId": 26819,
+          "revenueType": "flat_rate",
+          "floor": 0.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 10.0,
+          "publisherName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "publisherId": 15116,
+          "siteName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "guid": "0615L26MOH15N0IQH3BC8GIR4G",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 15116,
+      "createdAt": "2023-12-13@22:37:08.000+0000",
+      "updatedAt": "2023-12-13@22:37:08.000+0000",
+      "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+      "contactName": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactAddress": "",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "siprocalads.com",
+      "adsTxtAccountId": "GOS1V98GC97NFE0VKK8657RNRK",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "GOS1V98GC97NFE0VKK8657RNRK",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 26819,
+          "createdAt": "2023-12-13@22:37:14.000+0000",
+          "updatedAt": "2023-12-13@22:37:14.000+0000",
+          "publisherId": 15116,
+          "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+          "guid": "5461OSCLS10FR30SE6AU107TQK",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-12-13@19:22:53.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1702507028000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 15060,
+        "createdAt": "2023-12-13@22:38:45.000+0000",
+        "updatedAt": "2023-12-13@22:38:45.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-12-13@19:22:53.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1702507125000
+        },
+        "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "guid": "LB7DJP88K92TT3MPSK4A5PEUU4",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "test",
+        "contactEmail": "t@t.com",
+        "contactPhone": "1234",
+        "contactAddress": "test",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "insertionOrders": [
+          {
+            "id": 17143,
+            "createdAt": "2023-12-13@22:38:52.000+0000",
+            "updatedAt": "2023-12-13@22:38:52.000+0000",
+            "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "status": "active",
+            "terms": 30,
+            "advId": 15060,
+            "advName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 43790,
+                "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media"
+              }
+            ],
+            "guid": "IRF7F0N7VD29T7JNGBJVNL4UR4",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 17143,
+        "createdAt": "2023-12-13@22:38:52.000+0000",
+        "updatedAt": "2023-12-13@22:38:52.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-12-13@19:22:53.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1702507132000
+        },
+        "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "status": "active",
+        "terms": 30,
+        "advId": 15060,
+        "advName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 43790,
+            "createdAt": "2023-12-13@22:39:04.000+0000",
+            "updatedAt": "2023-12-13@22:39:04.000+0000",
+            "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "status": "running",
+            "insertionOrderId": 17143,
+            "insertionOrderName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "advId": 15060,
+            "advName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "cpm": 0.0,
+            "startDate": "12/13/2023 05:26 PM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "USA4O0VAM90DJ52C0FLB5K6PT8",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 43790,
+            "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media"
+          }
+        ],
+        "guid": "IRF7F0N7VD29T7JNGBJVNL4UR4",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 43790,
+        "createdAt": "2023-12-13@22:39:04.000+0000",
+        "updatedAt": "2023-12-13@22:39:04.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-12-13@19:22:53.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1702507144000
+        },
+        "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "status": "running",
+        "insertionOrderId": 17143,
+        "insertionOrderName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "advId": 15060,
+        "advName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "cpm": 0.0,
+        "startDate": "12/13/2023 05:26 PM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 176865,
+            "createdAt": "2023-12-13@22:39:56.000+0000",
+            "updatedAt": "2023-12-13@22:40:03.000+0000",
+            "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 10.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 43790,
+            "campaignName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "insertionOrderId": 17143,
+            "insertionOrderName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "advId": 15060,
+            "advName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "inheritedValues": {},
+            "guid": "DHRB24L98H2V9DLH2AKK9DFKU0",
+            "alignmentType": "static",
+            "campaignStartDate": "12/13/2023 05:26 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "12/13/2023 05:26 PM",
+            "includesVpaid": false,
+            "finalCpm": 10.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "cloned": false,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "USA4O0VAM90DJ52C0FLB5K6PT8",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 176865,
+        "createdAt": "2023-12-13@22:39:56.000+0000",
+        "updatedAt": "2023-12-13@22:40:03.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-12-13@19:22:53.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1702507203000
+        },
+        "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 10.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [
+          1089,
+          1090,
+          1095,
+          1097,
+          557,
+          1054
+        ],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 43790,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 79568,
+            "createdAt": "2023-12-13@22:37:38.000+0000",
+            "updatedAt": "2023-12-13@22:37:55.000+0000",
+            "name": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "status": "active",
+            "locked": false,
+            "siteId": 26819,
+            "revenueType": "flat_rate",
+            "floor": 0.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 10.0,
+            "publisherName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "publisherId": 15116,
+            "siteName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+            "guid": "0615L26MOH15N0IQH3BC8GIR4G",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "insertionOrderId": 17143,
+        "insertionOrderName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "advId": 15060,
+        "advName": "test_rtbbidder_returning_media_when_floor_price_is_lower_then_media_cpm_manage_media",
+        "inheritedValues": {},
+        "guid": "DHRB24L98H2V9DLH2AKK9DFKU0",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "12/13/2023 05:26 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "12/13/2023 05:26 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "finalCpm": 10.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "cloned": false,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": []
+}

@@ -1,0 +1,15 @@
+[MASTER]
+disable=
+    C0114, # missing-module-docstring
+    C0116, # Missing function or method docstring
+    E0401, # Unable to import, won't work without a workaround
+    R0801, # Similar lines, is not applicable to regression tests
+    F0010, # the __init__.py are invalid files tha are in the repository (added by intellij)
+    C0301, # black handle lines formats
+    R0903, # Too few public methods, is not makes sense to add methods to follow a rule
+    W1203, # logging-fstring-interpolation
+    R0914, # Too many local variables
+    E0611, # No name 'Description' in module 'core, as we are only checking partially files, this can fail
+    W1514, # There are bugs in the way this works. It sometimes fails.
+    W0511, # We want to add TODO to actually have things link to another future tasks
+    E1101, # This error is doing false positives

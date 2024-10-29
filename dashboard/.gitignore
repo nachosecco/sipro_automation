@@ -1,0 +1,22 @@
+# configuration
+/cypress/config/local.json
+/cypress/config/localDev.json
+/cypress/report/
+
+# dependencies
+/node_modules
+
+# reporting files
+/cypress/screenshots
+
+/cypress/downloads
+/cypress/e2e/
+/cypress/support/e2e.js
+/cypress/support/commands..json
+/cypress/fixtures/example.json
+/cypress.config.js
+/cypress/parallel-weights.json
+/multi-reporter-config.json
+/runner-results
+/cypress/.tmp/
+/cypress/reports/

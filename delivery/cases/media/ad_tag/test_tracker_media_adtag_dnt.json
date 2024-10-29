@@ -1,0 +1,1154 @@
+{
+  "supply": {
+    "placement": {
+      "id": 9,
+      "createdAt": "2024-03-01@23:07:40.000+0000",
+      "updatedAt": "2024-03-04@00:38:27.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@10:33:10.000+0000",
+          "updatedAt": "2024-03-04@01:04:33.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Bob",
+          "lastName": "Tester",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Bob Tester"
+        },
+        "auditDateTime": 1709512707000
+      },
+      "name": "test_tracker_media_adtag_dnt",
+      "status": "active",
+      "locked": false,
+      "siteId": 1,
+      "revenueType": "flat_rate",
+      "floor": 1.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "Pop test",
+      "publisherId": 1,
+      "siteName": "Pop site",
+      "formatName": "Video",
+      "guid": "A617IN24356VV0JPBH21INFVFK",
+      "secureTag": "https://mobile.siprocalads.com/vast?uid=A617IN24356VV0JPBH21INFVFK&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&ssai=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 104,
+          "createdAt": "2024-03-01@23:06:17.000+0000",
+          "updatedAt": "2024-03-01@23:06:17.000+0000",
+          "name": "CP-4102 Media",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 5.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml?dnt=[dnt]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 99,
+          "campaignName": "CP-4102 Campaign",
+          "insertionOrderId": 2,
+          "insertionOrderName": "Insertion 1",
+          "advId": 2,
+          "advName": "Advertiser test 1",
+          "inheritedValues": {},
+          "guid": "4J6VOVLS7H7373FSFQU3OJHJKO",
+          "alignmentType": "static",
+          "campaignStartDate": "03/01/2024 06:21 PM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "03/01/2024 06:21 PM",
+          "includesVpaid": false,
+          "cloned": false,
+          "finalCpm": 5.0,
+          "marginPercent": 0,
+          "publisherMarginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "FIRST_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "allowServerSideRequests": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "bidderServiceEnabled": false,
+      "requestTypeRTB": false,
+      "marginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 1,
+      "createdAt": "2024-01-08@19:44:08.000+0000",
+      "updatedAt": "2024-01-08@19:44:08.000+0000",
+      "publisherId": 1,
+      "name": "test_tracker_media_adtag_dnt",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 5.0,
+      "url": "pop.com",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@10:33:10.000+0000",
+          "updatedAt": "2024-03-04@01:04:33.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Bob",
+          "lastName": "Tester",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Bob Tester"
+        },
+        "auditDateTime": 1704743048000
+      },
+      "publisherName": "Pop test",
+      "guid": "JEOK6MI4GH0V3CA3B9288GFHKS",
+      "placements": [
+        {
+          "id": 3,
+          "createdAt": "2024-02-13@14:21:17.000+0000",
+          "updatedAt": "2024-02-13@14:22:25.000+0000",
+          "name": "CP-4229 Placement",
+          "status": "active",
+          "locked": false,
+          "siteId": 1,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "Pop test",
+          "publisherId": 1,
+          "siteName": "Pop site",
+          "guid": "FI73OM77D540N3HSB3JMIU0B94",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": false,
+          "requestTypeRTB": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 1,
+          "createdAt": "2024-01-08@19:44:33.000+0000",
+          "updatedAt": "2024-01-11@18:16:05.000+0000",
+          "name": "Placement 1",
+          "status": "active",
+          "locked": false,
+          "siteId": 1,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "Pop test",
+          "publisherId": 1,
+          "siteName": "Pop site",
+          "guid": "Q6ERGQGNHT1EV7DOD8BOUSNFPG",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": false,
+          "requestTypeRTB": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 9,
+          "createdAt": "2024-03-01@23:07:40.000+0000",
+          "updatedAt": "2024-03-04@00:38:27.000+0000",
+          "name": "CP-4102",
+          "status": "active",
+          "locked": false,
+          "siteId": 1,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "Pop test",
+          "publisherId": 1,
+          "siteName": "Pop site",
+          "guid": "A617IN24356VV0JPBH21INFVFK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": false,
+          "requestTypeRTB": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 8,
+          "createdAt": "2024-03-01@22:32:38.000+0000",
+          "updatedAt": "2024-03-01@23:07:06.000+0000",
+          "name": "CP-4102 Placement",
+          "status": "deleted",
+          "locked": false,
+          "siteId": 1,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "Pop test",
+          "publisherId": 1,
+          "siteName": "Pop site",
+          "guid": "MEG51TVQP16HN82GUVTCHF8RD0",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": false,
+          "requestTypeRTB": false,
+          "marginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 1,
+      "createdAt": "2024-01-08@19:43:48.000+0000",
+      "updatedAt": "2024-01-08@19:43:48.000+0000",
+      "name": "test_tracker_media_adtag_dnt",
+      "contactName": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactAddress": "",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 5.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "pop.com",
+      "adsTxtAccountId": "3S8D4OJPCH7T946IC9SM8RUKJS",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "3S8D4OJPCH7T946IC9SM8RUKJS",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 1,
+          "createdAt": "2024-01-08@19:44:08.000+0000",
+          "updatedAt": "2024-01-08@19:44:08.000+0000",
+          "publisherId": 1,
+          "name": "Pop site",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "defaultFloor": 5.0,
+          "url": "pop.com",
+          "publisherName": "Pop test",
+          "guid": "JEOK6MI4GH0V3CA3B9288GFHKS",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@10:33:10.000+0000",
+          "updatedAt": "2024-03-04@01:04:33.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Bob",
+          "lastName": "Tester",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Bob Tester"
+        },
+        "auditDateTime": 1704743028000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 2,
+        "createdAt": "2024-01-11@15:33:41.000+0000",
+        "updatedAt": "2024-01-11@15:33:41.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-03-04@01:04:33.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester"
+          },
+          "auditDateTime": 1704987221000
+        },
+        "name": "test_tracker_media_adtag_dnt",
+        "guid": "A31LSRGBVH3ED0QUDO5VOLN604",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "Jhon",
+        "contactEmail": "john@advertiser.com",
+        "contactPhone": "555555555",
+        "contactAddress": "100 st, NY",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "demandFeePercentage": 0.0,
+        "insertionOrders": [
+          {
+            "id": 2,
+            "createdAt": "2024-01-11@15:37:21.000+0000",
+            "updatedAt": "2024-01-11@15:37:21.000+0000",
+            "name": "Insertion 1",
+            "status": "active",
+            "terms": 30,
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 7,
+                "name": "Campaing 4"
+              },
+              {
+                "id": 6,
+                "name": "Campaign 3"
+              },
+              {
+                "id": 5,
+                "name": "Campaign 2"
+              },
+              {
+                "id": 4,
+                "name": "Campaign 2"
+              },
+              {
+                "id": 99,
+                "name": "CP-4102 Campaign"
+              },
+              {
+                "id": 1,
+                "name": "Campaign 1"
+              },
+              {
+                "id": 27,
+                "name": "CP-4229 Test"
+              }
+            ],
+            "guid": "CBU8TLODL563TF4EQS6QIB1UA4",
+            "inheritedValues": {},
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 2,
+        "createdAt": "2024-01-11@15:37:21.000+0000",
+        "updatedAt": "2024-01-11@15:37:21.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-03-04@01:04:33.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester"
+          },
+          "auditDateTime": 1704987441000
+        },
+        "name": "test_tracker_media_adtag_dnt",
+        "status": "active",
+        "terms": 30,
+        "advId": 2,
+        "advName": "Advertiser test 1",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 7,
+            "createdAt": "2024-02-06@15:24:15.000+0000",
+            "updatedAt": "2024-02-06@15:56:49.000+0000",
+            "name": "Campaing 4",
+            "status": "running",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "cpm": 0.0,
+            "startDate": "02/06/2024 11:23 AM",
+            "endDate": "02/07/2024 12:00 AM",
+            "goal": "impressions",
+            "pacingStrategy": "even",
+            "impressionsTarget": 2,
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "LGJT7GISTP4E19UJO9EETE70DK",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 6,
+            "createdAt": "2024-02-05@23:35:57.000+0000",
+            "updatedAt": "2024-02-06@15:21:00.000+0000",
+            "name": "Campaign 3",
+            "status": "running",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "cpm": 0.0,
+            "startDate": "02/05/2024 06:30 PM",
+            "endDate": "02/15/2024 01:00 AM",
+            "goal": "impressions",
+            "pacingStrategy": "even",
+            "impressionsTarget": 2,
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "FJ78NIVFO15HH3KBPFNS1EOOKG",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 5,
+            "createdAt": "2024-02-05@23:34:55.000+0000",
+            "updatedAt": "2024-02-05@23:34:55.000+0000",
+            "name": "Campaign 2",
+            "status": "running",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "cpm": 0.0,
+            "startDate": "02/05/2024 06:30 PM",
+            "endDate": "02/14/2024 11:00 AM",
+            "goal": "impressions",
+            "pacingStrategy": "even",
+            "impressionsTarget": 3,
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "8MJGPUDIOT4B59OCV6PCFM5IB4",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 4,
+            "createdAt": "2024-02-05@22:35:14.000+0000",
+            "updatedAt": "2024-02-05@22:35:14.000+0000",
+            "name": "Campaign 2",
+            "status": "running",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "cpm": 0.0,
+            "startDate": "02/05/2024 06:30 PM",
+            "endDate": "02/09/2024 03:00 AM",
+            "goal": "impressions",
+            "pacingStrategy": "even",
+            "impressionsTarget": 2,
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "RO3KL7DGIH5OD1QAJMO98QS6BG",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 99,
+            "createdAt": "2024-03-01@23:03:18.000+0000",
+            "updatedAt": "2024-03-01@23:06:49.000+0000",
+            "name": "CP-4102 Campaign",
+            "status": "running",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "cpm": 5.0,
+            "startDate": "03/01/2024 06:21 PM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "F0IMKERLUP3C39BA7DQVDTM104",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 1,
+            "createdAt": "2024-01-11@15:38:07.000+0000",
+            "updatedAt": "2024-03-01@22:56:36.000+0000",
+            "name": "Campaign 1",
+            "status": "running",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "cpm": 5.0,
+            "startDate": "01/11/2024 11:12 AM",
+            "endDate": "03/01/2040 06:56 PM",
+            "goal": "impressions",
+            "pacingStrategy": "even",
+            "impressionsTarget": 10,
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "R1AIVERKE50RJ59FNDQ72ODPSC",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 27,
+            "createdAt": "2024-02-13@14:17:31.000+0000",
+            "updatedAt": "2024-02-13@14:18:29.000+0000",
+            "name": "CP-4229 Test",
+            "status": "running",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "cpm": 5.0,
+            "startDate": "02/13/2024 10:09 AM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "9BVP8U15AP2HJFSKF0ILCL8PBO",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 7,
+            "name": "Campaing 4"
+          },
+          {
+            "id": 6,
+            "name": "Campaign 3"
+          },
+          {
+            "id": 5,
+            "name": "Campaign 2"
+          },
+          {
+            "id": 4,
+            "name": "Campaign 2"
+          },
+          {
+            "id": 99,
+            "name": "CP-4102 Campaign"
+          },
+          {
+            "id": 1,
+            "name": "Campaign 1"
+          },
+          {
+            "id": 27,
+            "name": "CP-4229 Test"
+          }
+        ],
+        "guid": "CBU8TLODL563TF4EQS6QIB1UA4",
+        "advertiserStatus": "",
+        "inheritedValues": {},
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 99,
+        "createdAt": "2024-03-01@23:03:18.000+0000",
+        "updatedAt": "2024-03-01@23:06:49.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-03-04@01:04:33.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester"
+          },
+          "auditDateTime": 1709334409000
+        },
+        "name": "test_tracker_media_adtag_dnt",
+        "status": "running",
+        "insertionOrderId": 2,
+        "insertionOrderName": "Insertion 1",
+        "advId": 2,
+        "advName": "Advertiser test 1",
+        "cpm": 5.0,
+        "startDate": "03/01/2024 06:21 PM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 104,
+            "createdAt": "2024-03-01@23:06:17.000+0000",
+            "updatedAt": "2024-03-01@23:06:17.000+0000",
+            "name": "CP-4102 Media",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 5.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml?dnt=[dnt]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 99,
+            "campaignName": "CP-4102 Campaign",
+            "insertionOrderId": 2,
+            "insertionOrderName": "Insertion 1",
+            "advId": 2,
+            "advName": "Advertiser test 1",
+            "inheritedValues": {},
+            "guid": "4J6VOVLS7H7373FSFQU3OJHJKO",
+            "alignmentType": "static",
+            "campaignStartDate": "03/01/2024 06:21 PM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "03/01/2024 06:21 PM",
+            "includesVpaid": false,
+            "cloned": false,
+            "finalCpm": 5.0,
+            "marginPercent": 0,
+            "publisherMarginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "F0IMKERLUP3C39BA7DQVDTM104",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 104,
+        "createdAt": "2024-03-01@23:06:17.000+0000",
+        "updatedAt": "2024-03-01@23:06:17.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-03-04@01:04:33.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester"
+          },
+          "auditDateTime": 1709334377000
+        },
+        "name": "test_tracker_media_adtag_dnt",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 5.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.siprocalads.com/c6internaltestpage/test_vast_mp4.xml?dnt=[dnt]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 99,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 9,
+            "createdAt": "2024-03-01@23:07:40.000+0000",
+            "updatedAt": "2024-03-04@00:38:27.000+0000",
+            "name": "CP-4102",
+            "status": "active",
+            "locked": false,
+            "siteId": 1,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "Pop test",
+            "publisherId": 1,
+            "siteName": "Pop site",
+            "guid": "A617IN24356VV0JPBH21INFVFK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "marginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "CP-4102 Campaign",
+        "insertionOrderId": 2,
+        "insertionOrderName": "Insertion 1",
+        "advId": 2,
+        "advName": "Advertiser test 1",
+        "inheritedValues": {},
+        "guid": "4J6VOVLS7H7373FSFQU3OJHJKO",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "03/01/2024 06:21 PM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "03/01/2024 06:21 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloned": false,
+        "finalCpm": 5.0,
+        "marginPercent": 0,
+        "publisherMarginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": []
+}

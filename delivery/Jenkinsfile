@@ -1,0 +1,191 @@
+@Library('c6_shared_lib@master')
+
+def getAWSSecret(String region, String secretId) {
+    return sh(script: "aws secretsmanager get-secret-value --region ${region} --secret-id ${secretId} | jq --raw-output '.SecretString'", returnStdout: true).trim()
+}
+
+def getDeliveryRegressionUser(){
+	return getAWSSecret("us-west-2","/shared_infra/delivery_regression_${ENVIRONMENT}/DELIVERY_REGRESSION_USER");
+}
+
+
+def getDeliveryRegressionPassword(){
+	return getAWSSecret("us-west-2","/shared_infra/delivery_regression_${ENVIRONMENT}/DELIVERY_REGRESSION_PASSWORD");
+}
+
+pipeline {
+    agent { label 'shared_infra_slave' }
+    environment {
+        DSE_API_USER = getDeliveryRegressionUser()
+        DSE_API_PWD  = getDeliveryRegressionPassword()
+        DSE_ENVIRONMENT = "${ENVIRONMENT}"
+        DF_MEDIA_SERVER_URL="https://media${ENVIRONMENT}.siprocalads.com"
+        DSE_DASHBOARD_API="https://manage${ENVIRONMENT}.siprocalads.com"
+
+        // Data Files
+        BIDDER_DATA_FILE="data/bidder-data-file-env-${ENVIRONMENT}.dat"
+        DATA_FILE="data/data-file-env-${ENVIRONMENT}.csv"
+        INVENTORY_ROUTERS_DATA_FILE="data/data-file-routers-${ENVIRONMENT}.csv"
+
+        // Delivery & Inventory Routers Parameter
+        DELIVERY_ROOT_URL="https://delivery${ENVIRONMENT}.siprocalads.com"
+        INVENTORY_ROUTERS_ROOT_URL="https://router${ENVIRONMENT}.siprocalads.com"
+
+        // Aerospike
+        AEROSPIKE_HOST="aerospike71.${ENVIRONMENT}.rowdy.cc"
+
+        // Parameters for pytest re-run
+        DF_CONFIG_RERUN_FAILED_TESTS_NO_OF_TIMES="${RERUN_FAILED_TESTS_NO_OF_TIMES}"
+        DF_CONFIG_RERUN_FAILED_TESTS_DELAY_TIME="${RERUN_FAILED_TESTS_DELAY_TIME}"
+
+        // Parameters for pytest paraller execution
+        DF_NUMBER_OF_PROCESS_OF_PYTEST="${NUMBER_OF_PROCESS_OF_PYTEST}"
+
+        // Parameters for Logs
+        DEFAULT_KIBANA_HOST="kibana-${ENVIRONMENT}.rowdy.cc"
+        READ_LOG_OPEN_SEARCH_HOST="${params.KIBANA_HOST != null && params.KIBANA_HOST != '' ? params.KIBANA_HOST : env.DEFAULT_KIBANA_HOST}"
+        READ_LOG_STRATEGY="OPEN_SEARCH"
+        DF_CONFIG_MAX_RETRY_TO_FIND_TID="${TID_MAX_RETRY}"
+        DF_CONFIG_WAIT_TIME_RETRY_TO_FIND_TID="${TID_WAIT_TIME}"
+        DF_CONFIG_TIME_TO_WAIT_TO_READ_LOG_DELIVERY="${FIND_WITH_TID_WAIT_TIME_READ_LOG}"
+        TIME_TO_WAIT_TO_READ_LOG_EVENT_TID="${EVENT_LOG_TID_WAIT_TIME}"
+        TIME_TO_WAIT_TO_READ_EVENT_LOG="${FIND_WITH_TID_WAIT_TIME_READ_EVENT_LOG}"
+        TIME_TO_WAIT_TO_READ_EVENT_LOG_2ndTIME="${FIND_WITH_TID_2ndTIME_WAIT_TIME_READ_EVENT_LOG}"
+
+        // Parameters for Quartz Alignment
+        DFQ_SERVER_ROOT_URL="http://quartzalignment${ENVIRONMENT}.rowdy.cc/"
+
+        // Parameters for Quartz Default
+        DFQ_SERVER_ROOT_URL_DEFAULT="http://quartzdefault${ENVIRONMENT}.rowdy.cc/"
+
+	    // Liveramp
+        S3_LIVERAMP_BUCKET_NAME="c6-${ENVIRONMENT}-s3-uw2-liveramp"
+        LOCAL_LIVERAMP_FOLDER=""
+        LIVERAMP_BUCKET_SUB_FOLDER="upload"
+    }
+    stages {
+        stage("Pip install") {
+            steps {
+                withPythonEnv('Python-3.8') {
+                    sh 'pip3 install -r ${WORKSPACE}/delivery/requirements.txt'
+                }
+            }
+        }
+        stage("Environment Preparation"){
+             parallel {
+                stage("Run Liveramp Scripts"){
+                     when {
+                           expression {!env.SKIP_LIVERAMP.toBoolean() }
+                     }
+        	        agent { label "${ENVIRONMENT}_slave" }
+                    steps{
+                        withPythonEnv('Python-3.8') {
+                        script {
+                            sh '''
+                                pip3 install -r ${WORKSPACE}/delivery/requirements.txt
+
+                                set +x
+                                cd ${WORKSPACE}/delivery
+                                export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+                                python3 scripts/liveramp_data_sync_job.py ${WORKSPACE}/delivery ${BUILD_NUMBER}
+                            '''
+                            }
+                        }
+                    }
+                }
+                stage("Upload Json Data File"){
+			        steps{
+			            withPythonEnv('Python-3.8') {
+                            script {
+
+                            sh '''
+                                pip3 install -r ${WORKSPACE}/data-seed-upload/requirements.txt
+
+                                cd ${WORKSPACE}/data-seed-upload
+                                python3 upload.py delivery "${WORKSPACE}/delivery/cases/"
+                            '''
+                        }
+				    }
+			    }
+		    }
+         }
+        }
+
+
+		stage("Update/Generate Data Files"){
+	 		  steps{
+			    withPythonEnv('Python-3.8') {
+                    script {
+
+                        sh '''
+
+                            cd ${WORKSPACE}/delivery
+                            python3 csvGeneratorForDataFile.py
+                            python3 generate_bidder_data_file.py
+                        '''
+                    }
+				  }
+			  }
+		}
+        stage("Quartz Alignment"){
+          agent {label "${ENVIRONMENT}_slave"}
+          steps{
+            withPythonEnv('Python-3.8') {
+                      script {
+
+                          sh '''
+
+                              cd ${WORKSPACE}/delivery/
+
+                              export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+                              cd ${WORKSPACE}/delivery/scripts
+
+
+                              python3 quartz_alignment_run.py
+                          '''
+                      }
+            }
+          }
+        }
+        stage("Run automation test cases"){
+            steps{
+                withPythonEnv('Python-3.8') {
+                    script {
+
+                        sh '''
+                            cd ${WORKSPACE}/delivery
+                            ./run_tests.sh ${TEST_TYPE}
+                        '''
+                    }
+                }
+            }
+    }
+  }
+
+  post {
+          always {
+            publishHTML target: [
+            allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportName : 'Reports',
+            reportDir:   'delivery/build',
+            reportFiles: 'report.html'
+            ]
+            cleanWs()
+          }
+          success {
+            script {
+              def successMessage = "Delivery regression testing job SUCCESS in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-test-automation")
+            }
+          }
+          failure {
+            script{
+              def failureMessage = "ALERT: Delivery regression testing job FAILED in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-test-automation")
+            }
+          }
+  }
+}

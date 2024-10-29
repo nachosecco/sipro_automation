@@ -1,0 +1,44 @@
+{
+	"name": "app-web-ui-automation-framework",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Column6 automation framework for re-design dashboard project",
+	"devDependencies": {
+		"@testing-library/cypress": "^10.0.2",
+		"cypress": "^13.13.2",
+		"cypress-downloadfile": "^1.2.3",
+		"cypress-file-upload": "^5.0.8",
+		"cypress-mochawesome-reporter": "^3.8.2",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-cypress": "^2.12.1",
+		"eslint-plugin-no-only-tests": "^3.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"husky": "^8.0.2",
+		"lint-staged": "^13.0.4",
+		"prettier": "^2.8.0"
+	},
+	"scripts": {
+		"prepare": "cd .. && husky install dashboard/.husky",
+		"cy:run": "cypress run",
+		"clean": "rimraf cypress/reports",
+		"cy:run:parallel": "CYPRESS_MULTI_THREADED=true cypress-parallel -s cy:run -d 'cypress/tests/ui/' -r cypress-mochawesome-reporter -o 'cypressParallel=true' -t 5 -a '\"--env name=local\"'",
+		"cy:grep": "cypress_grepFilterSpecs=true cypress_grepOmitFiltered=true cypress run --spec 'cypress/tests/ui/**/*' --env name=local,grep='',burn=0",
+		"generate-report": "generate-mochawesome-report",
+		"test": "npm run clean && npm run cy:run:parallel || true && npm run generate-report"
+	},
+	"lint-staged": {
+		"cypress/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+			"prettier --write"
+		],
+		"cypress/**/*{.js,jsx}": [
+			"eslint"
+		]
+	},
+	"dependencies": {
+		"@cypress/grep": "^4.1.0",
+		"cypress-parallel": "^0.14.0",
+		"rimraf": "^5.0.5",
+		"xlsx": "^0.18.5"
+	}
+}

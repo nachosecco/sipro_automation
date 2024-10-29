@@ -1,0 +1,663 @@
+{
+  "supply": {
+    "placement": {
+      "id": 105,
+      "createdAt": "2023-09-01@13:00:19.000+0000",
+      "updatedAt": "2023-09-01@13:00:19.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@20:03:10.000+0000",
+          "updatedAt": "2023-09-01@13:14:53.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Amit ",
+          "lastName": "Jain",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Amit  Jain"
+        },
+        "auditDateTime": 1693573219000
+      },
+      "name": "test_wrapper_pod_dur_lower_than_default",
+      "status": "active",
+      "locked": false,
+      "siteId": 11,
+      "revenueType": "flat_rate",
+      "floor": 1.0,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "(UI) Publisher",
+      "publisherId": 15,
+      "siteName": "(UI)- Site",
+      "formatName": "Video",
+      "guid": "J8R560DGGH041DIJ06O89O20UK",
+      "secureTag": "https://mobile.ad.local/vast?uid=J8R560DGGH041DIJ06O89O20UK&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [],
+      "programmaticDemands": [
+        {
+          "id": 289,
+          "createdAt": "2023-09-01@13:12:11.000+0000",
+          "updatedAt": "2023-09-01@13:12:21.000+0000",
+          "name": "test_wrapper_pod_dur_lower_than_default",
+          "status": "active",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "guid": "L99DKMGC7D0UV4MQB863MKFFD8",
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "inheritedValues": {}
+        }
+      ],
+      "vastVersion": "3.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "publisherMarginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 11,
+      "createdAt": "2023-04-28@06:15:02.000+0000",
+      "updatedAt": "2023-04-28@06:25:13.000+0000",
+      "publisherId": 15,
+      "name": "test_wrapper_pod_dur_lower_than_default",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "defaultFloor": 0.0,
+      "url": "test.com",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@20:03:10.000+0000",
+          "updatedAt": "2023-09-01@13:14:53.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Amit ",
+          "lastName": "Jain",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Amit  Jain"
+        },
+        "auditDateTime": 1682663113000
+      },
+      "publisherName": "(UI) Publisher",
+      "guid": "4SL2PMDOC15DTAHCR6S60IMU6O",
+      "placements": [
+        {
+          "id": 105,
+          "createdAt": "2023-09-01@13:00:19.000+0000",
+          "updatedAt": "2023-09-01@13:00:19.000+0000",
+          "name": "test_wrapper_pod_dur_lower_than_default",
+          "status": "active",
+          "locked": false,
+          "siteId": 11,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "(UI) Publisher",
+          "publisherId": 15,
+          "siteName": "(UI)- Site",
+          "guid": "J8R560DGGH041DIJ06O89O20UK",
+          "vastVersion": "3.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 21,
+          "createdAt": "2023-06-12@09:20:49.000+0000",
+          "updatedAt": "2023-09-01@11:29:07.000+0000",
+          "name": "test_wrapper_pod_dur",
+          "status": "active",
+          "locked": false,
+          "siteId": 11,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "(UI) Publisher",
+          "publisherId": 15,
+          "siteName": "(UI)- Site",
+          "guid": "S0PL6BBB5T6HPCQJ5LLIUN8SSS",
+          "vastVersion": "3.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 19,
+          "createdAt": "2023-04-28@06:15:03.000+0000",
+          "updatedAt": "2023-04-28@06:25:14.000+0000",
+          "name": "(UI) Placement for Router Inactive",
+          "status": "inactive",
+          "locked": false,
+          "siteId": 11,
+          "revenueType": "rev_share",
+          "floor": 1.0,
+          "revenueShare": 60.5,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "(UI) Publisher",
+          "publisherId": 15,
+          "siteName": "(UI)- Site",
+          "guid": "074F0JB9T16EN27G9LKUGJ7BCG",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "publisherMarginPercent": 0,
+          "revenueSharePercent": 0.605,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 15,
+      "createdAt": "2023-04-28@06:15:01.000+0000",
+      "updatedAt": "2023-05-22@11:49:06.000+0000",
+      "name": "test_wrapper_pod_dur_lower_than_default",
+      "contactName": "test",
+      "contactEmail": "test@test.com",
+      "contactPhone": "1234567890",
+      "contactAddress": "123 Four St.",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 500,
+      "status": "active",
+      "webSiteDomain": "test.com",
+      "adsTxtAccountId": "AM4B5HG8F51JR25IOO47I4PT54",
+      "adSystemDomain": "siprocalads.com, ad.local",
+      "guid": "AM4B5HG8F51JR25IOO47I4PT54",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 11,
+          "createdAt": "2023-04-28@06:15:02.000+0000",
+          "updatedAt": "2023-04-28@06:25:13.000+0000",
+          "publisherId": 15,
+          "name": "(UI)- Site",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "defaultFloor": 0.0,
+          "url": "test.com",
+          "publisherName": "(UI) Publisher",
+          "guid": "4SL2PMDOC15DTAHCR6S60IMU6O",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@20:03:10.000+0000",
+          "updatedAt": "2023-09-01@13:14:53.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Amit ",
+          "lastName": "Jain",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Amit  Jain"
+        },
+        "auditDateTime": 1682663112000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [
+      {
+        "id": 289,
+        "createdAt": "2023-09-01@13:12:11.000+0000",
+        "updatedAt": "2023-09-01@13:12:21.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@20:03:10.000+0000",
+            "updatedAt": "2023-09-01@13:14:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Amit ",
+            "lastName": "Jain",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Amit  Jain"
+          },
+          "auditDateTime": 1693573941000
+        },
+        "name": "test_wrapper_pod_dur_lower_than_default",
+        "status": "active",
+        "programmaticBidderConfigs": [
+          {
+            "rtbBidderId": 28,
+            "rtbBidderSeats": []
+          }
+        ],
+        "seatType": "wseat",
+        "enableDeal": false,
+        "startDate": "08/13/2023 06:41 PM",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customQueryParams": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "placements": [
+          {
+            "id": 105,
+            "createdAt": "2023-09-01@13:00:19.000+0000",
+            "updatedAt": "2023-09-01@13:00:19.000+0000",
+            "name": "test_wrapper_pod_dur_lower_than_default",
+            "status": "active",
+            "locked": false,
+            "siteId": 11,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "(UI) Publisher",
+            "publisherId": 15,
+            "siteName": "(UI)- Site",
+            "guid": "J8R560DGGH041DIJ06O89O20UK",
+            "vastVersion": "3.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "publisherMarginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "guid": "L99DKMGC7D0UV4MQB863MKFFD8",
+        "audiences": [],
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "rtb_bidder_conf": [
+      {
+        "id": 28,
+        "createdAt": "2023-09-01@13:01:19.000+0000",
+        "updatedAt": "2023-09-01@13:08:07.000+0000",
+        "guid": "GPUAP5K9ET2R1F5CIQ4NETDGRK",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@20:03:10.000+0000",
+            "updatedAt": "2023-09-01@13:14:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Amit ",
+            "lastName": "Jain",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Amit  Jain"
+          },
+          "auditDateTime": 1693573687000
+        },
+        "name": "test_wrapper_pod_dur_lower_than_default",
+        "status": "active",
+        "testMode": false,
+        "accessAllowed": true,
+        "floor": 1.0,
+        "rtbSpecVersion": "2.6",
+        "supportedRtbMediaTypes": [],
+        "cookieSyncUrl": "",
+        "matchedCookieEnforced": false,
+        "cookieSyncPercentage": 100,
+        "classOverride": "",
+        "rtbUrls": [
+          {
+            "id": 28,
+            "rtbRegionId": 1,
+            "url": "https://fakebidder.rowdy.cc/rtbResponse?wrapper=true&vastVersion=3.0"
+          }
+        ],
+        "rtbBidderSeats": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "bidDeviceConfig": {
+          "sendDeviceIpv4": true,
+          "sendDeviceIpv6": false,
+          "sendDeviceUserAgent": true,
+          "sendDeviceType": true,
+          "sendDeviceMake": true,
+          "sendDeviceModel": true,
+          "sendDeviceOs": true,
+          "sendDeviceOsVersion": true,
+          "sendDeviceConnectionType": true,
+          "sendDeviceJsSupportFlag": true,
+          "sendDeviceCarrierId": true,
+          "sendGeoObject": true,
+          "sendDoNotTrack": true,
+          "sendLimitAdTracking": true,
+          "sendWidth": true,
+          "sendHeight": true,
+          "sendGeoFetch": true,
+          "sendLanguage": true,
+          "sendNativeAdvertiserId": true
+        },
+        "bidDealConfig": {
+          "sendPrivateDealFlag": true,
+          "sendDealFloor": true,
+          "sendDealFloorCurrency": true
+        },
+        "bidUserConfig": {
+          "sendBuyerUid": true,
+          "sendGeoObject": true
+        },
+        "bidGeoConfig": {
+          "sendCity": true,
+          "sendCountry": true,
+          "sendRegion": true,
+          "sendCoordinates": true,
+          "sendMetro": true,
+          "sendZip": true,
+          "sendIpService": true,
+          "sendUtcOffset": true
+        },
+        "bidSiteConfig": {
+          "sendSiteId": true,
+          "sendSiteDomain": true,
+          "sendPageUrl": true,
+          "sendRef": true
+        },
+        "bidImpressionConfig": {
+          "sendBidFloor": true,
+          "sendBidFloorCurrency": true,
+          "sendMetrics": true,
+          "sendTagId": true,
+          "sendInstl": true,
+          "sendExp": false
+        },
+        "bidBannerConfig": {
+          "sendBannerWidth": true,
+          "sendBannerMaxWidth": true,
+          "sendBannerMinWidth": true,
+          "sendBannerHeight": true,
+          "sendBannerMaxHeight": true,
+          "sendBannerMinHeight": true,
+          "sendBannerFormat": true,
+          "sendBannerPosition": true,
+          "sendBannerCompanionAds": false,
+          "sendBlockedBannerAdTypes": true,
+          "sendBlockedCreativeAttr": true,
+          "sendBannerMimeTypes": true,
+          "sendBannerTopFrame": true,
+          "sendBannerExpDir": true,
+          "sendBannerApiFrameworks": true,
+          "sendBannerCustomData": false
+        },
+        "bidVideoConfig": {
+          "sendVideoLinearity": true,
+          "sendVideoWidth": true,
+          "sendVideoHeight": true,
+          "sendMaxExtendedDuration": true,
+          "sendMinBitrate": true,
+          "sendMaxBitrate": true,
+          "sendSupportedProtocols": true,
+          "sendApiFrameworks": true,
+          "sendDeliveryMethod": true,
+          "sendVideoPosition": true,
+          "sendStartDelay": true,
+          "sendPlacement": true,
+          "sendPlayBackend": true,
+          "sendSkip": true
+        },
+        "bidRequestConfig": {
+          "sendAuctionType": true,
+          "sendBidTimeout": true,
+          "sendAllowedBidCurrencies": true,
+          "sendTestFlag": false,
+          "sendBlockedBuyerSeats": true,
+          "sendLanguages": true,
+          "sendSource": true,
+          "sendAllimps": true
+        },
+        "bidPublisherConfig": {
+          "sendPublisherId": true,
+          "sendPublisherName": true,
+          "sendPublisherDomain": true
+        },
+        "customLogicConfig": {
+          "adMarkupType": "ADM",
+          "adPosition": 1,
+          "linearity": "LINEAR",
+          "testModeEnabled": false
+        },
+        "bidSourceConfig": {
+          "sendSourceFd": true,
+          "sendSourceTid": true,
+          "sendSourcePChain": true,
+          "sendSourceSChain": true
+        },
+        "contentDeliveryMethodConfig": [
+          1,
+          2,
+          3
+        ],
+        "compressBidRequest": false,
+        "companyAccessRestrictionConfig": {
+          "accessRestriction": "none",
+          "blacklist": [],
+          "whitelist": []
+        },
+        "linearity": "LINEAR",
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "customSizeEnabled": false,
+        "inheritedValues": {}
+      }
+    ],
+    "audiences": []
+  },
+  "trackers": []
+}

@@ -1,0 +1,817 @@
+{
+  "supply": {
+    "placement": {
+      "id": 77183,
+      "createdAt": "2023-08-18@15:08:01.000+0000",
+      "updatedAt": "2023-08-18@15:08:01.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8763,
+          "createdAt": "2021-06-28@16:03:16.000+0000",
+          "updatedAt": "2023-08-18@15:11:23.000+0000",
+          "email": "scothren@column6.com",
+          "firstName": "Steven",
+          "lastName": "Cothren",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Steven Cothren"
+        },
+        "auditDateTime": 1692371281000
+      },
+      "name": "test_display_suppress_clickthrough_active",
+      "status": "active",
+      "locked": false,
+      "siteId": 26182,
+      "revenueType": "flat_rate",
+      "floor": 1.0,
+      "revenueShare": 0.0,
+      "size": "300x250",
+      "type": "display",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Display",
+      "siteStatus": "",
+      "allowRon": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_display_suppress_clickthrough_active",
+      "publisherId": 14198,
+      "siteName": "test_display_suppress_clickthrough_active",
+      "formatName": "Display",
+      "guid": "SFV7OVHQRH0JTFJSFOTDOS9UAK",
+      "secureTag": "<script src=\"https://deliverydev.siprocalads.com/SFV7OVHQRH0JTFJSFOTDOS9UAK?us_privacy=[REPLACE]&gpp=[REPLACE]\" type=\"text/javascript\"></script>",
+      "trackers": [
+        1,
+        4,
+        557
+      ],
+      "media": [
+        {
+          "id": 172028,
+          "createdAt": "2023-08-18@15:09:14.000+0000",
+          "updatedAt": "2023-08-18@15:09:22.000+0000",
+          "name": "test_display_suppress_clickthrough_active",
+          "mediaTypeId": 6,
+          "size": "300x250",
+          "enablePCPM": false,
+          "cpm": 2.0,
+          "mediaSource": "asset",
+          "clickThroughUrl": "www.siprocal.com",
+          "adTag": "",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 40586,
+          "campaignName": "test_display_suppress_clickthrough_active",
+          "insertionOrderId": 15529,
+          "insertionOrderName": "test_display_suppress_clickthrough_active",
+          "advId": 13174,
+          "advName": "test_display_suppress_clickthrough_active",
+          "inheritedValues": {},
+          "guid": "ALIGA8OBH56GR9854C5OIR8D40",
+          "alignmentType": "static",
+          "campaignStartDate": "08/18/2023 10:01 AM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/18/2023 10:01 AM",
+          "includesVpaid": false,
+          "finalCpm": 2.0,
+          "marginPercent": 0,
+          "publisherMarginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "revenueSharePercent": 0.0,
+      "marginPercent": 0,
+      "publisherMarginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 26182,
+      "createdAt": "2023-08-18@15:07:46.000+0000",
+      "updatedAt": "2023-08-18@15:07:46.000+0000",
+      "publisherId": 14198,
+      "name": "test_display_suppress_clickthrough_active",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8763,
+          "createdAt": "2021-06-28@16:03:16.000+0000",
+          "updatedAt": "2023-08-18@15:11:23.000+0000",
+          "email": "scothren@column6.com",
+          "firstName": "Steven",
+          "lastName": "Cothren",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Steven Cothren"
+        },
+        "auditDateTime": 1692371266000
+      },
+      "publisherName": "test_display_suppress_clickthrough_active",
+      "guid": "7OI8COHUET2SF946C8V7FTE7L8",
+      "placements": [
+        {
+          "id": 77183,
+          "createdAt": "2023-08-18@15:08:01.000+0000",
+          "updatedAt": "2023-08-18@15:08:01.000+0000",
+          "name": "test_display_suppress_clickthrough_active",
+          "status": "active",
+          "locked": false,
+          "siteId": 26182,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "size": "300x250",
+          "type": "display",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Display",
+          "allowRon": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_display_suppress_clickthrough_active",
+          "publisherId": 14198,
+          "siteName": "test_display_suppress_clickthrough_active",
+          "guid": "SFV7OVHQRH0JTFJSFOTDOS9UAK",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "revenueSharePercent": 0.0,
+          "marginPercent": 0,
+          "publisherMarginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 14198,
+      "createdAt": "2023-08-18@15:07:40.000+0000",
+      "updatedAt": "2023-08-18@15:07:40.000+0000",
+      "name": "test_display_suppress_clickthrough_active",
+      "contactName": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactAddress": "",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "siprocalads.com",
+      "adsTxtAccountId": "D7VGR2AF51219FODH57IHP0K6O",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "D7VGR2AF51219FODH57IHP0K6O",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 26182,
+          "createdAt": "2023-08-18@15:07:46.000+0000",
+          "updatedAt": "2023-08-18@15:07:46.000+0000",
+          "publisherId": 14198,
+          "name": "test_display_suppress_clickthrough_active",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_display_suppress_clickthrough_active",
+          "guid": "7OI8COHUET2SF946C8V7FTE7L8",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8763,
+          "createdAt": "2021-06-28@16:03:16.000+0000",
+          "updatedAt": "2023-08-18@15:11:23.000+0000",
+          "email": "scothren@column6.com",
+          "firstName": "Steven",
+          "lastName": "Cothren",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Steven Cothren"
+        },
+        "auditDateTime": 1692371260000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": [
+      {
+        "id": 1,
+        "for": "placement"
+      },
+      {
+        "id": 4,
+        "for": "placement"
+      },
+      {
+        "id": 557,
+        "for": "placement"
+      }
+    ]
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 13174,
+        "createdAt": "2023-08-18@15:08:30.000+0000",
+        "updatedAt": "2023-08-18@15:08:30.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2023-08-18@15:11:23.000+0000",
+            "email": "scothren@column6.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1692371310000
+        },
+        "name": "test_display_suppress_clickthrough_active",
+        "guid": "K3QFI6EBQ17VBD7P375T1FVL2C",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "test",
+        "contactEmail": "test@test.com",
+        "contactPhone": "1234567890",
+        "contactAddress": "123 Main",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "insertionOrders": [
+          {
+            "id": 15529,
+            "createdAt": "2023-08-18@15:08:35.000+0000",
+            "updatedAt": "2023-08-18@15:08:35.000+0000",
+            "name": "test_display_suppress_clickthrough_active",
+            "status": "active",
+            "terms": 30,
+            "advId": 13174,
+            "advName": "test_display_suppress_clickthrough_active",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 40586,
+                "name": "test_display_suppress_clickthrough_active"
+              }
+            ],
+            "guid": "CNJU7MRHHP5E99V3RDOOT2N4B8",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 15529,
+        "createdAt": "2023-08-18@15:08:35.000+0000",
+        "updatedAt": "2023-08-18@15:08:35.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2023-08-18@15:11:23.000+0000",
+            "email": "scothren@column6.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1692371315000
+        },
+        "name": "test_display_suppress_clickthrough_active",
+        "status": "active",
+        "terms": 30,
+        "advId": 13174,
+        "advName": "test_display_suppress_clickthrough_active",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 40586,
+            "createdAt": "2023-08-18@15:08:48.000+0000",
+            "updatedAt": "2023-08-18@15:08:48.000+0000",
+            "name": "test_display_suppress_clickthrough_active",
+            "status": "running",
+            "insertionOrderId": 15529,
+            "insertionOrderName": "test_display_suppress_clickthrough_active",
+            "advId": 13174,
+            "advName": "test_display_suppress_clickthrough_active",
+            "cpm": 2.0,
+            "startDate": "08/18/2023 10:01 AM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "23GEL4M9V53DD87AIB4VI5MM4G",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 40586,
+            "name": "test_display_suppress_clickthrough_active"
+          }
+        ],
+        "guid": "CNJU7MRHHP5E99V3RDOOT2N4B8",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 40586,
+        "createdAt": "2023-08-18@15:08:48.000+0000",
+        "updatedAt": "2023-08-18@15:08:48.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2023-08-18@15:11:23.000+0000",
+            "email": "scothren@column6.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1692371328000
+        },
+        "name": "test_display_suppress_clickthrough_active",
+        "status": "running",
+        "insertionOrderId": 15529,
+        "insertionOrderName": "test_display_suppress_clickthrough_active",
+        "advId": 13174,
+        "advName": "test_display_suppress_clickthrough_active",
+        "cpm": 2.0,
+        "startDate": "08/18/2023 10:01 AM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 172028,
+            "createdAt": "2023-08-18@15:09:14.000+0000",
+            "updatedAt": "2023-08-18@15:09:22.000+0000",
+            "name": "test_display_suppress_clickthrough_active",
+            "mediaTypeId": 6,
+            "size": "300x250",
+            "enablePCPM": false,
+            "cpm": 2.0,
+            "mediaSource": "asset",
+            "clickThroughUrl": "www.siprocal.com",
+            "adTag": "",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 40586,
+            "campaignName": "test_display_suppress_clickthrough_active",
+            "insertionOrderId": 15529,
+            "insertionOrderName": "test_display_suppress_clickthrough_active",
+            "advId": 13174,
+            "advName": "test_display_suppress_clickthrough_active",
+            "inheritedValues": {},
+            "guid": "ALIGA8OBH56GR9854C5OIR8D40",
+            "alignmentType": "static",
+            "campaignStartDate": "08/18/2023 10:01 AM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/18/2023 10:01 AM",
+            "includesVpaid": false,
+            "finalCpm": 2.0,
+            "marginPercent": 0,
+            "publisherMarginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "23GEL4M9V53DD87AIB4VI5MM4G",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 172028,
+        "createdAt": "2023-08-18@15:09:14.000+0000",
+        "updatedAt": "2023-08-18@15:09:22.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8763,
+            "createdAt": "2021-06-28@16:03:16.000+0000",
+            "updatedAt": "2023-08-18@15:11:23.000+0000",
+            "email": "scothren@column6.com",
+            "firstName": "Steven",
+            "lastName": "Cothren",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Steven Cothren"
+          },
+          "auditDateTime": 1692371362000
+        },
+        "name": "test_display_suppress_clickthrough_active",
+        "mediaTypeId": 6,
+        "size": "300x250",
+        "enablePCPM": false,
+        "cpm": 2.0,
+        "mediaSource": "asset",
+        "clickThroughUrl": "www.siprocal.com",
+        "creativeType": "mediaFile",
+        "mediaFiles": [
+          {
+            "id": 3553,
+            "objectKey": "VUHR0I9HDD05N8TG94OMM82R58",
+            "fileName": "Outdoor_Living_Ad",
+            "mimeType": "image/png",
+            "bitRate": "0",
+            "previewURL": "https://mediadev.siprocalads.com/display/VUHR0I9HDD05N8TG94OMM82R58",
+            "width": 300,
+            "height": 250
+          }
+        ],
+        "displayMediaFile": {
+          "id": 3553,
+          "objectKey": "VUHR0I9HDD05N8TG94OMM82R58",
+          "fileName": "Outdoor_Living_Ad",
+          "mimeType": "image/png",
+          "bitRate": "0",
+          "previewURL": "https://mediadev.siprocalads.com/display/VUHR0I9HDD05N8TG94OMM82R58",
+          "width": 300,
+          "height": 250
+        },
+        "mediaUrls": [],
+        "adTag": "",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [
+          557
+        ],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 40586,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 77183,
+            "createdAt": "2023-08-18@15:08:01.000+0000",
+            "updatedAt": "2023-08-18@15:08:01.000+0000",
+            "name": "test_display_suppress_clickthrough_active",
+            "status": "active",
+            "locked": false,
+            "siteId": 26182,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "size": "300x250",
+            "type": "display",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Display",
+            "allowRon": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_display_suppress_clickthrough_active",
+            "publisherId": 14198,
+            "siteName": "test_display_suppress_clickthrough_active",
+            "guid": "SFV7OVHQRH0JTFJSFOTDOS9UAK",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "revenueSharePercent": 0.0,
+            "marginPercent": 0,
+            "publisherMarginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_display_suppress_clickthrough_active",
+        "insertionOrderId": 15529,
+        "insertionOrderName": "test_display_suppress_clickthrough_active",
+        "advId": 13174,
+        "advName": "test_display_suppress_clickthrough_active",
+        "inheritedValues": {},
+        "guid": "ALIGA8OBH56GR9854C5OIR8D40",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/18/2023 10:01 AM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/18/2023 10:01 AM",
+        "includesVpaid": false,
+        "audiences": [],
+        "finalCpm": 2.0,
+        "marginPercent": 0,
+        "publisherMarginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": [
+    {
+      "id": 1,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2018-11-20@16:22:46.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7762,
+          "createdAt": "2017-09-26@20:11:06.000+0000",
+          "updatedAt": "2023-02-22@15:22:32.000+0000",
+          "email": "dmalanga@genesismedia.com",
+          "firstName": "Dennis",
+          "lastName": "Malanga",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dennis Malanga"
+        },
+        "auditDateTime": 1542730966000
+      },
+      "name": "test_display_suppress_clickthrough_active [1]",
+      "description": "Comscore",
+      "url": "http://b.scorecardresearch.com/p?c1=1&c2=16041093&",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 4,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2017-03-21@13:49:33.000+0000",
+      "name": "test_display_suppress_clickthrough_active [2]",
+      "description": "NHT Bot Detect",
+      "url": "//pixel.adsafeprotected.com/bapi?anId=8390&amp;",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 557,
+      "createdAt": "2022-09-29@08:54:33.000+0000",
+      "updatedAt": "2022-09-29@08:54:33.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8878,
+          "createdAt": "2021-12-22@15:13:27.000+0000",
+          "updatedAt": "2023-08-16@07:36:16.000+0000",
+          "email": "priyanka.agarwal1@tothenew.com",
+          "firstName": "Priyanka",
+          "lastName": "Agarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priyanka Agarwal"
+        },
+        "auditDateTime": 1664441673000
+      },
+      "name": "test_display_suppress_clickthrough_active [3]",
+      "description": "priyanka_fronend_tracker",
+      "url": "http://priyanka.com?bidderguid=[bidder_guid]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    }
+  ],
+  "override_options": {
+    "company_name": "Delivery_Regression_Tests - Suppress_Display_Clickthrough"
+  }
+}

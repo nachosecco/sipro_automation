@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="../../resources/vast-client-browser.min.js"></script>
+    </head>
+    <body>
+        <script>
+            const vastParser = new VAST.VASTParser();
+            const trackerData = [];
+			const impressions = [];
+			let vastTextData = `${REPLACE_VAST}`
+
+            vastParser.parseVAST(new DOMParser().parseFromString(vastTextData, "application/xml"))
+            .then(res => {
+                console.warn(res)
+
+                res.ads.forEach(function(ad){
+                    ad.creatives.forEach(function(creative){
+                        if (trackerData){
+                            trackerData.push(creative);
+                        }
+                    })
+					ad.impressionURLTemplates.forEach(function (impression){
+                        if (impressions){
+                            impressions.push(impression);
+                        }
+					})
+                })
+            })
+        </script>
+
+    </body>
+</html>

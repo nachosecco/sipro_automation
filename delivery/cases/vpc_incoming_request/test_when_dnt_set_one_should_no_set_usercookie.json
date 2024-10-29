@@ -1,0 +1,525 @@
+{
+  "supply": {
+    "placement": {
+      "id": 77837,
+      "createdAt": "2024-01-09@10:58:35.000+0000",
+      "updatedAt": "2024-01-09@10:58:35.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9125,
+          "createdAt": "2023-06-02@14:13:17.000+0000",
+          "updatedAt": "2024-01-09@11:02:02.000+0000",
+          "email": "sangam.aggarwal@siprocal.com",
+          "firstName": "Sangam",
+          "lastName": "Aggarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Sangam Aggarwal"
+        },
+        "auditDateTime": 1704797915000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie",
+      "status": "active",
+      "locked": false,
+      "siteId": 26158,
+      "revenueType": "flat_rate",
+      "floor": 10.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "vast",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Instream",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_when_dnt_set_one_should_no_set_usercookie",
+      "publisherId": 14257,
+      "siteName": "test_when_dnt_set_one_should_no_set_usercookie",
+      "formatName": "Video",
+      "guid": "DKR6PA73I5779DJCL3HP3RJK1G",
+      "secureTag": "https://deliveryqa2.siprocalads.com/vast?uid=DKR6PA73I5779DJCL3HP3RJK1G&page_url=[REPLACE]&cb=[REPLACE]&ref_page_url=[REPLACE]&player_width=[REPLACE]&player_height=[REPLACE]&video_duration=[REPLACE]&media_file_url=[REPLACE]&media_file_title=[REPLACE]&media_description=[REPLACE]&media_file_id=[REPLACE]&schain=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [
+        1,
+        4,
+        581,
+        582,
+        583,
+        648,
+        859,
+        860
+      ],
+      "media": [],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "allowServerSideRequests": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 26158,
+      "createdAt": "2024-01-09@10:58:04.000+0000",
+      "updatedAt": "2024-01-09@10:58:04.000+0000",
+      "publisherId": 14257,
+      "name": "test_when_dnt_set_one_should_no_set_usercookie",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9125,
+          "createdAt": "2023-06-02@14:13:17.000+0000",
+          "updatedAt": "2024-01-09@11:02:02.000+0000",
+          "email": "sangam.aggarwal@siprocal.com",
+          "firstName": "Sangam",
+          "lastName": "Aggarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Sangam Aggarwal"
+        },
+        "auditDateTime": 1704797884000
+      },
+      "publisherName": "test_when_dnt_set_one_should_no_set_usercookie",
+      "guid": "NOUMFIHSUL589FB7P8UFBEK4Q4",
+      "placements": [
+        {
+          "id": 77837,
+          "createdAt": "2024-01-09@10:58:35.000+0000",
+          "updatedAt": "2024-01-09@10:58:35.000+0000",
+          "name": "test_when_dnt_set_one_should_no_set_usercookie",
+          "status": "active",
+          "locked": false,
+          "siteId": 26158,
+          "revenueType": "flat_rate",
+          "floor": 10.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "vast",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Instream",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_when_dnt_set_one_should_no_set_usercookie",
+          "publisherId": 14257,
+          "siteName": "test_when_dnt_set_one_should_no_set_usercookie",
+          "guid": "DKR6PA73I5779DJCL3HP3RJK1G",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 14257,
+      "createdAt": "2024-01-09@10:57:44.000+0000",
+      "updatedAt": "2024-01-09@10:57:44.000+0000",
+      "name": "test_when_dnt_set_one_should_no_set_usercookie",
+      "contactName": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactAddress": "",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "dnt.com",
+      "adsTxtAccountId": "S3T4I14N5P7KREI90IBITVQD74",
+      "adSystemDomain": "siprocalads.com",
+      "guid": "S3T4I14N5P7KREI90IBITVQD74",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 26158,
+          "createdAt": "2024-01-09@10:58:04.000+0000",
+          "updatedAt": "2024-01-09@10:58:04.000+0000",
+          "publisherId": 14257,
+          "name": "test_when_dnt_set_one_should_no_set_usercookie",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_when_dnt_set_one_should_no_set_usercookie",
+          "guid": "NOUMFIHSUL589FB7P8UFBEK4Q4",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 9125,
+          "createdAt": "2023-06-02@14:13:17.000+0000",
+          "updatedAt": "2024-01-09@11:02:02.000+0000",
+          "email": "sangam.aggarwal@siprocal.com",
+          "firstName": "Sangam",
+          "lastName": "Aggarwal",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Sangam Aggarwal"
+        },
+        "auditDateTime": 1704797864000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": [
+      {
+        "id": 1,
+        "for": "placement"
+      },
+      {
+        "id": 4,
+        "for": "placement"
+      },
+      {
+        "id": 581,
+        "for": "placement"
+      },
+      {
+        "id": 582,
+        "for": "placement"
+      },
+      {
+        "id": 583,
+        "for": "placement"
+      },
+      {
+        "id": 648,
+        "for": "placement"
+      },
+      {
+        "id": 859,
+        "for": "placement"
+      },
+      {
+        "id": 860,
+        "for": "placement"
+      }
+    ]
+  },
+  "demand": {
+    "advertisers": [],
+    "insertion_orders": [],
+    "campaigns": [],
+    "media": [],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": [
+    {
+      "id": 1,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2018-11-20@16:22:46.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7762,
+          "createdAt": "2017-09-26@20:11:06.000+0000",
+          "updatedAt": "2023-08-03@13:04:26.000+0000",
+          "email": "dmalanga@genesismedia.com",
+          "firstName": "Dennis",
+          "lastName": "Malanga",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dennis Malanga"
+        },
+        "auditDateTime": 1542730966000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [1]",
+      "description": "Comscore",
+      "url": "http://b.scorecardresearch.com/p?c1=1&c2=16041093&",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 4,
+      "createdAt": "1970-01-01@00:00:01.000+0000",
+      "updatedAt": "2017-03-21@13:49:33.000+0000",
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [2]",
+      "description": "NHT Bot Detect",
+      "url": "//pixel.adsafeprotected.com/bapi?anId=8390&amp;",
+      "type": "CUSTOM",
+      "typeLabel": "Custom",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "inactive"
+    },
+    {
+      "id": 581,
+      "createdAt": "2022-08-19@10:10:08.000+0000",
+      "updatedAt": "2022-08-19@10:10:23.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8906,
+          "createdAt": "2022-04-05@14:14:12.000+0000",
+          "updatedAt": "2024-01-04@10:40:29.000+0000",
+          "email": "priyanka.agarwal1@tothenew.com",
+          "firstName": "Priyanka Agarwal",
+          "lastName": "",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priyanka Agarwal "
+        },
+        "auditDateTime": 1660903823000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [3]",
+      "description": "priyanka_tracker",
+      "url": "test.com",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 582,
+      "createdAt": "2022-08-19@10:17:41.000+0000",
+      "updatedAt": "2022-08-19@10:17:41.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8906,
+          "createdAt": "2022-04-05@14:14:12.000+0000",
+          "updatedAt": "2024-01-04@10:40:29.000+0000",
+          "email": "priyanka.agarwal1@tothenew.com",
+          "firstName": "Priyanka Agarwal",
+          "lastName": "",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Priyanka Agarwal "
+        },
+        "auditDateTime": 1660904261000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [4]",
+      "description": "priyanka_tracker_withmacro",
+      "url": "http://column6.com?[device_id][us_privacy][pod_size][pod_max_dur][pod_min_ad_dur][pod_max_ad_dur]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 583,
+      "createdAt": "2023-02-27@16:17:03.000+0000",
+      "updatedAt": "2023-02-27@16:17:40.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8939,
+          "createdAt": "2023-01-31@15:02:48.000+0000",
+          "updatedAt": "2024-01-05@20:11:33.000+0000",
+          "email": "akhanom@column6.tv",
+          "firstName": "Afroza",
+          "lastName": "Khamon",
+          "phoneNumber": "",
+          "timeZone": "America/Detroit",
+          "status": "active",
+          "name": "Afroza Khamon"
+        },
+        "auditDateTime": 1677514660000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [5]",
+      "description": "test-feb27",
+      "url": "www.abc.com",
+      "type": "IMG",
+      "event": "opportunity",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "active"
+    },
+    {
+      "id": 648,
+      "createdAt": "2023-06-22@19:13:58.000+0000",
+      "updatedAt": "2023-06-22@19:13:58.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8929,
+          "createdAt": "2023-01-12@18:43:23.000+0000",
+          "updatedAt": "2023-09-20@10:53:13.000+0000",
+          "email": "1695207179487automation@test.com",
+          "firstName": "(UI) User edit - First name",
+          "lastName": "Test",
+          "phoneNumber": "155345654",
+          "timeZone": "Z",
+          "status": "deleted",
+          "name": "(UI) User edit - First name Test"
+        },
+        "auditDateTime": 1687461238000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [6]",
+      "description": "test_vast_version_2_0",
+      "url": "http://priyanka.com?bidderguid=[bidder_guid]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 859,
+      "createdAt": "2023-11-09@13:43:55.000+0000",
+      "updatedAt": "2023-11-09@14:01:04.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8939,
+          "createdAt": "2023-01-31@15:02:48.000+0000",
+          "updatedAt": "2024-01-05@20:11:33.000+0000",
+          "email": "akhanom@column6.tv",
+          "firstName": "Afroza",
+          "lastName": "Khamon",
+          "phoneNumber": "",
+          "timeZone": "America/Detroit",
+          "status": "active",
+          "name": "Afroza Khamon"
+        },
+        "auditDateTime": 1699538464000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [7]",
+      "description": "CP-3717_display_trackers_placements_by_media",
+      "url": "https://us.shein.com/?transactionid=[tid]",
+      "type": "IMG",
+      "event": "impression",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": true,
+      "mediaDefault": true,
+      "status": "active"
+    },
+    {
+      "id": 860,
+      "createdAt": "2023-11-09@14:13:18.000+0000",
+      "updatedAt": "2023-11-09@14:14:23.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8939,
+          "createdAt": "2023-01-31@15:02:48.000+0000",
+          "updatedAt": "2024-01-05@20:11:33.000+0000",
+          "email": "akhanom@column6.tv",
+          "firstName": "Afroza",
+          "lastName": "Khamon",
+          "phoneNumber": "",
+          "timeZone": "America/Detroit",
+          "status": "active",
+          "name": "Afroza Khamon"
+        },
+        "auditDateTime": 1699539263000
+      },
+      "name": "test_when_dnt_set_one_should_no_set_usercookie [8]",
+      "description": "CP-3717_display_trackers_placements_by_media_1",
+      "url": "https://www.starbucks.com/?transactionid=[tid]",
+      "type": "IMG",
+      "event": "opportunity",
+      "typeLabel": "Beacon",
+      "placementEnabled": true,
+      "placementDefault": true,
+      "mediaEnabled": false,
+      "mediaDefault": false,
+      "status": "active"
+    }
+  ]
+}

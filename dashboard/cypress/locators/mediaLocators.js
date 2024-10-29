@@ -1,0 +1,108 @@
+export const localeContent = {
+	TITLE: "Media",
+	FIELDS: {
+		NAME: {
+			LABEL: "Media Name *",
+		},
+		AD_TAG: {
+			LABEL: "Ad Tag",
+		},
+		STATUS: {
+			INACTIVE: "Inactive",
+			ACTIVE: "active",
+		},
+		CUSTOM_DATES_RANGE: { LABEL: "Custom Date Range" },
+		CUSTOM_DATE_START: {
+			LABEL: "Start Date",
+			VALIDATION_MESSAGE: "Custom start date should be equal or after campaign start date",
+		},
+		CUSTOM_PARAMETER_PASSTHROUGH: {
+			KEY_INPUT_LABEL: "Key",
+		},
+		CUSTOM_URL_PARAMETER: {
+			ENABLE_SWITCH_LABEL: "Custom URL Parameter",
+			CUSTOM_LEAF_CREATION_BUTTON_LABEL: "add key/value group",
+			EDIT_LEAF_BUTTON_LABEL: "Edit",
+			RULE_VISUALIZER: {
+				SHOW_RULE_LABEL: "Show Rule",
+				HIDE_RULE_LABEL: "Hide Rule",
+			},
+		},
+		SAVE_ALIGNMENTS: "Save Alignments",
+		TOGGLE_ROW_SELECTED: "Toggle Row Selected",
+		UPLOAD_VIDEO: {
+			UPLOAD_MEDIA_FILE_FORM_LABEL: "Upload Media File",
+			WIDTH_LABEL: "Width",
+			BITRATE_LABEL: "Bitrate",
+			HEIGHT_LABEL: "Height",
+			UPLOAD_LABEL: "Upload",
+			UPLOAD_BOTTOM_LABEL: "Upload Media File",
+		},
+		DElETE_LABEL: "Delete",
+	},
+	TEST_ID_FIELDS: {
+		ALIGNMENTS_TABLE_AVALIABLE: "alignment-table-available",
+		ALIGNMENTS_TABLE_ALIGN: "alignment-table-aligned",
+	},
+	TABS: {
+		ALIGNMENTS: "Alignments",
+		QUALITY: "Quality",
+	},
+	UPLOAD_MESSAGE: "Uploaded",
+};
+
+export const mediaLocators = {
+	addMediaButton: { locator: "Add Media", role: "link" },
+	campaignNameDropdown: { locator: "Campaign Name", role: "combobox" },
+	settingsTab: { locator: "Settings", role: "tab" },
+	qualityTab: { locator: "Quality", role: "tab" },
+	alignmentsTab: { locator: "Alignments", role: "tab" },
+	mediaNameField: { locator: "Media Name", role: "textbox" },
+	statusActiveRadio: { locator: "Active", role: "radio" },
+	statusInactiveRadio: { locator: "Inactive", role: "radio" },
+	cpmField: { locator: "CPM", role: "spinbutton" },
+	mediaTypeVideoRadio: { locator: "Video", role: "radio" },
+	mediaTypeDisplayRadio: { locator: "Display", role: "radio" },
+	mediaSourceAdTagRadio: { locator: "Ad Tag", role: "radio" },
+	mediaSourceAssetRadio: { locator: "Asset", role: "radio" },
+	adTagField: { locator: "Ad Tag", role: "textbox" },
+	addMacroButton: { locator: "Add Macro", role: "button" },
+	addMacroSearchInput: ".MuiAutocomplete-input",
+	vpaidSupportedTagYesRadio: { locator: "Yes", role: "radio" },
+	vpaidSupportedTagNoRadio: { locator: "No", role: "radio" },
+	customPassThroughParam: { locator: "Custom Parameter Passthrough", role: "checkbox" },
+	customPassThroughParamAddKey: { locator: "Add Key", role: "button" },
+	positionDropdown: { locator: "Position Pre-Roll", role: "button" },
+	durationDropdown: { locator: "Duration (seconds)", role: "spinbutton" },
+	mediaPriorityDropdown: { locator: "Media Priority Backfill", role: "button" },
+	mediaWeightDropdown: { locator: "Media Weight Backfill", role: "button" },
+	sizeDropdown: { locator: "Size ​", role: "button" },
+	sizeDropdownOption970x250: { locator: "970x250", role: "option" },
+	trackersMultiselect: { locator: "Trackers", role: "combobox" },
+	campaignNameOptionZero: { locator: "Automation Entity", role: "option" },
+	deviceTargetingToggle: { locator: "Device Targeting", role: "checkbox" },
+	sizeTargetingToggle: { locator: "Size Targeting", role: "checkbox" },
+	domainTargetingToggle: { locator: "Domain Targeting", role: "checkbox" },
+	appNameTargetingToggle: { locator: "App Name Targeting", role: "checkbox" },
+	appBundleIDTargetingToggle: { locator: "App Bundle ID Targeting", role: "checkbox" },
+	geoTargetingToggle: { locator: "Geo Targeting", role: "checkbox" },
+	postalCodeUploadButton: "[data-testid='file-upload-button-geoTargetingConfig.geoZipCode']",
+	newPostalCodeInput: "Enter Postal Code",
+	advertiserDomainField: { locator: "Advertiser Domain", role: "textbox" },
+	uploadMediaFile: "[data-testid='file-upload-button-displayMediaFile']",
+	displayPreviewText: "Display Preview",
+	uploadFileType: { locator: "Uploaded File", role: "radio" },
+	uploadVideoMediaFileButton: { locator: "Upload Media File", role: "button" },
+	uploadVideoMediaFile: "[data-testid='file-upload-input']",
+	allRowsMediaFile: "[data-testid='media-file-table-*']",
+	bitRateTextBox: { locator: "Bitrate", role: "spinbutton" },
+	widthTextBox: { locator: "Width", role: "spinbutton" },
+	heightTextBox: { locator: "Height", role: "spinbutton" },
+	uploadButton: { locator: "Upload", role: "button" },
+	creativeName: (name) => {
+		return { locator: name, role: "cell" };
+	},
+	cloneAlignments: { locator: "Clone Alignments", role: "checkbox" },
+};
+
+export default {};

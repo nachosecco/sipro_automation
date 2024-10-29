@@ -1,0 +1,696 @@
+{
+  "supply": {
+    "placement": {
+      "id": 75862,
+      "createdAt": "2023-06-20@15:35:33.000+0000",
+      "updatedAt": "2023-06-27@16:10:00.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-07-07@19:48:44.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1687882200000
+      },
+      "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+      "status": "active",
+      "locked": false,
+      "siteId": 24878,
+      "revenueType": "flat_rate",
+      "floor": 0.01,
+      "revenueShare": 0.0,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "blacklist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "publisherName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+      "publisherId": 12811,
+      "siteName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+      "formatName": "Video",
+      "guid": "VMBUDR4TFL3AJ5V6TIENQLL9GO",
+      "secureTag": "https://mobiledev.altitude-arena.com/vast?uid=VMBUDR4TFL3AJ5V6TIENQLL9GO&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 169420,
+          "createdAt": "2023-06-20@15:37:10.000+0000",
+          "updatedAt": "2023-06-27@16:08:15.000+0000",
+          "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 7.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?geo_co=[geo_co]&geo_dma=[geo_dma]&geo_sub=[geo_sub]&geo_subname=[geo_subname]&geo_code=[geo_code]&geo_conn_type=[geo_conn_type]&geo_ip=[geo_ip]&geo_lat=[geo_lat]&geo_long=[geo_long]&geo_isp_name=[geo_isp_name]&cid=[cid]&device_id=[device_id]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "campaignId": 38590,
+          "campaignName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "insertionOrderId": 14119,
+          "insertionOrderName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "advId": 11624,
+          "advName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "inheritedValues": {},
+          "guid": "186SQ22LH16FT3ED11AOG77U2K",
+          "alignmentType": "static",
+          "campaignStartDate": "06/20/2023 11:33 AM",
+          "allowIVTFiltering": true,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "06/20/2023 11:33 AM",
+          "includesVpaid": false,
+          "publisherMarginPercent": 0,
+          "finalCpm": 7.0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": false,
+      "allowIVTFiltering": true,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "publisherMarginPercent": 0,
+      "revenueSharePercent": 0.0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 24878,
+      "createdAt": "2023-06-20@15:35:19.000+0000",
+      "updatedAt": "2023-06-27@16:09:52.000+0000",
+      "publisherId": 12811,
+      "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+      "status": "active",
+      "defaultRevenueShare": 0.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-07-07@19:48:44.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1687882192000
+      },
+      "publisherName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+      "guid": "CUSL58LUBL2NREAIKAV5R5BT1K",
+      "placements": [
+        {
+          "id": 75862,
+          "createdAt": "2023-06-20@15:35:33.000+0000",
+          "updatedAt": "2023-06-27@16:10:00.000+0000",
+          "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "status": "active",
+          "locked": false,
+          "siteId": 24878,
+          "revenueType": "flat_rate",
+          "floor": 0.01,
+          "revenueShare": 0.0,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "blacklist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "publisherName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "publisherId": 12811,
+          "siteName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "guid": "VMBUDR4TFL3AJ5V6TIENQLL9GO",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": false,
+          "allowIVTFiltering": true,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "publisherMarginPercent": 0,
+          "revenueSharePercent": 0.0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.0
+    },
+    "publisher": {
+      "id": 12811,
+      "createdAt": "2023-06-20@15:35:09.000+0000",
+      "updatedAt": "2023-06-27@16:09:45.000+0000",
+      "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+      "contactName": "test",
+      "contactEmail": "tset@t.com",
+      "contactPhone": "123",
+      "contactAddress": "test",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 0.0,
+      "tmax": 300,
+      "status": "active",
+      "webSiteDomain": "siprocal.com",
+      "adsTxtAccountId": "CT692DTUEH3CF34H6UV799M7OC",
+      "adSystemDomain": "altitude-arena.com",
+      "guid": "CT692DTUEH3CF34H6UV799M7OC",
+      "companyName": "Column6",
+      "sites": [
+        {
+          "id": 24878,
+          "createdAt": "2023-06-20@15:35:19.000+0000",
+          "updatedAt": "2023-06-27@16:09:52.000+0000",
+          "publisherId": 12811,
+          "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "status": "active",
+          "defaultRevenueShare": 0.0,
+          "url": "",
+          "publisherName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+          "guid": "CUSL58LUBL2NREAIKAV5R5BT1K",
+          "defaultRevenueSharePercent": 0.0
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 7756,
+          "createdAt": "2017-09-19@17:14:36.000+0000",
+          "updatedAt": "2023-07-07@19:48:44.000+0000",
+          "email": "dsumi@genesismedia.com",
+          "firstName": "Dilara ",
+          "lastName": "Sumi",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Dilara  Sumi"
+        },
+        "auditDateTime": 1687882185000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.0
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 11624,
+        "createdAt": "2023-06-20@15:36:23.000+0000",
+        "updatedAt": "2023-06-27@16:07:48.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-07-07@19:48:44.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1687882068000
+        },
+        "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "guid": "1KIALRLGKP7AL95ATQOACVLAB8",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "test",
+        "contactEmail": "tset@t.com",
+        "contactPhone": "1234",
+        "contactAddress": "test",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "insertionOrders": [
+          {
+            "id": 14119,
+            "createdAt": "2023-06-20@15:36:29.000+0000",
+            "updatedAt": "2023-06-27@16:07:54.000+0000",
+            "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "status": "active",
+            "terms": 30,
+            "advId": 11624,
+            "advName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 38590,
+                "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut"
+              }
+            ],
+            "guid": "RP50E4QUQL4AH2G72DFDA2587C",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 14119,
+        "createdAt": "2023-06-20@15:36:29.000+0000",
+        "updatedAt": "2023-06-27@16:07:54.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-07-07@19:48:44.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1687882074000
+        },
+        "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "status": "active",
+        "terms": 30,
+        "advId": 11624,
+        "advName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 38590,
+            "createdAt": "2023-06-20@15:36:39.000+0000",
+            "updatedAt": "2023-06-27@16:08:07.000+0000",
+            "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "status": "running",
+            "insertionOrderId": 14119,
+            "insertionOrderName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "advId": 11624,
+            "advName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "cpm": 0.0,
+            "startDate": "06/20/2023 11:33 AM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "LBVDV8F28D3JRFMVK7H479PTAC",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 38590,
+            "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut"
+          }
+        ],
+        "guid": "RP50E4QUQL4AH2G72DFDA2587C",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 38590,
+        "createdAt": "2023-06-20@15:36:39.000+0000",
+        "updatedAt": "2023-06-27@16:08:07.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-07-07@19:48:44.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1687882087000
+        },
+        "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "status": "running",
+        "insertionOrderId": 14119,
+        "insertionOrderName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "advId": 11624,
+        "advName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "cpm": 0.0,
+        "startDate": "06/20/2023 11:33 AM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 169420,
+            "createdAt": "2023-06-20@15:37:10.000+0000",
+            "updatedAt": "2023-06-27@16:08:15.000+0000",
+            "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 7.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?geo_co=[geo_co]&geo_dma=[geo_dma]&geo_sub=[geo_sub]&geo_subname=[geo_subname]&geo_code=[geo_code]&geo_conn_type=[geo_conn_type]&geo_ip=[geo_ip]&geo_lat=[geo_lat]&geo_long=[geo_long]&geo_isp_name=[geo_isp_name]&cid=[cid]&device_id=[device_id]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "campaignId": 38590,
+            "campaignName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "insertionOrderId": 14119,
+            "insertionOrderName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "advId": 11624,
+            "advName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "inheritedValues": {},
+            "guid": "186SQ22LH16FT3ED11AOG77U2K",
+            "alignmentType": "static",
+            "campaignStartDate": "06/20/2023 11:33 AM",
+            "allowIVTFiltering": true,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "06/20/2023 11:33 AM",
+            "includesVpaid": false,
+            "publisherMarginPercent": 0,
+            "finalCpm": 7.0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "LBVDV8F28D3JRFMVK7H479PTAC",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 169420,
+        "createdAt": "2023-06-20@15:37:10.000+0000",
+        "updatedAt": "2023-06-27@16:08:15.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 7756,
+            "createdAt": "2017-09-19@17:14:36.000+0000",
+            "updatedAt": "2023-07-07@19:48:44.000+0000",
+            "email": "dsumi@genesismedia.com",
+            "firstName": "Dilara ",
+            "lastName": "Sumi",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Dilara  Sumi"
+          },
+          "auditDateTime": 1687882095000
+        },
+        "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 7.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?geo_co=[geo_co]&geo_dma=[geo_dma]&geo_sub=[geo_sub]&geo_subname=[geo_subname]&geo_code=[geo_code]&geo_conn_type=[geo_conn_type]&geo_ip=[geo_ip]&geo_lat=[geo_lat]&geo_long=[geo_long]&geo_isp_name=[geo_isp_name]&cid=[cid]&device_id=[device_id]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [
+          557
+        ],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        },
+        "campaignId": 38590,
+        "customQueryParams": [],
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 75862,
+            "createdAt": "2023-06-20@15:35:33.000+0000",
+            "updatedAt": "2023-06-27@16:10:00.000+0000",
+            "name": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "status": "active",
+            "locked": false,
+            "siteId": 24878,
+            "revenueType": "flat_rate",
+            "floor": 0.01,
+            "revenueShare": 0.0,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "blacklist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "publisherName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "publisherId": 12811,
+            "siteName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+            "guid": "VMBUDR4TFL3AJ5V6TIENQLL9GO",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": false,
+            "allowIVTFiltering": true,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "publisherMarginPercent": 0,
+            "revenueSharePercent": 0.0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "insertionOrderId": 14119,
+        "insertionOrderName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "advId": 11624,
+        "advName": "test_media_ad_tag_us_privacy_law_disabled_blank_connecticut",
+        "inheritedValues": {},
+        "guid": "186SQ22LH16FT3ED11AOG77U2K",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "06/20/2023 11:33 AM",
+        "allowIVTFiltering": true,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "06/20/2023 11:33 AM",
+        "includesVpaid": false,
+        "audiences": [],
+        "publisherMarginPercent": 0,
+        "finalCpm": 7.0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "blacklist",
+          "restrictions": null
+        }
+      }
+    ],
+    "trackers": [],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": []
+  },
+  "trackers": []
+}

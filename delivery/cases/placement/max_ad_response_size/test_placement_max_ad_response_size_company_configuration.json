@@ -1,0 +1,2082 @@
+{
+  "supply": {
+    "placement": {
+      "id": 1118,
+      "createdAt": "2024-08-20@18:02:01.000+0000",
+      "updatedAt": "2024-08-20@18:27:28.000+0000",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@10:33:10.000+0000",
+          "updatedAt": "2024-08-21@15:02:53.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Bob",
+          "lastName": "Tester",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Bob Tester",
+          "isDemandClient": false
+        },
+        "auditDateTime": 1724178448000
+      },
+      "name": "test_placement_max_ad_response_size_company_configuration",
+      "status": "active",
+      "locked": false,
+      "siteId": 989,
+      "revenueType": "flat_rate",
+      "floor": 1.0,
+      "revenueShare": 0.0,
+      "usingMultipleImpObjects": false,
+      "type": "mobile",
+      "blacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "advertiserDomainBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appNameBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "appBundleIdBlacklistWhitelist": {
+        "accessRestrictionType": "whitelist",
+        "restrictions": null
+      },
+      "enableVPAID": false,
+      "enableC6AdManager": false,
+      "typeName": "Mobile App/CTV",
+      "siteStatus": "",
+      "allowRon": false,
+      "maxDuration": 60,
+      "enableAdResponseMediaLimit": false,
+      "preventDuplicateCreatives": false,
+      "bidderMargin": 0.0,
+      "publisherName": "test_placement_max_ad_response_size_company_configuration",
+      "publisherId": 996,
+      "siteName": "test_placement_max_ad_response_size_company_configuration",
+      "formatName": "Video",
+      "guid": "D3MG0K4T093V7B80A2EG4DVJ0K",
+      "secureTag": "https://delivery.ad.local/vast?uid=D3MG0K4T093V7B80A2EG4DVJ0K&player_width=[REPLACE]&player_height=[REPLACE]&ip_address=[REPLACE]&latlng=[REPLACE]&lat=[REPLACE]&long=[REPLACE]&ua=[REPLACE]&app_name=[REPLACE]&app_id=[REPLACE]&app_uri=[REPLACE]&app_ver=[REPLACE]&schain=[REPLACE]&did=[REPLACE]&did_type=[REPLACE]&us_privacy=[REPLACE]&gpp=[REPLACE]&gpp_sid=[REPLACE]&lmt=[REPLACE]&coppa=[REPLACE]&network_name=[REPLACE]&channel_name=[REPLACE]&ssai=[REPLACE]&eid=[REPLACE]&content_episode=[REPLACE]&content_title=[REPLACE]&content_series=[REPLACE]&content_genre=[REPLACE]&content_cat=[REPLACE]&content_prodq=[REPLACE]&content_qagmediarating=[REPLACE]&content_livestream=[REPLACE]&content_len=[REPLACE]&content_language=[REPLACE]&pod_size=[REPLACE]&pod_max_dur=[REPLACE]&pod_min_ad_dur=[REPLACE]&pod_max_ad_dur=[REPLACE]&gdpr=[REPLACE]&gdpr_consent=[REPLACE]&gdpr_pd=[REPLACE]",
+      "trackers": [],
+      "media": [
+        {
+          "id": 1412,
+          "createdAt": "2024-08-20@18:15:34.000+0000",
+          "updatedAt": "2024-08-20@18:18:02.000+0000",
+          "name": "test1",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 10.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media1=[pla_guid]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 1210,
+          "campaignName": "test_placement_max_ad_response",
+          "insertionOrderId": 559,
+          "insertionOrderName": "test_placement_max_ad_response",
+          "advId": 566,
+          "advName": "test_placement_max_ad_response",
+          "inheritedValues": {},
+          "guid": "LK02MQOF5H71V01BDC7IO3GV3G",
+          "alignmentType": "static",
+          "campaignStartDate": "08/20/2024 02:02 PM",
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/20/2024 02:02 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 10.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 1413,
+          "createdAt": "2024-08-20@18:18:36.000+0000",
+          "updatedAt": "2024-08-20@18:18:36.000+0000",
+          "name": "test2",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 10.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media2=[pla_guid]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 1210,
+          "campaignName": "test_placement_max_ad_response",
+          "insertionOrderId": 559,
+          "insertionOrderName": "test_placement_max_ad_response",
+          "advId": 566,
+          "advName": "test_placement_max_ad_response",
+          "inheritedValues": {},
+          "guid": "IML7RJU35129RAJTPV1IGL4TR4",
+          "alignmentType": "static",
+          "campaignStartDate": "08/20/2024 02:02 PM",
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/20/2024 02:02 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 10.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 1414,
+          "createdAt": "2024-08-20@18:18:50.000+0000",
+          "updatedAt": "2024-08-20@18:18:50.000+0000",
+          "name": "test3",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 10.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media3=[pla_guid]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 1210,
+          "campaignName": "test_placement_max_ad_response",
+          "insertionOrderId": 559,
+          "insertionOrderName": "test_placement_max_ad_response",
+          "advId": 566,
+          "advName": "test_placement_max_ad_response",
+          "inheritedValues": {},
+          "guid": "TIV56T2DVH31DFIJEH6VO5GM50",
+          "alignmentType": "static",
+          "campaignStartDate": "08/20/2024 02:02 PM",
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/20/2024 02:02 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 10.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 1415,
+          "createdAt": "2024-08-20@18:19:03.000+0000",
+          "updatedAt": "2024-08-20@18:25:02.000+0000",
+          "name": "test4",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 10.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media4=[pla_guid]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 1210,
+          "campaignName": "test_placement_max_ad_response",
+          "insertionOrderId": 559,
+          "insertionOrderName": "test_placement_max_ad_response",
+          "advId": 566,
+          "advName": "test_placement_max_ad_response",
+          "inheritedValues": {},
+          "guid": "Q4K5O0VU8T38RA2S0FV4E9KDPS",
+          "alignmentType": "static",
+          "campaignStartDate": "08/20/2024 02:02 PM",
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/20/2024 02:02 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 10.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        },
+        {
+          "id": 1416,
+          "createdAt": "2024-08-20@18:25:34.000+0000",
+          "updatedAt": "2024-08-20@18:25:34.000+0000",
+          "name": "test5",
+          "mediaTypeId": 2,
+          "enablePCPM": false,
+          "cpm": 10.0,
+          "mediaSource": "tag",
+          "clickThroughUrl": "",
+          "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media5=[pla_guid]",
+          "supportsVpaid": false,
+          "status": "active",
+          "locked": false,
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "campaignId": 1210,
+          "campaignName": "test_placement_max_ad_response",
+          "insertionOrderId": 559,
+          "insertionOrderName": "test_placement_max_ad_response",
+          "advId": 566,
+          "advName": "test_placement_max_ad_response",
+          "inheritedValues": {},
+          "guid": "80J2312ACL7LF9H1GH56AJQN9S",
+          "alignmentType": "static",
+          "campaignStartDate": "08/20/2024 02:02 PM",
+          "allowIVTFiltering": false,
+          "ivtFilteringRequired": false,
+          "houseAd": false,
+          "customDateRange": false,
+          "customStartDate": "08/20/2024 02:02 PM",
+          "includesVpaid": false,
+          "cloneAlignments": true,
+          "cloned": false,
+          "finalCpm": 10.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          }
+        }
+      ],
+      "programmaticDemands": [],
+      "vastVersion": "4.0",
+      "auctionType": "SECOND_PRICE",
+      "enableIVTFiltering": true,
+      "allowIVTFiltering": false,
+      "allowServerSideRequests": false,
+      "minBitrate": 300,
+      "maxBitrate": 25000,
+      "allowMultipleWinners": false,
+      "allowAuctionWinByCPMperSecond": false,
+      "bidderServiceEnabled": false,
+      "requestTypeRTB": false,
+      "allowInventoryPartnerDomain": false,
+      "cloneAlignments": true,
+      "revenueSharePercent": 0.0,
+      "publisherMarginPercent": 0,
+      "marginPercent": 0,
+      "customSizeEnabled": false,
+      "inheritedValues": {}
+    },
+    "site": {
+      "id": 989,
+      "createdAt": "2024-08-20@17:57:40.000+0000",
+      "updatedAt": "2024-08-20@17:57:40.000+0000",
+      "publisherId": 996,
+      "name": "test_placement_max_ad_response_size_company_configuration",
+      "status": "active",
+      "defaultRevenueShare": 45.0,
+      "url": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@10:33:10.000+0000",
+          "updatedAt": "2024-08-21@15:02:53.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Bob",
+          "lastName": "Tester",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Bob Tester",
+          "isDemandClient": false
+        },
+        "auditDateTime": 1724176660000
+      },
+      "publisherName": "test_placement_max_ad_response_size_company_configuration",
+      "guid": "EFI8QR7FLL7TJ94DDJNQRVUPQS",
+      "placements": [
+        {
+          "id": 1118,
+          "createdAt": "2024-08-20@18:02:01.000+0000",
+          "updatedAt": "2024-08-20@18:27:28.000+0000",
+          "name": "test_placement_max_ad_response_size_company_configuration",
+          "status": "active",
+          "locked": false,
+          "siteId": 989,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "enableAdResponseMediaLimit": false,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_placement_max_ad_response_size_company_configuration",
+          "publisherId": 996,
+          "siteName": "test_placement_max_ad_response_size_company_configuration",
+          "guid": "D3MG0K4T093V7B80A2EG4DVJ0K",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": false,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": false,
+          "requestTypeRTB": false,
+          "allowInventoryPartnerDomain": false,
+          "cloneAlignments": true,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        },
+        {
+          "id": 1119,
+          "createdAt": "2024-08-20@18:49:25.000+0000",
+          "updatedAt": "2024-08-20@18:49:34.000+0000",
+          "name": "test_placement_max_ad_response_size_placement_override_company_configuration",
+          "status": "active",
+          "locked": false,
+          "siteId": 989,
+          "revenueType": "flat_rate",
+          "floor": 1.0,
+          "revenueShare": 0.0,
+          "usingMultipleImpObjects": false,
+          "type": "mobile",
+          "blacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "advertiserDomainBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appNameBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "appBundleIdBlacklistWhitelist": {
+            "accessRestrictionType": "whitelist",
+            "restrictions": null
+          },
+          "typeName": "Mobile App/CTV",
+          "allowRon": false,
+          "maxDuration": 60,
+          "adResponseMediaLimit": 2,
+          "enableAdResponseMediaLimit": true,
+          "preventDuplicateCreatives": false,
+          "bidderMargin": 0.0,
+          "publisherName": "test_placement_max_ad_response_size_company_configuration",
+          "publisherId": 996,
+          "siteName": "test_placement_max_ad_response_size_company_configuration",
+          "guid": "IOK7RC847L44FA3TM423QA27PK",
+          "vastVersion": "4.0",
+          "enableIVTFiltering": true,
+          "allowIVTFiltering": false,
+          "minBitrate": 300,
+          "maxBitrate": 25000,
+          "allowMultipleWinners": false,
+          "allowAuctionWinByCPMperSecond": false,
+          "bidderServiceEnabled": false,
+          "requestTypeRTB": false,
+          "allowInventoryPartnerDomain": false,
+          "cloneAlignments": true,
+          "revenueSharePercent": 0.0,
+          "publisherMarginPercent": 0,
+          "marginPercent": 0,
+          "customSizeEnabled": false,
+          "inheritedValues": {}
+        }
+      ],
+      "defaultRevenueSharePercent": 0.45
+    },
+    "publisher": {
+      "id": 996,
+      "createdAt": "2024-08-20@17:57:33.000+0000",
+      "updatedAt": "2024-08-20@17:57:33.000+0000",
+      "name": "test_placement_max_ad_response_size_company_configuration",
+      "contactName": "",
+      "contactEmail": "",
+      "contactPhone": "",
+      "contactAddress": "",
+      "billingInfoApplicable": false,
+      "defaultRevenueShare": 45.0,
+      "tmax": 3000,
+      "status": "active",
+      "webSiteDomain": "test.com",
+      "adsTxtAccountId": "S0UBILOOJD087F5PASC9NO43C4",
+      "adSystemDomain": "ad.local",
+      "guid": "S0UBILOOJD087F5PASC9NO43C4",
+      "companyName": "delivery_regression_max_response_size",
+      "sites": [
+        {
+          "id": 989,
+          "createdAt": "2024-08-20@17:57:40.000+0000",
+          "updatedAt": "2024-08-20@17:57:40.000+0000",
+          "publisherId": 996,
+          "name": "test_placement_max_ad_response_size_company_configuration",
+          "status": "active",
+          "defaultRevenueShare": 45.0,
+          "url": "",
+          "publisherName": "test_placement_max_ad_response_size_company_configuration",
+          "guid": "EFI8QR7FLL7TJ94DDJNQRVUPQS",
+          "defaultRevenueSharePercent": 0.45
+        }
+      ],
+      "certAuthorityID": "",
+      "auditEvent": {
+        "source": "human",
+        "jobNameEnum": "null",
+        "user": {
+          "id": 8706,
+          "createdAt": "2021-02-12@10:33:10.000+0000",
+          "updatedAt": "2024-08-21@15:02:53.000+0000",
+          "email": "user@ad.local",
+          "firstName": "Bob",
+          "lastName": "Tester",
+          "phoneNumber": "",
+          "timeZone": "Z",
+          "status": "active",
+          "name": "Bob Tester",
+          "isDemandClient": false
+        },
+        "auditDateTime": 1724176653000
+      },
+      "adsTxtIdLevel": "publisher",
+      "accountRelationship": "direct",
+      "supplyType": "direct",
+      "sellerType": "publisher",
+      "confidential": false,
+      "defaultRevenueSharePercent": 0.45
+    },
+    "trackers": []
+  },
+  "demand": {
+    "advertisers": [
+      {
+        "id": 566,
+        "createdAt": "2024-08-20@18:02:48.000+0000",
+        "updatedAt": "2024-08-20@18:02:48.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724176968000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration",
+        "guid": "S1ORK0RAMH7BRCDQ0DLB8FLTLK",
+        "status": "active",
+        "campaignCount": 0,
+        "contactName": "tet",
+        "contactEmail": "test@test.com",
+        "contactPhone": "123456789",
+        "contactAddress": "test",
+        "billingInfoApplicable": false,
+        "pricingOptions": "CPM",
+        "demandFeePercentage": 0.0,
+        "insertionOrders": [
+          {
+            "id": 559,
+            "createdAt": "2024-08-20@18:03:00.000+0000",
+            "updatedAt": "2024-08-20@18:03:00.000+0000",
+            "name": "test_placement_max_ad_response",
+            "status": "active",
+            "terms": 60,
+            "advId": 566,
+            "advName": "test_placement_max_ad_response",
+            "categoryTargeting": [],
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignTableList": [
+              {
+                "id": 1210,
+                "name": "test_placement_max_ad_response"
+              }
+            ],
+            "guid": "TNP3UIFNQ10DPCHV97RT046SDK",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "inheritedValues": {}
+          }
+        ]
+      }
+    ],
+    "insertion_orders": [
+      {
+        "id": 559,
+        "createdAt": "2024-08-20@18:03:00.000+0000",
+        "updatedAt": "2024-08-20@18:03:00.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724176980000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration",
+        "status": "active",
+        "terms": 60,
+        "advId": 566,
+        "advName": "test_placement_max_ad_response",
+        "files": [],
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "categoryTargeting": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaigns": [
+          {
+            "id": 1210,
+            "createdAt": "2024-08-20@18:03:16.000+0000",
+            "updatedAt": "2024-08-20@18:03:16.000+0000",
+            "name": "test_placement_max_ad_response",
+            "status": "running",
+            "insertionOrderId": 559,
+            "insertionOrderName": "test_placement_max_ad_response",
+            "advId": 566,
+            "advName": "test_placement_max_ad_response",
+            "cpm": 10.0,
+            "startDate": "08/20/2024 02:02 PM",
+            "goal": "open",
+            "enableFrequencyCapping": false,
+            "frequencyCappingPeriod": 86400,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "singleAdMediaResponse": false,
+            "houseAd": false,
+            "inheritedValues": {},
+            "guid": "GSL00670B52ORAG033G5JLCDA4",
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "campaignTableList": [
+          {
+            "id": 1210,
+            "name": "test_placement_max_ad_response"
+          }
+        ],
+        "guid": "TNP3UIFNQ10DPCHV97RT046SDK",
+        "advertiserStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "inheritedValues": {}
+      }
+    ],
+    "campaigns": [
+      {
+        "id": 1210,
+        "createdAt": "2024-08-20@18:03:16.000+0000",
+        "updatedAt": "2024-08-20@18:03:16.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724176996000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration",
+        "status": "running",
+        "insertionOrderId": 559,
+        "insertionOrderName": "test_placement_max_ad_response",
+        "advId": 566,
+        "advName": "test_placement_max_ad_response",
+        "cpm": 10.0,
+        "startDate": "08/20/2024 02:02 PM",
+        "goal": "open",
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "enableFrequencyCapping": false,
+        "frequencyCappingPeriod": 86400,
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "media": [
+          {
+            "id": 1416,
+            "createdAt": "2024-08-20@18:25:34.000+0000",
+            "updatedAt": "2024-08-20@18:25:34.000+0000",
+            "name": "test5",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 10.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media5=[pla_guid]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 1210,
+            "campaignName": "test_placement_max_ad_response",
+            "insertionOrderId": 559,
+            "insertionOrderName": "test_placement_max_ad_response",
+            "advId": 566,
+            "advName": "test_placement_max_ad_response",
+            "inheritedValues": {},
+            "guid": "80J2312ACL7LF9H1GH56AJQN9S",
+            "alignmentType": "static",
+            "campaignStartDate": "08/20/2024 02:02 PM",
+            "allowIVTFiltering": false,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/20/2024 02:02 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 10.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 1415,
+            "createdAt": "2024-08-20@18:19:03.000+0000",
+            "updatedAt": "2024-08-20@18:25:02.000+0000",
+            "name": "test4",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 10.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media4=[pla_guid]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 1210,
+            "campaignName": "test_placement_max_ad_response",
+            "insertionOrderId": 559,
+            "insertionOrderName": "test_placement_max_ad_response",
+            "advId": 566,
+            "advName": "test_placement_max_ad_response",
+            "inheritedValues": {},
+            "guid": "Q4K5O0VU8T38RA2S0FV4E9KDPS",
+            "alignmentType": "static",
+            "campaignStartDate": "08/20/2024 02:02 PM",
+            "allowIVTFiltering": false,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/20/2024 02:02 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 10.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 1414,
+            "createdAt": "2024-08-20@18:18:50.000+0000",
+            "updatedAt": "2024-08-20@18:18:50.000+0000",
+            "name": "test3",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 10.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media3=[pla_guid]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 1210,
+            "campaignName": "test_placement_max_ad_response",
+            "insertionOrderId": 559,
+            "insertionOrderName": "test_placement_max_ad_response",
+            "advId": 566,
+            "advName": "test_placement_max_ad_response",
+            "inheritedValues": {},
+            "guid": "TIV56T2DVH31DFIJEH6VO5GM50",
+            "alignmentType": "static",
+            "campaignStartDate": "08/20/2024 02:02 PM",
+            "allowIVTFiltering": false,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/20/2024 02:02 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 10.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 1413,
+            "createdAt": "2024-08-20@18:18:36.000+0000",
+            "updatedAt": "2024-08-20@18:18:36.000+0000",
+            "name": "test2",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 10.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media2=[pla_guid]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 1210,
+            "campaignName": "test_placement_max_ad_response",
+            "insertionOrderId": 559,
+            "insertionOrderName": "test_placement_max_ad_response",
+            "advId": 566,
+            "advName": "test_placement_max_ad_response",
+            "inheritedValues": {},
+            "guid": "IML7RJU35129RAJTPV1IGL4TR4",
+            "alignmentType": "static",
+            "campaignStartDate": "08/20/2024 02:02 PM",
+            "allowIVTFiltering": false,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/20/2024 02:02 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 10.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          },
+          {
+            "id": 1412,
+            "createdAt": "2024-08-20@18:15:34.000+0000",
+            "updatedAt": "2024-08-20@18:18:02.000+0000",
+            "name": "test1",
+            "mediaTypeId": 2,
+            "enablePCPM": false,
+            "cpm": 10.0,
+            "mediaSource": "tag",
+            "clickThroughUrl": "",
+            "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media1=[pla_guid]",
+            "supportsVpaid": false,
+            "status": "active",
+            "locked": false,
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "campaignId": 1210,
+            "campaignName": "test_placement_max_ad_response",
+            "insertionOrderId": 559,
+            "insertionOrderName": "test_placement_max_ad_response",
+            "advId": 566,
+            "advName": "test_placement_max_ad_response",
+            "inheritedValues": {},
+            "guid": "LK02MQOF5H71V01BDC7IO3GV3G",
+            "alignmentType": "static",
+            "campaignStartDate": "08/20/2024 02:02 PM",
+            "allowIVTFiltering": false,
+            "ivtFilteringRequired": false,
+            "houseAd": false,
+            "customDateRange": false,
+            "customStartDate": "08/20/2024 02:02 PM",
+            "includesVpaid": false,
+            "cloneAlignments": true,
+            "cloned": false,
+            "finalCpm": 10.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            }
+          }
+        ],
+        "singleAdMediaResponse": false,
+        "houseAd": false,
+        "inheritedValues": {},
+        "guid": "GSL00670B52ORAG033G5JLCDA4",
+        "ioStatus": "",
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "media": [
+      {
+        "id": 1412,
+        "createdAt": "2024-08-20@18:15:34.000+0000",
+        "updatedAt": "2024-08-20@18:18:02.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724177882000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration [1]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 10.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media1=[pla_guid]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 1210,
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 1119,
+            "createdAt": "2024-08-20@18:49:25.000+0000",
+            "updatedAt": "2024-08-20@18:49:34.000+0000",
+            "name": "test_placement_max_ad_response_size_placement_override_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "adResponseMediaLimit": 2,
+            "enableAdResponseMediaLimit": true,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "IOK7RC847L44FA3TM423QA27PK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          },
+          {
+            "id": 1118,
+            "createdAt": "2024-08-20@18:02:01.000+0000",
+            "updatedAt": "2024-08-20@18:27:28.000+0000",
+            "name": "test_placement_max_ad_response_size_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "D3MG0K4T093V7B80A2EG4DVJ0K",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_placement_max_ad_response",
+        "insertionOrderId": 559,
+        "insertionOrderName": "test_placement_max_ad_response",
+        "advId": 566,
+        "advName": "test_placement_max_ad_response",
+        "inheritedValues": {},
+        "guid": "LK02MQOF5H71V01BDC7IO3GV3G",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/20/2024 02:02 PM",
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/20/2024 02:02 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 10.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 1413,
+        "createdAt": "2024-08-20@18:18:36.000+0000",
+        "updatedAt": "2024-08-20@18:18:36.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724177916000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration [2]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 10.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media2=[pla_guid]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 1210,
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 1119,
+            "createdAt": "2024-08-20@18:49:25.000+0000",
+            "updatedAt": "2024-08-20@18:49:34.000+0000",
+            "name": "test_placement_max_ad_response_size_placement_override_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "adResponseMediaLimit": 2,
+            "enableAdResponseMediaLimit": true,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "IOK7RC847L44FA3TM423QA27PK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          },
+          {
+            "id": 1118,
+            "createdAt": "2024-08-20@18:02:01.000+0000",
+            "updatedAt": "2024-08-20@18:27:28.000+0000",
+            "name": "test_placement_max_ad_response_size_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "D3MG0K4T093V7B80A2EG4DVJ0K",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_placement_max_ad_response",
+        "insertionOrderId": 559,
+        "insertionOrderName": "test_placement_max_ad_response",
+        "advId": 566,
+        "advName": "test_placement_max_ad_response",
+        "inheritedValues": {},
+        "guid": "IML7RJU35129RAJTPV1IGL4TR4",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/20/2024 02:02 PM",
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/20/2024 02:02 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 10.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 1414,
+        "createdAt": "2024-08-20@18:18:50.000+0000",
+        "updatedAt": "2024-08-20@18:18:50.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724177930000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration [3]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 10.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media3=[pla_guid]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 1210,
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 1119,
+            "createdAt": "2024-08-20@18:49:25.000+0000",
+            "updatedAt": "2024-08-20@18:49:34.000+0000",
+            "name": "test_placement_max_ad_response_size_placement_override_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "adResponseMediaLimit": 2,
+            "enableAdResponseMediaLimit": true,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "IOK7RC847L44FA3TM423QA27PK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          },
+          {
+            "id": 1118,
+            "createdAt": "2024-08-20@18:02:01.000+0000",
+            "updatedAt": "2024-08-20@18:27:28.000+0000",
+            "name": "test_placement_max_ad_response_size_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "D3MG0K4T093V7B80A2EG4DVJ0K",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_placement_max_ad_response",
+        "insertionOrderId": 559,
+        "insertionOrderName": "test_placement_max_ad_response",
+        "advId": 566,
+        "advName": "test_placement_max_ad_response",
+        "inheritedValues": {},
+        "guid": "TIV56T2DVH31DFIJEH6VO5GM50",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/20/2024 02:02 PM",
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/20/2024 02:02 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 10.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 1415,
+        "createdAt": "2024-08-20@18:19:03.000+0000",
+        "updatedAt": "2024-08-20@18:25:02.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724178302000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration [4]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 10.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media4=[pla_guid]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 1210,
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 1119,
+            "createdAt": "2024-08-20@18:49:25.000+0000",
+            "updatedAt": "2024-08-20@18:49:34.000+0000",
+            "name": "test_placement_max_ad_response_size_placement_override_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "adResponseMediaLimit": 2,
+            "enableAdResponseMediaLimit": true,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "IOK7RC847L44FA3TM423QA27PK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          },
+          {
+            "id": 1118,
+            "createdAt": "2024-08-20@18:02:01.000+0000",
+            "updatedAt": "2024-08-20@18:27:28.000+0000",
+            "name": "test_placement_max_ad_response_size_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "D3MG0K4T093V7B80A2EG4DVJ0K",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_placement_max_ad_response",
+        "insertionOrderId": 559,
+        "insertionOrderName": "test_placement_max_ad_response",
+        "advId": 566,
+        "advName": "test_placement_max_ad_response",
+        "inheritedValues": {},
+        "guid": "Q4K5O0VU8T38RA2S0FV4E9KDPS",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/20/2024 02:02 PM",
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/20/2024 02:02 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 10.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      },
+      {
+        "id": 1416,
+        "createdAt": "2024-08-20@18:25:34.000+0000",
+        "updatedAt": "2024-08-20@18:25:34.000+0000",
+        "auditEvent": {
+          "source": "human",
+          "jobNameEnum": "null",
+          "user": {
+            "id": 8706,
+            "createdAt": "2021-02-12@10:33:10.000+0000",
+            "updatedAt": "2024-08-21@15:02:53.000+0000",
+            "email": "user@ad.local",
+            "firstName": "Bob",
+            "lastName": "Tester",
+            "phoneNumber": "",
+            "timeZone": "Z",
+            "status": "active",
+            "name": "Bob Tester",
+            "isDemandClient": false
+          },
+          "auditDateTime": 1724178334000
+        },
+        "name": "test_placement_max_ad_response_size_company_configuration [5]",
+        "mediaTypeId": 2,
+        "enablePCPM": false,
+        "cpm": 10.0,
+        "mediaSource": "tag",
+        "clickThroughUrl": "",
+        "creativeType": "mediaFile",
+        "mediaFiles": [],
+        "mediaUrls": [],
+        "adTag": "https://cdndev.altitude-arena.com/c6internaltestpage/test_vast_mp4.xml?media5=[pla_guid]",
+        "supportsVpaid": false,
+        "status": "active",
+        "locked": false,
+        "position": "pre",
+        "autoPlay": false,
+        "allowAudio": true,
+        "duration": 30,
+        "geoTargetingConfig": {},
+        "deviceTargeting": {
+          "devices": []
+        },
+        "trackers": [],
+        "customTags": [],
+        "blacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appNameBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "appBundleIdBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        },
+        "campaignId": 1210,
+        "advertiserDomain": "",
+        "placements": [
+          {
+            "id": 1119,
+            "createdAt": "2024-08-20@18:49:25.000+0000",
+            "updatedAt": "2024-08-20@18:49:34.000+0000",
+            "name": "test_placement_max_ad_response_size_placement_override_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "adResponseMediaLimit": 2,
+            "enableAdResponseMediaLimit": true,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "IOK7RC847L44FA3TM423QA27PK",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          },
+          {
+            "id": 1118,
+            "createdAt": "2024-08-20@18:02:01.000+0000",
+            "updatedAt": "2024-08-20@18:27:28.000+0000",
+            "name": "test_placement_max_ad_response_size_company_configuration",
+            "status": "active",
+            "locked": false,
+            "siteId": 989,
+            "revenueType": "flat_rate",
+            "floor": 1.0,
+            "revenueShare": 0.0,
+            "usingMultipleImpObjects": false,
+            "type": "mobile",
+            "blacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "advertiserDomainBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appNameBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "appBundleIdBlacklistWhitelist": {
+              "accessRestrictionType": "whitelist",
+              "restrictions": null
+            },
+            "enableVPAID": false,
+            "typeName": "Mobile App/CTV",
+            "allowRon": false,
+            "maxDuration": 60,
+            "enableAdResponseMediaLimit": false,
+            "preventDuplicateCreatives": false,
+            "bidderMargin": 0.0,
+            "publisherName": "test_placement_max_ad_response_size_company_configuration",
+            "publisherId": 996,
+            "siteName": "test_placement_max_ad_response_size_company_configuration",
+            "guid": "D3MG0K4T093V7B80A2EG4DVJ0K",
+            "vastVersion": "4.0",
+            "enableIVTFiltering": true,
+            "allowIVTFiltering": false,
+            "minBitrate": 300,
+            "maxBitrate": 25000,
+            "allowMultipleWinners": false,
+            "allowAuctionWinByCPMperSecond": false,
+            "bidderServiceEnabled": false,
+            "requestTypeRTB": false,
+            "allowInventoryPartnerDomain": false,
+            "cloneAlignments": true,
+            "revenueSharePercent": 0.0,
+            "publisherMarginPercent": 0,
+            "marginPercent": 0,
+            "customSizeEnabled": false,
+            "inheritedValues": {}
+          }
+        ],
+        "campaignName": "test_placement_max_ad_response",
+        "insertionOrderId": 559,
+        "insertionOrderName": "test_placement_max_ad_response",
+        "advId": 566,
+        "advName": "test_placement_max_ad_response",
+        "inheritedValues": {},
+        "guid": "80J2312ACL7LF9H1GH56AJQN9S",
+        "supportedPricingOptions": "CPM",
+        "campaignStatus": "",
+        "alignmentType": "static",
+        "campaignStartDate": "08/20/2024 02:02 PM",
+        "allowIVTFiltering": false,
+        "ivtFilteringRequired": false,
+        "houseAd": false,
+        "customDateRange": false,
+        "customStartDate": "08/20/2024 02:02 PM",
+        "includesVpaid": false,
+        "audiences": [],
+        "cloneAlignments": true,
+        "cloned": false,
+        "finalCpm": 10.0,
+        "publisherMarginPercent": 0,
+        "marginPercent": 0,
+        "advertiserDomainBlacklistWhitelist": {
+          "accessRestrictionType": "whitelist",
+          "restrictions": null
+        }
+      }
+    ],
+    "programmatic_demands": [],
+    "rtb_bidder_conf": [],
+    "audiences": [],
+    "trackers": []
+  },
+  "trackers": [],
+  "override_options": {
+    "company_name": "delivery_regression_max_response_size"
+  }
+}

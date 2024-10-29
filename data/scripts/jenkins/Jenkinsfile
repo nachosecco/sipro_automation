@@ -1,0 +1,266 @@
+@Library('c6_shared_lib@master')
+ENVIRONMENT = JOB_NAME.split("/")[0]
+
+def getAWSSecret(String region, String secretId) {
+    return sh(script: "aws secretsmanager get-secret-value --region ${region} --secret-id ${secretId} | jq --raw-output '.SecretString'", returnStdout: true).trim()
+}
+
+def getDataRegressionUser(){
+	return getAWSSecret("us-west-2","/${ENVIRONMENT}/DATA_REGRESSION/DATAPIPELINE_REGRESSION_USER");
+}
+
+def getDataRegressionPassword(){
+	return getAWSSecret("us-west-2","/${ENVIRONMENT}/DATA_REGRESSION/DATAPIPELINE_REGRESSION_PASSWORD");
+}
+
+def getDruidPassword(){
+	return getAWSSecret("us-west-2","/${ENVIRONMENT}/imply_monitoring/DRUID_AUTH_PASSWORD");
+}
+
+def getDruidURL(){
+	return getAWSSecret("us-west-2","/${ENVIRONMENT}/imply_monitoring/DRUID_URL");
+}
+
+pipeline {
+    agent {label "${ENVIRONMENT}_slave"}
+    options { disableConcurrentBuilds() }
+    parameters {
+        string(name: 'BRANCH', defaultValue: 'master', description: 'Enter the automation Branch')
+        string(name: 'QUARTZS_SLEEP', defaultValue: '30', description: 'A time to sleep between execution of jobs in seconds')
+    }
+    environment {
+        // Dashboard API parameters
+        DSE_API_USER = getDataRegressionUser()
+        DSE_API_PWD  = getDataRegressionPassword()
+        DSE_ENVIRONMENT = "${ENVIRONMENT}".toUpperCase()
+        DSE_MEDIA_SERVER_URL="https://media${ENVIRONMENT}.siprocalads.com"
+        DSE_DASHBOARD_API="https://manage${ENVIRONMENT}.siprocalads.com"
+
+        // Delivery Parameter
+        DELIVERY_ROOT_URL="https://delivery${ENVIRONMENT}.siprocalads.com"
+
+        // Parameters for Quartz Alignment
+        DFQ_SERVER_ROOT_URL="http://quartzalignment${ENVIRONMENT}.rowdy.cc/"
+
+        // Parameters for Quartz Default
+        DFQ_SERVER_ROOT_URL_DEFAULT="http://quartzdefault${ENVIRONMENT}.rowdy.cc/"
+
+        DPR_EXECUTION_ID = "${ENVIRONMENT}-${BUILD_NUMBER}"
+
+        DPR_PATH_CSV="${WORKSPACE}/data/build/data/csv/case_placements.csv"
+
+        DPR_PATH_PLACEHOLDER_CSV="${WORKSPACE}/data/build/data/csv/placeholder.csv"
+
+        DPR_PATH_CASE_EVENTS="${WORKSPACE}/data/build/data/events/"
+
+        DPR_DRUID_USERNAME="admin"
+
+        DPR_DRUID_PASSWORD=getDruidPassword()
+
+        DPR_DRUID_URL=getDruidURL()
+
+        DPR_DRUID_TIMEOUT="3600"
+
+        DPR_PLACEHOLDER_TIMEOUT_IN_MINUTES="20"
+
+    }
+
+    stages {
+
+        stage("Data Generation - Cleanup of placements"){
+            steps{
+                withPythonEnv('Python-3.8') {
+                script {
+                    sh '''
+                        pip3 install -r ${WORKSPACE}/data/requirements.txt
+
+                        cd ${WORKSPACE}/data
+                        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+                        set +x
+                        python3 scripts/data/cleanup.py --env=$DSE_ENVIRONMENT --dashboard_api=$DSE_DASHBOARD_API --dashboard_user=$DSE_API_USER --dashboard_psw=$DSE_API_PWD
+                    '''
+                    }
+                }
+            }
+        }
+        stage("Data Generation - Upload Json Files"){
+            steps{
+                withPythonEnv('Python-3.8') {
+                    script {
+
+                    sh '''
+                        pip3 install -r ${WORKSPACE}/data/requirements.txt
+
+                        cd ${WORKSPACE}/data
+                        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+                        echo "Copying test case json files to build/data/cases/"
+                        set +x
+                        python3 scripts/data/data_generator.py --execution_id=$DPR_EXECUTION_ID --origin_path="cases" --destination_path="${WORKSPACE}/data/build/data/cases/" --destination_path_csv="${DPR_PATH_CSV}"
+                        set -x
+
+                        echo "Copy of placeholder json file to build/data/placeholder/"
+                        set +x
+                        python3 scripts/data/data_generator.py --execution_id="$DPR_EXECUTION_ID" --origin_path="resources/placeholder" --destination_path="${WORKSPACE}/data/build/data/placeholder/" --destination_path_csv="${DPR_PATH_PLACEHOLDER_CSV}"
+                        set -x
+
+                        cd ${WORKSPACE}/data-seed-upload
+                        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+                        python3 upload.py delivery "${WORKSPACE}/data/build/data/"
+
+                    '''
+                }
+            }
+        }
+    }
+    stage("Data Generation - Generate Csv File"){
+        steps{
+            withPythonEnv('Python-3.8') {
+                script {
+
+                    sh '''
+                        pip3 install -r ${WORKSPACE}/data/requirements.txt
+
+                        cd ${WORKSPACE}/data
+                        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+                        set +x
+                        python3 scripts/data/csv_generator.py --env=$DSE_ENVIRONMENT --dashboard_api=$DSE_DASHBOARD_API --dashboard_user=$DSE_API_USER --dashboard_psw=$DSE_API_PWD --path_to_csv="${DPR_PATH_CSV}"
+
+                        python3 scripts/data/csv_generator.py --env=$DSE_ENVIRONMENT --dashboard_api=$DSE_DASHBOARD_API --dashboard_user=$DSE_API_USER --dashboard_psw=$DSE_API_PWD --path_to_csv="${DPR_PATH_PLACEHOLDER_CSV}"
+                    '''
+                }
+                }
+            }
+    }
+    stage("Quartz Alignment"){
+        steps{
+        withPythonEnv('Python-3.8') {
+                    script {
+
+                        sh '''
+
+                            cd ${WORKSPACE}/data/
+
+                            export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+                            python3 scripts/quartz/quartz_alignment_run.py
+
+                        '''
+                    }
+        }
+        sleep(time:"${QUARTZS_SLEEP}",unit:"SECONDS")
+        }
+    }
+    stage("setup - pytest setup run"){
+        steps{
+            withPythonEnv('Python-3.8') {
+                script {
+
+                    sh '''
+                        cd ${WORKSPACE}/data
+                        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+                        ./scripts/set_up.sh
+
+                    '''
+
+
+                }
+            }
+
+            archiveArtifacts artifacts: "data/build/*_report.html", allowEmptyArchive: true
+        }
+    }
+    stage("setup - placeholder events"){
+        steps{
+            withPythonEnv('Python-3.8') {
+                script {
+
+                    sh '''
+                        cd ${WORKSPACE}/data
+
+                        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+                        ./scripts/placeholder.sh
+                    '''
+                }
+            }
+
+            archiveArtifacts artifacts: "data/build/*_report.html", allowEmptyArchive: true
+        }
+    }
+    stage("setup - update csv with min/max of placements"){
+        steps{
+            withPythonEnv('Python-3.8') {
+                script {
+
+                    sh '''
+                        cd ${WORKSPACE}/data
+                        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+                        python3 scripts/data/case_updater.py --folder_event=$DPR_PATH_CASE_EVENTS --csv_file=$DPR_PATH_CSV
+                    '''
+                }
+            }
+        }
+    }
+    stage("setup -wait for data to be in druid"){
+        steps{
+            withPythonEnv('Python-3.8') {
+                script {
+
+                    sh '''
+                            cd ${WORKSPACE}/data/
+
+                            export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+                            set +x
+
+                            python3 scripts/data/placeholder_wait.py --timeout_wait=$DPR_PLACEHOLDER_TIMEOUT_IN_MINUTES
+                    '''
+                }
+            }
+        }
+    }
+    stage("test run"){
+        steps{
+            withPythonEnv('Python-3.8') {
+                script {
+
+                    sh '''
+                        cd ${WORKSPACE}/data
+                        ./scripts/test.sh
+                    '''
+                }
+            }
+        }
+    }
+  }
+
+  post {
+          always {
+            archiveArtifacts artifacts: "data/build/test_result.html", allowEmptyArchive: true
+            publishHTML target: [
+            allowMissing: true,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportName : 'Reports',
+            reportDir:   'data/build',
+            reportFiles: 'test_result.html'
+            ]
+            cleanWs()
+          }
+          success {
+            script {
+              def successMessage = "Data regression testing job SUCCESS in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Success", successMessage, "c6-jenkins-test-automation")
+            }
+          }
+          failure {
+            script{
+              def failureMessage = "ALERT: Data regression testing job FAILED in ${ENVIRONMENT} environment:- ${BUILD_URL}"
+              jenkinsNotifications.notify("Failure", failureMessage, "c6-jenkins-test-automation")
+            }
+          }
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"name": "Automated Entity",
+	"updatedName": "Automation changed this",
+	"baseName": "Automation Entity",
+	"cpm": 1,
+	"adTag": "http://test.com",
+	"status": "active",
+	"enablePCPM": false,
+	"pcpm": "",
+	"thirdPartyId": "",
+	"mediaTypeId": 2,
+	"mediaSource": "tag",
+	"creativeType": "mediaFile",
+	"size": "",
+	"supportsVpaid": false,
+	"mediaFiles": [],
+	"mediaUrls": [],
+	"position": "pre",
+	"duration": 30,
+	"advertiserDomain": "ford.com",
+	"clickThroughUrl": "",
+	"priority": "",
+	"weight": "",
+	"trackers": [],
+	"deviceTargeting": {
+		"devices": []
+	},
+	"customSizeEnabled": false,
+	"blacklistWhitelist": {
+		"accessRestrictionType": "blacklist",
+		"restrictions": []
+	},
+	"appNameBlacklistWhitelist": {
+		"accessRestrictionType": "blacklist",
+		"restrictions": []
+	},
+	"appBundleIdBlacklistWhitelist": {
+		"accessRestrictionType": "blacklist",
+		"restrictions": []
+	},
+	"locked": false
+}

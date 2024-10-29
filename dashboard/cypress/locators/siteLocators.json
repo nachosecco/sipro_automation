@@ -1,0 +1,13 @@
+{
+	"addSiteButton": { "locator": "Add Site", "role": "link" },
+	"publisherNameDropdown": { "locator": "Publisher Name", "role": "combobox" },
+	"publisherNameOptionZero": { "locator": "Automation Entity", "role": "option" },
+	"siteNameField": { "locator": "Site Name", "role": "textbox" },
+	"statusRadioActive": { "locator": "Active", "role": "radio" },
+	"statusRadioInactive": { "locator": "Inactive", "role": "radio" },
+	"defaultFloorField": { "locator": "Default Floor", "role": "spinbutton" },
+	"RevenueShareField": { "locator": "Revenue Share", "role": "spinbutton" },
+	"UrlField": { "locator": "URL", "role": "textbox" },
+	"settingsTab": { "locator": "Settings", "role": "tab" },
+	"placementsTab": { "locator": "Placements", "role": "tab" }
+}
